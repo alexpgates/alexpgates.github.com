@@ -44,6 +44,11 @@
 <p>tags: <a href="../tag/python.html">Python</a><a href="../tag/makefile.html">Makefile</a><a href="../tag/pelican.html">Pelican</a><a href="../tag/fabric.html">Fabric</a></p>
 </footer><!-- /.post-info --><h1>Whizzamo!</h1>
 <p>I managed to get a lot working. This is how it&#8217;s all shaking&nbsp;out.</p>
+<h2>make sure you are in the right&nbsp;environment</h2>
+<div class="codehilite"><pre><span class="nv">$ </span>workon blog
+</pre></div>
+
+
 <h2>I don&#8217;t think I need that&nbsp;Makefile</h2>
 <p>When I first set up Pelican, I used the quick setup which created a make file that worked well with the /output&nbsp;directory</p>
 <div class="codehilite"><pre><span class="nv">$ </span>pelican-quickstart
@@ -51,12 +56,12 @@
 
 
 <p>This created a few files for me (probably a few handy things). One of them was the Makefile that allowed me to generate <span class="caps">HTML</span>&nbsp;with:</p>
-<div class="codehilite"><pre>make html
+<div class="codehilite"><pre><span class="nv">$ </span>make html
 </pre></div>
 
 
 <p>After following the <a href="http://martinbrochhaus.com/2012/02/pelican.html">this tutorial</a>, though, I had to generate my <span class="caps">HTML</span> using this&nbsp;command:</p>
-<div class="codehilite"><pre>pelican . -o ../ -s settings.py
+<div class="codehilite"><pre><span class="nv">$ </span>pelican . -o ../ -s settings.py
 </pre></div>
 
 
@@ -77,8 +82,8 @@ def html<span class="o">()</span>:
 
 
 <h2>tl;dr</h2>
-<p>This allows me to generate the site&nbsp;using</p>
-<div class="codehilite"><pre>fab html
+<div class="codehilite"><pre><span class="nv">$ </span><span class="nb">cd</span> /Applications/<span class="caps">MAMP</span>/htdocs/alexpgates.github.com/source/
+<span class="nv">$ </span>fab html
 </pre></div>
 
 

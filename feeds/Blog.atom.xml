@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>alexpgates.com</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/Blog.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-17T00:00:00-06:00</updated><entry><title>Deployment method</title><link href="http://alexpgates.com/deployment-method.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:deployment-method.html</id><summary type="html">&lt;h1&gt;Whizzamo!&lt;/h1&gt;
 &lt;p&gt;I managed to get a lot working. This is how it&amp;#8217;s all shaking&amp;nbsp;out.&lt;/p&gt;
+&lt;h2&gt;make sure you are in the right&amp;nbsp;environment&lt;/h2&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;workon blog
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2&gt;I don&amp;#8217;t think I need that&amp;nbsp;Makefile&lt;/h2&gt;
 &lt;p&gt;When I first set up Pelican, I used the quick setup which created a make file that worked well with the /output&amp;nbsp;directory&lt;/p&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican-quickstart
@@ -8,12 +13,12 @@
 
 
 &lt;p&gt;This created a few files for me (probably a few handy things). One of them was the Makefile that allowed me to generate &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;with:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;make html
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;make html
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;After following the &lt;a href="http://martinbrochhaus.com/2012/02/pelican.html"&gt;this tutorial&lt;/a&gt;, though, I had to generate my &lt;span class="caps"&gt;HTML&lt;/span&gt; using this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;pelican . -o ../ -s settings.py
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican . -o ../ -s settings.py
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -34,8 +39,8 @@ def html&lt;span class="o"&gt;()&lt;/span&gt;:
 
 
 &lt;h2&gt;tl;dr&lt;/h2&gt;
-&lt;p&gt;This allows me to generate the site&amp;nbsp;using&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;fab html
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /Applications/&lt;span class="caps"&gt;MAMP&lt;/span&gt;/htdocs/alexpgates.github.com/source/
+&lt;span class="nv"&gt;$ &lt;/span&gt;fab html
 &lt;/pre&gt;&lt;/div&gt;
 
 
