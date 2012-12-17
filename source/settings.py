@@ -21,6 +21,8 @@ USE_FOLDER_AS_CATEGORY = True;
 AUTHOR = 'Alex P. Gates'
 SITENAME = 'alexpgates.com'
 SITEURL = 'http://alexpgates.com'
+RELATIVE_URLS = True
+TYPOGRIFY = True
 
 
 # I like to have ``Archives`` in the main menu.
