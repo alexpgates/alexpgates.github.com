@@ -11,7 +11,7 @@ def pelican():
 
 def push(commit_message):
     """Commits the current changes."""
-    local('git add .')
+    local('git add -A')
     with settings(warn_only=True):
         local('git commit -am "{0}"'.format(commit_message))
     local('git push origin source')
