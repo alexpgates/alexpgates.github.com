@@ -1,5 +1,5 @@
 Date: 2012-12-16
-Title: Here is a general post!
+Title: Here is another general post!
 Tags: test
 
 # Success!
