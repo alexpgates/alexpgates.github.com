@@ -1,19 +1,19 @@
 Date: 2012-12-16 
-Title: Okay. I think we're good.
-Slug: okay-I-think-we-are-good
-Tags: Test
+Title: Styles!
+Slug: styles
+Tags: CSS, test
 
-## Fresh!
+# Fresh!
 
 I have deleted old posts and am starting fresh with only one post. Will everything deploy properly?
 
 ## A list
 
-+	here
-+	A
-+	list
-+	may
-+	be
+1. here & there
+2. A
+3. list
+4. may
+5. be
 
 ## Or
 
@@ -25,13 +25,24 @@ I have deleted old posts and am starting fresh with only one post. Will everythi
 - maybe
 - too
 
-## I'm trying this first
+## I just use regular old HTML for images.
 
 <img src="/static/images/python.jpg" />
 
+
+## Here's a link
+
+This is a paragraph with [a link](http://whatcheer.com) that goes somewhere else.
+
 ## Some code
 
-	To be or not to be, that is the question. He & You also wanted to "try the fancy typography stuff!"
+    :::php
+    <?php echo 'this seems to work.'; ?>
+
+## Horizontal Rule comin atcha
+
+- - - 
+
 
 ## And a quote
 

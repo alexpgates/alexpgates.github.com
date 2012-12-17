@@ -3,7 +3,7 @@
 &lt;p&gt;I have deleted old posts and am starting fresh with only one post. Will everything deploy&amp;nbsp;properly?&lt;/p&gt;
 &lt;h2&gt;A&amp;nbsp;list&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;here&lt;/li&gt;
+&lt;li&gt;here &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;there&lt;/li&gt;
 &lt;li&gt;A&lt;/li&gt;
 &lt;li&gt;list&lt;/li&gt;
 &lt;li&gt;may&lt;/li&gt;
@@ -22,10 +22,12 @@
 &lt;h2&gt;I&amp;#8217;m trying this&amp;nbsp;first&lt;/h2&gt;
 &lt;p&gt;&lt;img src="/static/images/python.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;Some&amp;nbsp;code&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;To&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;or&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;that&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;question&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="n"&gt;He&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;You&lt;/span&gt; &lt;span class="n"&gt;also&lt;/span&gt; &lt;span class="n"&gt;wanted&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &amp;quot;&lt;span class="k"&gt;try&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;fancy&lt;/span&gt; &lt;span class="n"&gt;typography&lt;/span&gt; &lt;span class="n"&gt;stuff&lt;/span&gt;!&amp;quot;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this seems to work.&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;h2&gt;Horizontal Rule comin&amp;nbsp;atcha&lt;/h2&gt;
+&lt;hr /&gt;
 &lt;h2&gt;And a&amp;nbsp;quote&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is the first level of&amp;nbsp;quoting.&lt;/p&gt;
