@@ -44,7 +44,7 @@ def html&lt;span class="o"&gt;()&lt;/span&gt;:
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Then preview my site locally before using the Github app to publish to the live&amp;nbsp;site.&lt;/p&gt;</summary><category term="Python"></category><category term="Makefile"></category><category term="Pelican"></category><category term="Fabric"></category></entry><entry><title>To do!</title><link href="http://alexpgates.com/to-do.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:to-do.html</id><summary type="html">&lt;h1&gt;You&amp;#8217;re not done&amp;nbsp;yet:&lt;/h1&gt;
+&lt;p&gt;Then preview the site locally before using the Github app to publish to the live&amp;nbsp;site.&lt;/p&gt;</summary><category term="Python"></category><category term="Makefile"></category><category term="Pelican"></category><category term="Fabric"></category></entry><entry><title>To do!</title><link href="http://alexpgates.com/to-do.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:to-do.html</id><summary type="html">&lt;h1&gt;You&amp;#8217;re not done&amp;nbsp;yet:&lt;/h1&gt;
 &lt;p&gt;There&amp;#8217;s a few things on the&amp;nbsp;list:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

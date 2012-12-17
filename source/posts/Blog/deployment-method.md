@@ -56,4 +56,4 @@ The author of that tutorial also had set up a fabric file to help with publishin
 	$ cd /Applications/MAMP/htdocs/alexpgates.github.com/source/
 	$ fab html
 	
-Then preview my site locally before using the Github app to publish to the live site.
+Then preview the site locally before using the Github app to publish to the live site.
