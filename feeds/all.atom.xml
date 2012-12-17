@@ -1,3 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>alexpgates.com</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-16T00:00:00-06:00</updated><entry><title>Okay. I think we’re good.</title><link href="http://alexpgates.com/okay-I-think-we-are-good.html" rel="alternate"></link><updated>2012-12-16T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-16:okay-I-think-we-are-good.html</id><summary type="html">&lt;h2&gt;Fresh!&lt;/h2&gt;
-&lt;p&gt;I have deleted old posts and am starting fresh with only one post. Will everything deploy&amp;nbsp;properly?&lt;/p&gt;</summary><category term="Test"></category></entry></feed>
+&lt;p&gt;I have deleted old posts and am starting fresh with only one post. Will everything deploy&amp;nbsp;properly?&lt;/p&gt;
+&lt;h2&gt;A&amp;nbsp;list&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;here&lt;/li&gt;
+&lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;may&lt;/li&gt;
+&lt;li&gt;be&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Or&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;could&lt;/li&gt;
+&lt;li&gt;be&lt;/li&gt;
+&lt;li&gt;here&lt;/li&gt;
+&lt;li&gt;maybe&lt;/li&gt;
+&lt;li&gt;too&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;I&amp;#8217;m trying this&amp;nbsp;first&lt;/h2&gt;
+&lt;p&gt;&lt;img src="/static/images/python.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Some&amp;nbsp;code&lt;/h2&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;To&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;or&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;that&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;question&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="n"&gt;He&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;You&lt;/span&gt; &lt;span class="n"&gt;also&lt;/span&gt; &lt;span class="n"&gt;wanted&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &amp;quot;&lt;span class="k"&gt;try&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;fancy&lt;/span&gt; &lt;span class="n"&gt;typography&lt;/span&gt; &lt;span class="n"&gt;stuff&lt;/span&gt;!&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;And a&amp;nbsp;quote&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is the first level of&amp;nbsp;quoting.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is nested&amp;nbsp;blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Back to the first level. &lt;em&gt;While attempting some italics&lt;/em&gt; &lt;strong&gt;and a definite&amp;nbsp;bold!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Try a&amp;nbsp;table&lt;/h2&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;    
+        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</summary><category term="Test"></category></entry></feed>
