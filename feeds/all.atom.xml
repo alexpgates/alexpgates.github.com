@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>alexpgates.com</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-17T00:00:00-06:00</updated><entry><title>Deployment method</title><link href="http://alexpgates.com/deployment-method.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:deployment-method.html</id><summary type="html">&lt;h1&gt;Whizzamo!&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>alexpgates.com</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-18T00:00:00-06:00</updated><entry><title>A demo for Jamie</title><link href="http://alexpgates.com/a-demo-for-jamie.html" rel="alternate"></link><updated>2012-12-18T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-18:a-demo-for-jamie.html</id><summary type="html">&lt;h1&gt;This is the main&amp;nbsp;headline.&lt;/h1&gt;
+&lt;p&gt;This is a line of&amp;nbsp;text!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is in&amp;nbsp;italics!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this is some php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Item&lt;/li&gt;
+&lt;li&gt;Another&lt;/li&gt;
+&lt;li&gt;Another&lt;/li&gt;
+&lt;li&gt;And so&amp;nbsp;on&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And then you&amp;nbsp;aasdlfasldfl;asjdf &lt;/p&gt;</summary><category term="Pelican"></category><category term="Python"></category><category term="test"></category></entry><entry><title>Deployment method</title><link href="http://alexpgates.com/deployment-method.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:deployment-method.html</id><summary type="html">&lt;h1&gt;Whizzamo!&lt;/h1&gt;
 &lt;p&gt;I managed to get a lot working. This is how it&amp;#8217;s all shaking&amp;nbsp;out.&lt;/p&gt;
 &lt;h2&gt;make sure you are in the right&amp;nbsp;environment&lt;/h2&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;workon blog

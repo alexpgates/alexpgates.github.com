@@ -31,8 +31,49 @@
 
                             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../deployment-method.html">Deployment&nbsp;method</a></h1> 
+                    <h1 class="entry-title"><a href="../a-demo-for-jamie.html">A demo for&nbsp;Jamie</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2012-12-18T00:00:00">
+                Tue 18 December 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/alex-p-gates.html">Alex P. Gates</a>
+        </address>
+        <p>In <a href="../category/blog.html">Blog</a>. </p>
+<p>tags: <a href="../tag/pelican.html">Pelican</a><a href="../tag/python.html">Python</a><a href="../tag/test.html">test</a></p>
+</footer><!-- /.post-info --><h1>This is the main&nbsp;headline.</h1>
+<p>This is a line of&nbsp;text!</p>
+<blockquote>
+<p>This is in&nbsp;italics!</p>
+</blockquote>
+<div class="codehilite"><pre><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="s1">&#39;this is some php&#39;</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+
+<ul>
+<li>Item</li>
+<li>Another</li>
+<li>Another</li>
+<li>And so&nbsp;on</li>
+</ul>
+<p>And then you&nbsp;aasdlfasldfl;asjdf </p>                </article>
+                            </aside><!-- /#featured -->
+                            <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+                                                
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../deployment-method.html" rel="bookmark"
+                           title="Permalink to Deployment method">Deployment&nbsp;method</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2012-12-17T00:00:00">
                 Mon 17 December 2012
         </abbr>
@@ -42,7 +83,7 @@
         </address>
         <p>In <a href="../category/blog.html">Blog</a>. </p>
 <p>tags: <a href="../tag/python.html">Python</a><a href="../tag/makefile.html">Makefile</a><a href="../tag/pelican.html">Pelican</a><a href="../tag/fabric.html">Fabric</a></p>
-</footer><!-- /.post-info --><h1>Whizzamo!</h1>
+</footer><!-- /.post-info -->                <h1>Whizzamo!</h1>
 <p>I managed to get a lot working. This is how it&#8217;s all shaking&nbsp;out.</p>
 <h2>make sure you are in the right&nbsp;environment</h2>
 <div class="codehilite"><pre><span class="nv">$ </span>workon blog
@@ -50,49 +91,14 @@
 
 
 <h2>I don&#8217;t think I need that&nbsp;Makefile</h2>
-<p>When I first set up Pelican, I used the quick setup which created a make file that worked well with the /output&nbsp;directory</p>
-<div class="codehilite"><pre><span class="nv">$ </span>pelican-quickstart
-</pre></div>
-
-
-<p>This created a few files for me (probably a few handy things). One of them was the Makefile that allowed me to generate <span class="caps">HTML</span>&nbsp;with:</p>
-<div class="codehilite"><pre><span class="nv">$ </span>make html
-</pre></div>
-
-
-<p>After following the <a href="http://martinbrochhaus.com/2012/02/pelican.html">this tutorial</a>, though, I had to generate my <span class="caps">HTML</span> using this&nbsp;command:</p>
-<div class="codehilite"><pre><span class="nv">$ </span>pelican . -o ../ -s settings.py
-</pre></div>
-
-
-<p>That isn&#8217;t as&nbsp;nice.</p>
-<p>So, in my attempts to create a Makefile that worked well with the structure of what I have here, I managed to delete my entire directory a few times. I gave up on the&nbsp;Makefile.</p>
-<h2>Oh hai&nbsp;fabric!</h2>
-<p>The author of that tutorial also had set up a fabric file to help with publishing. This seems to save the day, and it seems I can probaly do some other neat stuff with this. (<em>I trimmed out the other tasks in the fab file because I don&#8217;t really feel the need to deploy to github without first previewing locally</em>)</p>
-<div class="codehilite"><pre><span class="s2">&quot;&quot;&quot;Fabric tasks for generating <span class="caps">HTML</span>&quot;&quot;&quot;</span>
-from __future__ import with_statement
-
-from fabric.api import lcd, <span class="nb">local</span>, settings
-
-def html<span class="o">()</span>:
-    <span class="s2">&quot;&quot;&quot;Re-generates the output.&quot;&quot;&quot;</span>
-    <span class="nb">local</span><span class="o">(</span><span class="s1">&#39;pelican . -o ../ -s settings.py&#39;</span><span class="o">)</span>
-<span class="o">)</span>
-</pre></div>
-
-
-<h2>tl;dr</h2>
-<div class="codehilite"><pre><span class="nv">$ </span><span class="nb">cd</span> /Applications/<span class="caps">MAMP</span>/htdocs/alexpgates.github.com/source/
-<span class="nv">$ </span>fab html
-</pre></div>
-
-
-<p>Then preview the site locally before using the Github app to publish to the live&nbsp;site.</p>                </article>
-                                    <p class="paginator">
+<p>When I first set up Pelican, I used the quick setup which created a make file ...</p>
+                <a class="readmore" href="../deployment-method.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            </ol><!-- /#posts-list -->
+                            <p class="paginator">
         Page 1 / 1
     </p>
-                            </aside><!-- /#featured -->
-                                                </ol><!-- /#posts-list -->
                         </section><!-- /#content -->
                     <section id="extras" class="body">
                         </section><!-- /#extras -->
