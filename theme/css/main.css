@@ -103,6 +103,7 @@ ol {
     padding:5px;
     background-color: #5E6161;
     color: #fff;
+    text-align: right;
 }
 
 .post-info a{
@@ -114,6 +115,15 @@ ol {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
+
+.post-info a.category{
+	background-color: inherit;
+	color: #0092DF;
+	text-decoration: none;
+	border: thin;
+	padding:2px;
+}
+
 
 .post-info a:hover{
 	text-decoration: underline;
@@ -278,7 +288,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h2 {font-size: 1.714em; margin-bottom: 0.333em;}
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
@@ -412,13 +422,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
     text-align: center;
 }*/
 
-ol#posts-list.hfeed li:after{
+/*ol#posts-list.hfeed li:after{
 	content: "• • • • • • • • • • • • • • • •";
     font-size: 4em;
     padding: 0 0.25em;
     color: #0092DF;
     background: #EFEFEF;
-}
+}*/
 
 /***** Sections *****/
 /* Blog */
@@ -470,20 +480,24 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	}
 
 	.hentry h1 a:hover:after{
-		content: '  ⇾';
+		/*content: '  ⇾=';*/
+		content: '  ↴';
 	}
 
 	#posts-list footer {
 		position: relative;
 		top: 0.5em;
-		width: 100%;
+		max-width: 200px;
+
 	}
 
 	.other-items footer {
-		width: 100% !important;
+		display: inline-block;
 		background-color:#fff;
 		color:#000;
 		text-align: right;
+		width: 100% !important;
+		max-width: 900px !important;
 	}
 	
 	/* About the Author */

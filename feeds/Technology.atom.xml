@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all-en.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-22T00:00:00-06:00</updated><entry><title>A demo post for this category</title><link href="http://alexpgates.com/a-demo-post.html" rel="alternate"></link><updated>2012-12-22T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-22:a-demo-post.html</id><summary type="html">&lt;h1&gt;H1 is&amp;nbsp;here!&lt;/h1&gt;
-&lt;p&gt;And some text is&amp;nbsp;here.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A&amp;nbsp;quote!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt; stuff here&amp;nbsp;fella&lt;/p&gt;
-&lt;h2&gt;H2 is&amp;nbsp;here&lt;/h2&gt;
-&lt;p&gt;And here is&amp;nbsp;text.&lt;/p&gt;
-&lt;h3&gt;H3 is&amp;nbsp;here&lt;/h3&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h4&gt;H4 is&amp;nbsp;here&lt;/h4&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h5&gt;H5 is&amp;nbsp;here&lt;/h5&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h6&gt;H6 is&amp;nbsp;here&lt;/h6&gt;
-&lt;p&gt;And this is&amp;nbsp;text&lt;/p&gt;</summary><category term="life"></category><category term="happiness"></category><category term="queso"></category></entry><entry><title>A demo for Jamie</title><link href="http://alexpgates.com/a-demo-for-jamie.html" rel="alternate"></link><updated>2012-12-18T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-18:a-demo-for-jamie.html</id><summary type="html">&lt;h1&gt;This is the main&amp;nbsp;headline.&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/Technology.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-18T00:00:00-06:00</updated><entry><title>A demo for Jamie</title><link href="http://alexpgates.com/a-demo-for-jamie.html" rel="alternate"></link><updated>2012-12-18T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-18:a-demo-for-jamie.html</id><summary type="html">&lt;h1&gt;This is the main&amp;nbsp;headline.&lt;/h1&gt;
 &lt;p&gt;This is a line of&amp;nbsp;text!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is in&amp;nbsp;italics!&lt;/p&gt;

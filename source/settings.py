@@ -25,6 +25,8 @@ SUBTWO = 'lives in Omaha.'
 SITEURL = 'http://alexpgates.com'
 RELATIVE_URLS = True
 TYPOGRIFY = True
+PAGE_DIR = 'pages/'
+DISPLAY_PAGES_ON_MENU = True
 
 
 # I like to have ``Archives`` in the main menu.
@@ -36,6 +38,7 @@ TYPOGRIFY = True
 WITH_PAGINATION = True
 DEFAULT_PAGINATION = 10
 REVERSE_ARCHIVE_ORDER = True
+REVERSE_CATEGORY_ORDER = True
 
 # Uncomment what ever you want to use
 #GOOGLE_ANALYTICS = 'XX-XXXXXXX-XX'

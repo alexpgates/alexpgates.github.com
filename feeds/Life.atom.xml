@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/Life.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-22T00:00:00-06:00</updated><entry><title>Hello! I’m Alex.</title><link href="http://alexpgates.com/about-alex.html" rel="alternate"></link><updated>2012-12-22T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-22:about-alex.html</id><summary type="html">&lt;h1&gt;Hello!&lt;/h1&gt;
+&lt;p&gt;this is some&amp;nbsp;stuff&lt;/p&gt;
+&lt;h2&gt;this headline&amp;nbsp;here&lt;/h2&gt;
+&lt;p&gt;and this is other&amp;nbsp;stuff.&lt;/p&gt;</summary><category term="some"></category><category term="relevant"></category><category term="tags"></category></entry></feed>
