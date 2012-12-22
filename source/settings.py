@@ -19,7 +19,9 @@ USE_FOLDER_AS_CATEGORY = True;
 
 
 AUTHOR = 'Alex P. Gates'
-SITENAME = 'alexpgates.com'
+SITENAME = 'Alex P. Gates'
+SITESUBTITLE = 'works on the internet'
+SUBTWO = 'lives in Omaha.'
 SITEURL = 'http://alexpgates.com'
 RELATIVE_URLS = True
 TYPOGRIFY = True

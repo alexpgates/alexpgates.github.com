@@ -1,5 +1,6 @@
 Date: 2012-12-17
 Title: Deployment method
+Summary: Just include a summary! It will go here. How long should it be? I don't know.
 Slug: deployment-method
 Tags: Python, Makefile, Pelican, Fabric
 

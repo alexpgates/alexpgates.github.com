@@ -1,5 +1,6 @@
 Date: 2012-12-16 
 Title: Styles!
+Summary: Just include a summary! It will go here. How long should it be? I don't know. I can make it long, maybe. <strong>And add some html?</strong>. Test test will you break? Test test will you break? What wil happen here?
 Slug: styles
 Tags: CSS, test
 

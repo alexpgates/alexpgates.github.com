@@ -1,5 +1,6 @@
 Date: 2012-12-17
 Title: To do!
+Summary: Just include a summary! It will go here. How long should it be? I don't know.
 Slug: to-do
 Tags: Blog, CSS, jinja2
 
