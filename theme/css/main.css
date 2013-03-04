@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Muli', arial, serif;
 }
 
+#posts-list h1 {
+	margin-bottom: .1em;
+}
+
 h1.results-headline {
 	margin-bottom: .3em;
 }
@@ -275,9 +279,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	padding: 20px;
 	width: 760px;
 	
-/*	border-radius: 10px;
+	border-radius: 10px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;*/
+	-webkit-border-radius: 10px;
 }
 
 #featured figure {
@@ -304,9 +308,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	padding: 20px 20px;
 	width: 760px;
 	
-	border-radius: 0px;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
+	border-radius: 5x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 /*
@@ -560,3 +564,12 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     margin-bottom: 1em;
 }
 
+
+/*Media Queries*/
+@media screen and (max-width: 800px) {
+	#featured, #content, #contentinfo, #banner nav ul li, #about { width: auto; }
+}
+
+@media screen and (max-width: 800px) {
+	.entry-title {font-size: 2em;}
+}
