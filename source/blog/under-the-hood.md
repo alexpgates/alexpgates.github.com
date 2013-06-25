@@ -4,7 +4,7 @@ Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp; Github Pages (oh my
 Slug: whats-under-the-hood
 Tags: Pelican, Boostrap, Github
 
-Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign's (incredible) fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS.
+Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign's fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS.
 
 I'm not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give [Pelican](http://docs.getpelican.com/en/latest/) a try. It's written in Python, and uses the [Jinja2](http://jinja.pocoo.org/docs/) templating language.  
 
