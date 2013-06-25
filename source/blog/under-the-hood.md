@@ -86,3 +86,6 @@ Then simply commit my changes to Github.
 ###So far, so good
 
 I'm the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of old NES games. I'm optimistic that an easy, fast, and fun way to manage a new blog will encourage me to get my act together and finally start writing somewhat regularly.
+
+###Get the theme
+Fork the current version of this theme on [github](https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg). It really wasn't built with with sharing in mind, but you're free to use what you can!
