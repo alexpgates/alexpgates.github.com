@@ -18,10 +18,11 @@ I picked things up again a couple weeks ago after reading about the [updates](ht
 
 ### A complete list of tools
 
-* [Markdown](http://daringfireball.net/projects/markdown/) - A lightweight markup language to quickly write content
 * [Pelican](http://docs.getpelican.com/en/latest/) - A static site generator written in Python
 * [Jinja2](http://jinja.pocoo.org/docs/) - A templating language for Python used to create Pelican themes
-* [Bootstrap](http://twitter.github.io/bootstrap/) - A  nice front-end framework made by the folks at Twitter
+* [Markdown](http://daringfireball.net/projects/markdown/) - A lightweight markup language to quickly write content
+* [Bootstrap](http://twitter.github.io/bootstrap/) - A  front-end framework - helpful for responsive development
+* [Google Fonts](http://www.google.com/fonts/) - For nicer fonts
 * [Pygments](http://pygments.org/) - For syntax highlighting
 * [Typogrify](https://github.com/getpelican/pelican-typogrify) - To fancy up the text a bit
 * [Fabric](http://docs.fabfile.org/en/1.6/) - To streamline deployment
@@ -36,23 +37,22 @@ Again, here's Martin Brochhaus' [updated guide](http://martinbrochhaus.com/pelic
 
 ####Create your first post
 
+Include your metadata at the top. <small>(More [here](http://docs.getpelican.com/en/latest/getting_started.html#writing-content-using-pelican))</small>
+
 	:::Text
 	Title: What's Under the Hood?
 	Date: 2013-06-22
-	Summary: Markdown, Pelican, Jinja2, Bootstrap, &amp; Github Pages (oh my!)
+	Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp; Github Pages (oh my!)
 	Slug: whats-under-the-hood
-	Tags: Markdown, Pelican, Boostrap, Github
+	Tags: Pelican, Boostrap, Github
 
-####Write! (using Markdown)
-
-	:::text
-	Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign's (incredible) fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS. ...
+	Many months ago, [a buddy](http://christopherkollars.com) sent me ...
 
 ####Preview!
 
 I use two separate config files for Pelican. One uses relative URLs (so I can preview locally), and the other generates absolute URLs for production. To avoid typing the full Pelican commands to generate the output, I use this fabfile.py:
 
-	:::Bash
+	:::bash
 	"""Fabric tasks for generating HTML"""
 	from __future__ import with_statement
 
@@ -68,7 +68,7 @@ I use two separate config files for Pelican. One uses relative URLs (so I can pr
 
 ####Preview locally
 
-	:::Bash
+	:::bash
 	fab dev
 
 Then I check it out on my local vhost.
@@ -77,7 +77,7 @@ Then I check it out on my local vhost.
 
 If everything looks okay, I generate the HTML with absolute URLs.
 
-	:::Bash
+	:::bash
 	fab pub
 
 

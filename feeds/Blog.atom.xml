@@ -7,10 +7,11 @@
 &lt;p&gt;I picked things up again a couple weeks ago after reading about the &lt;a href="http://blog.getpelican.com/pelican-3.2-released.html"&gt;updates&lt;/a&gt; to Pelican. I began piecing together this current theme using &lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt;. (I haven&amp;#8217;t worked with any other front-end frameworks, but I&amp;#8217;ve been using it on &lt;a href="http://news.packlove.com/admin/"&gt;some stuff&lt;/a&gt; I&amp;#8217;m building with Pack, and also a &lt;a href="http://yearbooks.edison-pta.org"&gt;Yearbook project&lt;/a&gt; for the &lt;span class="caps"&gt;PTA&lt;/span&gt;.) I like it. Since the bulk of my front-end development happened between 1996 and 2004, it&amp;#8217;s allowed me get back in the game pretty&amp;nbsp;quickly.&lt;/p&gt;
 &lt;h3&gt;A complete list of&amp;nbsp;tools&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; - A lightweight markup language to quickly write&amp;nbsp;content&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; - A static site generator written in&amp;nbsp;Python&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; - A templating language for Python used to create Pelican&amp;nbsp;themes&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt; - A  nice front-end framework made by the folks at&amp;nbsp;Twitter&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; - A lightweight markup language to quickly write&amp;nbsp;content&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt; - A  front-end framework - helpful for responsive&amp;nbsp;development&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/fonts/"&gt;Google Fonts&lt;/a&gt; - For nicer&amp;nbsp;fonts&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://pygments.org/"&gt;Pygments&lt;/a&gt; - For syntax&amp;nbsp;highlighting&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/getpelican/pelican-typogrify"&gt;Typogrify&lt;/a&gt; - To fancy up the text a&amp;nbsp;bit&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://docs.fabfile.org/en/1.6/"&gt;Fabric&lt;/a&gt; - To streamline&amp;nbsp;deployment&lt;/li&gt;
@@ -20,16 +21,14 @@
 &lt;h4&gt;Install&amp;nbsp;Pelican&lt;/h4&gt;
 &lt;p&gt;Again, here&amp;#8217;s Martin Brochhaus&amp;#8217; &lt;a href="http://martinbrochhaus.com/pelican2.html"&gt;updated guide&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Create your first&amp;nbsp;post&lt;/h4&gt;
+&lt;p&gt;Include your metadata at the top. &lt;small&gt;(More &lt;a href="http://docs.getpelican.com/en/latest/getting_started.html#writing-content-using-pelican"&gt;here&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;Title: What&amp;#39;s Under the Hood?
 Date: 2013-06-22
-Summary: Markdown, Pelican, Jinja2, Bootstrap, &amp;amp;amp; Github Pages (oh my!)
+Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp;amp;amp; Github Pages (oh my!)
 Slug: whats-under-the-hood
-Tags: Markdown, Pelican, Boostrap, Github
-&lt;/pre&gt;&lt;/div&gt;
+Tags: Pelican, Boostrap, Github
 
-
-&lt;h4&gt;Write! (using&amp;nbsp;Markdown)&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign&amp;#39;s (incredible) fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS. ...
+Many months ago, [a buddy](http://christopherkollars.com) sent me ...
 &lt;/pre&gt;&lt;/div&gt;
 
 
