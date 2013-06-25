@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/Technology.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-18T00:00:00-06:00</updated><entry><title>A demo for Jamie</title><link href="http://alexpgates.com/a-demo-for-jamie.html" rel="alternate"></link><updated>2012-12-18T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-18:a-demo-for-jamie.html</id><summary type="html">&lt;h1&gt;This is the main&amp;nbsp;headline.&lt;/h1&gt;
-&lt;p&gt;This is a line of&amp;nbsp;text!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is in&amp;nbsp;italics!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this is some php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/technology.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-05-27T00:00:00-05:00</updated><entry><title>Better Article Styles</title><link href="http://alexpgates.com/blog/2013/05/better-article-styles.html" rel="alternate"></link><updated>2013-05-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-05-27:blog/2013/05/better-article-styles.html</id><summary type="html">&lt;p&gt;This is a line of text! This is the intro to the &lt;a href="http://google.com"&gt;article&lt;/a&gt;, really. Actually, above this we should probably have a photo or something. I&amp;#8217;m not sure if that will be the default style for every post or what, but it would be nice to use a great photo at the top of&amp;nbsp;everything.&lt;/p&gt;
+&lt;p&gt;This is another line here. I&amp;#8217;m not sure if it is going to break for me automatically, but it is worth checking. I&amp;#8217;ll add another couple lines here so I can see what it is like with a decent amount of copy. The quick brown fox jumped over the lazy dog. That dog sure is&amp;nbsp;lazy!&lt;/p&gt;
+&lt;h3&gt;A Sub&amp;nbsp;Headline&lt;/h3&gt;
+&lt;p&gt;It seems to make sense to use H3s (or H2s, we&amp;#8217;ll see) for the sub heads. H1s should be reserved for the post title, I think. So this is what it is like to use an H3. And here is another sentence so you see how it&amp;nbsp;is.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; 
+    &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this is some php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+    &lt;span class="nv"&gt;$i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;25&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nv"&gt;$v&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;$i&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -14,125 +17,6 @@
 &lt;li&gt;Another&lt;/li&gt;
 &lt;li&gt;And so&amp;nbsp;on&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;And then you&amp;nbsp;aasdlfasldfl;asjdf &lt;/p&gt;</summary><category term="Pelican"></category><category term="Python"></category><category term="test"></category></entry><entry><title>Deployment method</title><link href="http://alexpgates.com/deployment-method.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:deployment-method.html</id><summary type="html">&lt;h1&gt;Whizzamo!&lt;/h1&gt;
-&lt;p&gt;I managed to get a lot working. This is how it&amp;#8217;s all shaking&amp;nbsp;out.&lt;/p&gt;
-&lt;h2&gt;make sure you are in the right&amp;nbsp;environment&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;workon blog
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;I don&amp;#8217;t think I need that&amp;nbsp;Makefile&lt;/h2&gt;
-&lt;p&gt;When I first set up Pelican, I used the quick setup which created a make file that worked well with the /output&amp;nbsp;directory&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican-quickstart
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This created a few files for me (probably a few handy things). One of them was the Makefile that allowed me to generate &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;with:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;make html
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;After following the &lt;a href="http://martinbrochhaus.com/2012/02/pelican.html"&gt;this tutorial&lt;/a&gt;, though, I had to generate my &lt;span class="caps"&gt;HTML&lt;/span&gt; using this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican . -o ../ -s settings.py
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;That isn&amp;#8217;t as&amp;nbsp;nice.&lt;/p&gt;
-&lt;p&gt;So, in my attempts to create a Makefile that worked well with the structure of what I have here, I managed to delete my entire directory a few times. I gave up on the&amp;nbsp;Makefile.&lt;/p&gt;
-&lt;h2&gt;Oh hai&amp;nbsp;fabric!&lt;/h2&gt;
-&lt;p&gt;The author of that tutorial also had set up a fabric file to help with publishing. This seems to save the day, and it seems I can probaly do some other neat stuff with this. (&lt;em&gt;I trimmed out the other tasks in the fab file because I don&amp;#8217;t really feel the need to deploy to github without first previewing locally&lt;/em&gt;)&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Fabric tasks for generating &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-from __future__ import with_statement
-
-from fabric.api import lcd, &lt;span class="nb"&gt;local&lt;/span&gt;, settings
-
-def html&lt;span class="o"&gt;()&lt;/span&gt;:
-    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-    &lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican . -o ../ -s settings.py&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;tl;dr&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /Applications/&lt;span class="caps"&gt;MAMP&lt;/span&gt;/htdocs/alexpgates.github.com/source/
-&lt;span class="nv"&gt;$ &lt;/span&gt;fab html
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Then preview the site locally before using the Github app to publish to the live&amp;nbsp;site.&lt;/p&gt;</summary><category term="Python"></category><category term="Makefile"></category><category term="Pelican"></category><category term="Fabric"></category></entry><entry><title>To do!</title><link href="http://alexpgates.com/to-do.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:to-do.html</id><summary type="html">&lt;h1&gt;You&amp;#8217;re not done&amp;nbsp;yet:&lt;/h1&gt;
-&lt;p&gt;There&amp;#8217;s a few things on the&amp;nbsp;list:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Theme&amp;nbsp;updates&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &amp;#8220;Other Posts&amp;#8221; section &lt;strike&gt;feels strange&lt;/strike&gt; sucks a&amp;nbsp;lot.&lt;/li&gt;
-&lt;li&gt;Not sure about the rounded&amp;nbsp;cornders&lt;/li&gt;
-&lt;li&gt;Really not sure about the red and the&amp;nbsp;tan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Write some&amp;nbsp;stuff&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Post ideas:&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;The journey and the destination&amp;#8221;&lt;/em&gt; - I have a tendency to really enjoy the process of doing something more than the actual outcome. Examples would include all the trials of blogging platforms leading up to Pelican, the intense time spent on homebrew stuff for the Wii, etc. But jailbreaking the appleTV, though, has really enhanced the use of that device, and I hope this blogging platform will allow me to more easily get things&amp;nbsp;online.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;About page stuff?&lt;ul&gt;
-&lt;li&gt;photo&lt;/li&gt;
-&lt;li&gt;bio&lt;/li&gt;
-&lt;li&gt;meh meh&amp;nbsp;meh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Blog"></category><category term="CSS"></category><category term="jinja2"></category></entry><entry><title>Styles!</title><link href="http://alexpgates.com/styles.html" rel="alternate"></link><updated>2012-12-16T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-16:styles.html</id><summary type="html">&lt;h1&gt;Fresh!&lt;/h1&gt;
-&lt;p&gt;I have deleted old posts and am starting fresh with only one post. Will everything deploy&amp;nbsp;properly?&lt;/p&gt;
-&lt;h2&gt;A&amp;nbsp;list&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;here &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;there&lt;/li&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;li&gt;may&lt;/li&gt;
-&lt;li&gt;be&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Or&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;a&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;li&gt;could&lt;/li&gt;
-&lt;li&gt;be&lt;/li&gt;
-&lt;li&gt;here&lt;/li&gt;
-&lt;li&gt;maybe&lt;/li&gt;
-&lt;li&gt;too&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;I just use regular old &lt;span class="caps"&gt;HTML&lt;/span&gt; for&amp;nbsp;images.&lt;/h2&gt;
-&lt;p&gt;&lt;img src="/static/images/python.jpg" /&gt;&lt;/p&gt;
-&lt;h2&gt;Here&amp;#8217;s a&amp;nbsp;link&lt;/h2&gt;
-&lt;p&gt;This is a paragraph with &lt;a href="http://whatcheer.com"&gt;a link&lt;/a&gt; that goes somewhere&amp;nbsp;else.&lt;/p&gt;
-&lt;h2&gt;Some&amp;nbsp;code&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this seems to work.&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;Horizontal Rule comin&amp;nbsp;atcha&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h2&gt;And a&amp;nbsp;quote&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is the first level of&amp;nbsp;quoting.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is nested&amp;nbsp;blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Back to the first level. &lt;em&gt;While attempting some italics&lt;/em&gt; &lt;strong&gt;and a definite&amp;nbsp;bold!&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;Try a&amp;nbsp;table&lt;/h2&gt;
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;    
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;</summary><category term="CSS"></category><category term="test"></category></entry></feed>
+&lt;h3&gt;This is another nice&amp;nbsp;H3&lt;/h3&gt;
+&lt;p&gt;In this case, I&amp;#8217;m using an H2, and I&amp;#8217;m also putting another line between my headline and my copy. Here is another sentence so we have enough copy. I&amp;#8217;m not going to mention that lazy dog down&amp;nbsp;here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That should do it!&lt;/strong&gt; I could figure out strong markdown stuff (as I will need a refresher in all markdown) - but for now, this is&amp;nbsp;good!&lt;/p&gt;</summary><category term="best practices"></category><category term="nachos"></category><category term="tacos"></category><category term="insanity"></category><category term="CSS"></category></entry></feed>

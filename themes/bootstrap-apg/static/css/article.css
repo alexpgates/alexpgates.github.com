@@ -1,0 +1,34 @@
+#alex-photo {
+    width:125px;
+    margin:auto;
+}
+
+h1.sitename {
+	font-size:25px;
+}
+
+.subtitle {
+	font-size:16px;
+}
+
+.entry-date-tags{
+	color:#757575;
+	margin-top:-7px;
+	margin-bottom: 20px;
+}
+
+.entry-date-tags a{
+	color:#BABABA;
+}
+
+.entry-date-tags a:hover,
+.entry-date-tags a:focus {
+  color: #5cb1de;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+	h1.sitename {
+	font-size:15px;
+	}
+}

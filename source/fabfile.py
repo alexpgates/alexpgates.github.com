@@ -3,10 +3,10 @@ from __future__ import with_statement
 
 from fabric.api import lcd, local, settings
 
-def html():
-    """Re-generates the output."""
+def pub():
+    """Re-generates the output using absolute urls."""
     local('pelican . -o ../ -s settings.py')
 
 def dev():
-	"""Live-update after changes."""
-	local('pelican -r -o ../ -s settings.py')
+    """Re-generates the output using relative urls."""
+    local('pelican . -o ../ -s local_settings.py')

@@ -1,153 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all-en.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-22T00:00:00-06:00</updated><entry><title>A demo post for this category</title><link href="http://alexpgates.com/a-demo-post.html" rel="alternate"></link><updated>2012-12-22T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-22:a-demo-post.html</id><summary type="html">&lt;h1&gt;H1 is&amp;nbsp;here!&lt;/h1&gt;
-&lt;p&gt;And some text is&amp;nbsp;here.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A&amp;nbsp;quote!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;strong&lt;/strong&gt; stuff here&amp;nbsp;fella&lt;/p&gt;
-&lt;h2&gt;H2 is&amp;nbsp;here&lt;/h2&gt;
-&lt;p&gt;And here is&amp;nbsp;text.&lt;/p&gt;
-&lt;h3&gt;H3 is&amp;nbsp;here&lt;/h3&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h4&gt;H4 is&amp;nbsp;here&lt;/h4&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h5&gt;H5 is&amp;nbsp;here&lt;/h5&gt;
-&lt;p&gt;And here is&amp;nbsp;text&lt;/p&gt;
-&lt;h6&gt;H6 is&amp;nbsp;here&lt;/h6&gt;
-&lt;p&gt;And this is&amp;nbsp;text&lt;/p&gt;</summary><category term="life"></category><category term="happiness"></category><category term="queso"></category></entry><entry><title>A demo for Jamie</title><link href="http://alexpgates.com/a-demo-for-jamie.html" rel="alternate"></link><updated>2012-12-18T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-18:a-demo-for-jamie.html</id><summary type="html">&lt;h1&gt;This is the main&amp;nbsp;headline.&lt;/h1&gt;
-&lt;p&gt;This is a line of&amp;nbsp;text!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is in&amp;nbsp;italics!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this is some php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all-en.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-06-22T00:00:00-05:00</updated><entry><title>What’s Under the Hood?</title><link href="http://alexpgates.com/blog/2013/06/whats-under-the-hood.html" rel="alternate"></link><updated>2013-06-22T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-06-22:blog/2013/06/whats-under-the-hood.html</id><summary type="html">&lt;p&gt;Many months ago, &lt;a href="http://christopherkollars.com"&gt;a buddy&lt;/a&gt; sent me &lt;a href="http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/"&gt;this article&lt;/a&gt; written by &lt;a href="http://kylerush.net/"&gt;Kyle Rush&lt;/a&gt; about the technology stack behind the Obama campaign&amp;#8217;s (incredible) fundraising platform. Kyle mentioned &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated&amp;nbsp;&lt;span class="caps"&gt;CMS&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give &lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; a try. It&amp;#8217;s based on Python, and uses the &lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; templating&amp;nbsp;language.  &lt;/p&gt;
+&lt;p&gt;To get up and running, I followed &lt;a href="http://martinbrochhaus.com/pelican.html"&gt;this&lt;/a&gt; handy (but now outdated) guide by &lt;a href="http://martinbrochhaus.com"&gt;Martin Brochhaus&lt;/a&gt;. (Note: Here&amp;#8217;s Martin&amp;#8217;s &lt;a href="http://martinbrochhaus.com/pelican2.html"&gt;updated guide&lt;/a&gt;. It isn&amp;#8217;t the same process I&amp;#8217;m using now, but it looks&amp;nbsp;nice!)&lt;/p&gt;
+&lt;p&gt;After getting everything configured and deployed to &lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt;, I started working on an &lt;em&gt;ugly&lt;/em&gt; theme based off the default Pelican template. I never finished it. Then, &lt;a href="http://whatcheer.com"&gt;What Cheer&lt;/a&gt; announced our &lt;a href="http://whatcheer.com/pack/"&gt;transition&lt;/a&gt; to &lt;a href="http://packlove.com"&gt;Pack&lt;/a&gt;, and things got pretty busy for a&amp;nbsp;while.&lt;/p&gt;
+&lt;h3&gt;Fast-forward six&amp;nbsp;months&lt;/h3&gt;
+&lt;p&gt;I picked things up again a couple weeks ago after reading about the &lt;a href="http://blog.getpelican.com/pelican-3.2-released.html"&gt;updates&lt;/a&gt; to Pelican. I began piecing together this current theme using &lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt;. (I haven&amp;#8217;t worked with any other front-end frameworks, but I&amp;#8217;ve been using it on &lt;a href="http://news.packlove.com/admin/"&gt;some stuff&lt;/a&gt; I&amp;#8217;m building with Pack, and also a &lt;a href="http://yearbooks.edison-pta.org"&gt;Yearbook project&lt;/a&gt; for the &lt;span class="caps"&gt;PTA&lt;/span&gt;.) I like it. Since the bulk of my front-end development happened between 1996 and 2004, it&amp;#8217;s allowed me get back in the game pretty&amp;nbsp;quickly.&lt;/p&gt;
+&lt;h3&gt;A complete list of&amp;nbsp;tools&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Item&lt;/li&gt;
-&lt;li&gt;Another&lt;/li&gt;
-&lt;li&gt;Another&lt;/li&gt;
-&lt;li&gt;And so&amp;nbsp;on&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; - A lightweight markup language to quickly write&amp;nbsp;content&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; - A static site generator written in&amp;nbsp;Python&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; - A templating language for Python used to create Pelican&amp;nbsp;themes&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt; - A  nice front-end framework made by the folks at&amp;nbsp;Twitter&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pygments.org/"&gt;Pygments&lt;/a&gt; - For syntax&amp;nbsp;highlighting&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican-typogrify"&gt;Typogrify&lt;/a&gt; - To fancy up the text a&amp;nbsp;bit&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.fabfile.org/en/1.6/"&gt;Fabric&lt;/a&gt; - To streamline&amp;nbsp;deployment&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt; - Fast, reliable&amp;nbsp;hosting &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;And then you&amp;nbsp;aasdlfasldfl;asjdf &lt;/p&gt;</summary><category term="Pelican"></category><category term="Python"></category><category term="test"></category></entry><entry><title>Deployment method</title><link href="http://alexpgates.com/deployment-method.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:deployment-method.html</id><summary type="html">&lt;h1&gt;Whizzamo!&lt;/h1&gt;
-&lt;p&gt;I managed to get a lot working. This is how it&amp;#8217;s all shaking&amp;nbsp;out.&lt;/p&gt;
-&lt;h2&gt;make sure you are in the right&amp;nbsp;environment&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;workon blog
+&lt;h3&gt;The&amp;nbsp;process&lt;/h3&gt;
+&lt;h4&gt;Create a Markdown file and include some metadata at the&amp;nbsp;top.&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Title: What&amp;#39;s Under the Hood?
+Date: 2013-06-22
+Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp;amp;amp; Github Pages (oh my!)
+Slug: whats-under-the-hood
+Tags: Markdown, Pelican, Jinja2, Boostrap, Github
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;I don&amp;#8217;t think I need that&amp;nbsp;Makefile&lt;/h2&gt;
-&lt;p&gt;When I first set up Pelican, I used the quick setup which created a make file that worked well with the /output&amp;nbsp;directory&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican-quickstart
+&lt;h4&gt;Write! (using&amp;nbsp;Markdown)&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign&amp;#39;s (incredible) fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS. ...
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;This created a few files for me (probably a few handy things). One of them was the Makefile that allowed me to generate &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;nbsp;with:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;make html
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;After following the &lt;a href="http://martinbrochhaus.com/2012/02/pelican.html"&gt;this tutorial&lt;/a&gt;, though, I had to generate my &lt;span class="caps"&gt;HTML&lt;/span&gt; using this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;pelican . -o ../ -s settings.py
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;That isn&amp;#8217;t as&amp;nbsp;nice.&lt;/p&gt;
-&lt;p&gt;So, in my attempts to create a Makefile that worked well with the structure of what I have here, I managed to delete my entire directory a few times. I gave up on the&amp;nbsp;Makefile.&lt;/p&gt;
-&lt;h2&gt;Oh hai&amp;nbsp;fabric!&lt;/h2&gt;
-&lt;p&gt;The author of that tutorial also had set up a fabric file to help with publishing. This seems to save the day, and it seems I can probaly do some other neat stuff with this. (&lt;em&gt;I trimmed out the other tasks in the fab file because I don&amp;#8217;t really feel the need to deploy to github without first previewing locally&lt;/em&gt;)&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Fabric tasks for generating &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;h4&gt;Preview!&lt;/h4&gt;
+&lt;p&gt;I use two separate config files for Pelican. One uses relative URLs (so I can preview locally), and the other generates absolute URLs for production. To avoid typing the full Pelican commands to generate the output, I use this&amp;nbsp;fabfile.py:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Fabric tasks for generating &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
 from __future__ import with_statement
 
 from fabric.api import lcd, &lt;span class="nb"&gt;local&lt;/span&gt;, settings
 
-def html&lt;span class="o"&gt;()&lt;/span&gt;:
-    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+def pub&lt;span class="o"&gt;()&lt;/span&gt;:
+    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output using absolute urls.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
     &lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican . -o ../ -s settings.py&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;span class="o"&gt;)&lt;/span&gt;
+
+def dev&lt;span class="o"&gt;()&lt;/span&gt;:
+    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output using relative urls.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican . -o ../ -s local_settings.py&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;tl;dr&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /Applications/&lt;span class="caps"&gt;MAMP&lt;/span&gt;/htdocs/alexpgates.github.com/source/
-&lt;span class="nv"&gt;$ &lt;/span&gt;fab html
+&lt;h4&gt;Preview&amp;nbsp;locally&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;fab dev
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Then preview the site locally before using the Github app to publish to the live&amp;nbsp;site.&lt;/p&gt;</summary><category term="Python"></category><category term="Makefile"></category><category term="Pelican"></category><category term="Fabric"></category></entry><entry><title>To do!</title><link href="http://alexpgates.com/to-do.html" rel="alternate"></link><updated>2012-12-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-17:to-do.html</id><summary type="html">&lt;h1&gt;You&amp;#8217;re not done&amp;nbsp;yet:&lt;/h1&gt;
-&lt;p&gt;There&amp;#8217;s a few things on the&amp;nbsp;list:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Theme&amp;nbsp;updates&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &amp;#8220;Other Posts&amp;#8221; section &lt;strike&gt;feels strange&lt;/strike&gt; sucks a&amp;nbsp;lot.&lt;/li&gt;
-&lt;li&gt;Not sure about the rounded&amp;nbsp;cornders&lt;/li&gt;
-&lt;li&gt;Really not sure about the red and the&amp;nbsp;tan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Write some&amp;nbsp;stuff&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Post ideas:&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;The journey and the destination&amp;#8221;&lt;/em&gt; - I have a tendency to really enjoy the process of doing something more than the actual outcome. Examples would include all the trials of blogging platforms leading up to Pelican, the intense time spent on homebrew stuff for the Wii, etc. But jailbreaking the appleTV, though, has really enhanced the use of that device, and I hope this blogging platform will allow me to more easily get things&amp;nbsp;online.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;About page stuff?&lt;ul&gt;
-&lt;li&gt;photo&lt;/li&gt;
-&lt;li&gt;bio&lt;/li&gt;
-&lt;li&gt;meh meh&amp;nbsp;meh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Blog"></category><category term="CSS"></category><category term="jinja2"></category></entry><entry><title>Styles!</title><link href="http://alexpgates.com/styles.html" rel="alternate"></link><updated>2012-12-16T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-16:styles.html</id><summary type="html">&lt;h1&gt;Fresh!&lt;/h1&gt;
-&lt;p&gt;I have deleted old posts and am starting fresh with only one post. Will everything deploy&amp;nbsp;properly?&lt;/p&gt;
-&lt;h2&gt;A&amp;nbsp;list&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;here &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;there&lt;/li&gt;
-&lt;li&gt;A&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;li&gt;may&lt;/li&gt;
-&lt;li&gt;be&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Or&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;a&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;li&gt;could&lt;/li&gt;
-&lt;li&gt;be&lt;/li&gt;
-&lt;li&gt;here&lt;/li&gt;
-&lt;li&gt;maybe&lt;/li&gt;
-&lt;li&gt;too&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;I just use regular old &lt;span class="caps"&gt;HTML&lt;/span&gt; for&amp;nbsp;images.&lt;/h2&gt;
-&lt;p&gt;&lt;img src="/static/images/python.jpg" /&gt;&lt;/p&gt;
-&lt;h2&gt;Here&amp;#8217;s a&amp;nbsp;link&lt;/h2&gt;
-&lt;p&gt;This is a paragraph with &lt;a href="http://whatcheer.com"&gt;a link&lt;/a&gt; that goes somewhere&amp;nbsp;else.&lt;/p&gt;
-&lt;h2&gt;Some&amp;nbsp;code&lt;/h2&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;this seems to work.&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;p&gt;Then I check it out on my local&amp;nbsp;vhost.&lt;/p&gt;
+&lt;h4&gt;Deploy&lt;/h4&gt;
+&lt;p&gt;If everything looks okay, I generate the &lt;span class="caps"&gt;HTML&lt;/span&gt; with absolute&amp;nbsp;URLs.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;fab pub
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;Horizontal Rule comin&amp;nbsp;atcha&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h2&gt;And a&amp;nbsp;quote&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is the first level of&amp;nbsp;quoting.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is nested&amp;nbsp;blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Back to the first level. &lt;em&gt;While attempting some italics&lt;/em&gt; &lt;strong&gt;and a definite&amp;nbsp;bold!&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;Try a&amp;nbsp;table&lt;/h2&gt;
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;    
-        &lt;td&gt;Foo&lt;/td&gt;&lt;td&gt;bar&lt;/td&gt;&lt;td&gt;boo&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;</summary><category term="CSS"></category><category term="test"></category></entry></feed>
+&lt;p&gt;Then simply commit my changes to&amp;nbsp;Github.&lt;/p&gt;
+&lt;h3&gt;So far, so&amp;nbsp;good&lt;/h3&gt;
+&lt;p&gt;I&amp;#8217;m the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of old &lt;span class="caps"&gt;NES&lt;/span&gt; games. I&amp;#8217;m optimistic that an easy, fast, and fun way to manage a new blog will encourage me to get my act together and finally start writing somewhat&amp;nbsp;regularly.&lt;/p&gt;</summary><category term="Markdown"></category><category term="Pelican"></category><category term="Jinja2"></category><category term="Boostrap"></category><category term="Github"></category></entry></feed>
