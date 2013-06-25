@@ -8,7 +8,7 @@ Many months ago, [a buddy](http://christopherkollars.com) sent me [this article]
 
 I'm not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give [Pelican](http://docs.getpelican.com/en/latest/) a try. It's written in Python, and uses the [Jinja2](http://jinja.pocoo.org/docs/) templating language.  
 
-To get up and running, I followed [this](http://martinbrochhaus.com/pelican.html) handy (but now outdated) guide by [Martin Brochhaus](http://martinbrochhaus.com). (Note: Here's Martin's [updated guide](http://martinbrochhaus.com/pelican2.html).)
+To get up and running, I followed [this](http://martinbrochhaus.com/pelican.html) handy (but now outdated) guide by [Martin Brochhaus](http://martinbrochhaus.com). <small>(Note: Here's Martin's [updated guide](http://martinbrochhaus.com/pelican2.html).)</small>
 
 After getting everything configured and deployed to [Github Pages](http://pages.github.com/), I started working on an *ugly* theme based off the default Pelican template. I never finished it. Then, [What Cheer](http://whatcheer.com) announced our [transition](http://whatcheer.com/pack/) to [Pack](http://packlove.com), and things got pretty busy for a while.
 
