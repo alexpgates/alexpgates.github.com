@@ -6,9 +6,9 @@ Tags: Pelican, Boostrap, Github
 
 Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign's (incredible) fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS.
 
-I'm not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give [Pelican](http://docs.getpelican.com/en/latest/) a try. It's based on Python, and uses the [Jinja2](http://jinja.pocoo.org/docs/) templating language.  
+I'm not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give [Pelican](http://docs.getpelican.com/en/latest/) a try. It's written in Python, and uses the [Jinja2](http://jinja.pocoo.org/docs/) templating language.  
 
-To get up and running, I followed [this](http://martinbrochhaus.com/pelican.html) handy (but now outdated) guide by [Martin Brochhaus](http://martinbrochhaus.com). (Note: Here's Martin's [updated guide](http://martinbrochhaus.com/pelican2.html). It isn't the same process I'm using now, but it looks nice!)
+To get up and running, I followed [this](http://martinbrochhaus.com/pelican.html) handy (but now outdated) guide by [Martin Brochhaus](http://martinbrochhaus.com). (Note: Here's Martin's [updated guide](http://martinbrochhaus.com/pelican2.html).)
 
 After getting everything configured and deployed to [Github Pages](http://pages.github.com/), I started working on an *ugly* theme based off the default Pelican template. I never finished it. Then, [What Cheer](http://whatcheer.com) announced our [transition](http://whatcheer.com/pack/) to [Pack](http://packlove.com), and things got pretty busy for a while.
 
@@ -29,7 +29,12 @@ I picked things up again a couple weeks ago after reading about the [updates](ht
 
 ### The process
 
-####Create a Markdown file and include some metadata at the top.
+####Install Pelican
+
+Again, here's Martin Brochhaus' [updated guide](http://martinbrochhaus.com/pelican2.html).
+
+
+####Create your first post
 
 	:::Text
 	Title: What's Under the Hood?
@@ -81,6 +86,3 @@ Then simply commit my changes to Github.
 ###So far, so good
 
 I'm the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of old NES games. I'm optimistic that an easy, fast, and fun way to manage a new blog will encourage me to get my act together and finally start writing somewhat regularly.
-
-
- 
