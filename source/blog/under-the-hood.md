@@ -34,9 +34,9 @@ I picked things up again a couple weeks ago after reading about the [updates](ht
 	:::Text
 	Title: What's Under the Hood?
 	Date: 2013-06-22
-	Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp; Github Pages (oh my!)
+	Summary: Markdown, Pelican, Jinja2, Bootstrap, &amp; Github Pages (oh my!)
 	Slug: whats-under-the-hood
-	Tags: Markdown, Pelican, Jinja2, Boostrap, Github
+	Tags: Markdown, Pelican, Boostrap, Github
 
 ####Write! (using Markdown)
 

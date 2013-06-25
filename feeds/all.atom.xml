@@ -20,9 +20,9 @@
 &lt;h4&gt;Create a Markdown file and include some metadata at the&amp;nbsp;top.&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;Title: What&amp;#39;s Under the Hood?
 Date: 2013-06-22
-Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp;amp;amp; Github Pages (oh my!)
+Summary: Markdown, Pelican, Jinja2, Bootstrap, &amp;amp;amp; Github Pages (oh my!)
 Slug: whats-under-the-hood
-Tags: Markdown, Pelican, Jinja2, Boostrap, Github
+Tags: Markdown, Pelican, Boostrap, Github
 &lt;/pre&gt;&lt;/div&gt;
 
 
