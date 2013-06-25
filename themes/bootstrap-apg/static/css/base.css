@@ -26,6 +26,10 @@
   margin-bottom:20px;
 }
 
+.latest{
+  line-height: 30px;
+}
+
 div.omaha{
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;

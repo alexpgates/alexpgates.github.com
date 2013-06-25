@@ -1,15 +1,12 @@
 {% extends "base.html" %}
 {% block content_title %}{% endblock %}
-{% block head %} 
-<!-- Coming at you from the index page -->
-{% endblock %}
 {% block content %}
 <div id="index-content">
     {% block result_title %}<h4 id="latest-posts">Latest Posts:</h4>{% endblock %}
     <ul>
         {% for article in articles_page.object_list %}
         <li>
-            <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            <h2><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
             <h5 class="results-date">{{ article.date|strftime('%b&nbsp;%Y') }}</h5>
             {{ article.summary }}
             <hr>
