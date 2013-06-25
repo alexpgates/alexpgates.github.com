@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
-THEME = '/Applications/MAMP/htdocs/alexpgates.github.com/themes/bootstrap-apg/'
+THEME = '/Applications/MAMP/htdocs/alexpgates.github.com/themes/apg/'
 
 # The folder ``images`` should be copied into the folder ``static`` when
 # generating the output.
