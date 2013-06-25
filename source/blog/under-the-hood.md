@@ -1,6 +1,6 @@
 Title: What's Under the Hood?
 Date: 2013-06-22
-Summary: Markdown, Pelican, Jinja2, Twitter Bootstrap, &amp; Github Pages (oh my!)
+Summary: From Markdown to static HTML, by way of Pelican, Jinja2, Bootstrap, and more.
 Slug: whats-under-the-hood
 Tags: Pelican, Boostrap, Github
 
