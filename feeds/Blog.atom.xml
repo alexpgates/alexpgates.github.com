@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/blog.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-06-22T00:00:00-05:00</updated><entry><title>What’s Under the Hood?</title><link href="http://alexpgates.com/blog/2013/06/whats-under-the-hood.html" rel="alternate"></link><updated>2013-06-22T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-06-22:blog/2013/06/whats-under-the-hood.html</id><summary type="html">&lt;p&gt;Many months ago, &lt;a href="http://christopherkollars.com"&gt;a buddy&lt;/a&gt; sent me &lt;a href="http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/"&gt;this article&lt;/a&gt; written by &lt;a href="http://kylerush.net/"&gt;Kyle Rush&lt;/a&gt; about the technology stack behind the Obama campaign&amp;#8217;s fundraising platform. Kyle mentioned &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated&amp;nbsp;&lt;span class="caps"&gt;CMS&lt;/span&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/blog.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-09-19T00:00:00-05:00</updated><entry><title>Hello World with annyang.js &amp; speak.js</title><link href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js.html" rel="alternate"></link><updated>2013-09-19T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-09-19:blog/2013/09/annyang-js-and-speak-js.html</id><summary type="html">&lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; sent me a link to &lt;a href="https://www.talater.com/annyang/"&gt;annyang.js&lt;/a&gt; by &lt;a href="https://github.com/TalAter"&gt;Tal Ater&lt;/a&gt; because he thought it&amp;#8217;d be right up my alley. (He&amp;#8217;s right! It&amp;nbsp;is!)&lt;/p&gt;
+&lt;h3&gt;annyang.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.talater.com/annyang/"&gt;Annyang&lt;/a&gt; is &amp;#8220;a tiny javascript library that lets your users control your site with voice commands.&amp;#8221; It can do a lot for weighing in less than 1k. Annyang uses browser-based WebSpeech APIs and your computers microphone to translate speech-to-text and respond according to your commands. Annyang handles some pretty complex commands using variables, wildcards, optional ignoring, etc. There&amp;#8217;s a lot of great possibilities with annyang, and when I have some extra time I plan on using it to control a set of &lt;a href="https://www.meethue.com"&gt;Hue lights&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t have a lot of extra play time at the moment, but I wanted to quickly throw something together to try&amp;nbsp;annyang. &lt;/p&gt;
+&lt;h3&gt;speak.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/kripken/speak.js/"&gt;Speak.js&lt;/a&gt;, by &lt;a href="https://github.com/kripken"&gt;Alon Zakai&lt;/a&gt; is a javascript port of the eSpeak speech synthesizer. Speak.js enables text-to-speech in the browser using JavaScript and&amp;nbsp;&lt;span class="caps"&gt;HTML5&lt;/span&gt;.&lt;/p&gt;
+&lt;h3&gt;Putting them&amp;nbsp;together&lt;/h3&gt;
+&lt;p&gt;Combining annyang.js and speak.js seemed like fun, so I created &lt;a href="http://webjam.org/speak/" target="_blank"&gt;a little demo&lt;/a&gt;. Annyang.js listens to what you say, and speak.js repeats it back to&amp;nbsp;you.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;speakClient.js&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;annyang.min.js&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;audio&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;type=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    if (annyang) {
+
+      var sayThis = function(repeat) {
+        speak(repeat);
+      }
+
+      // Let&amp;#39;s define a command.
+      var commands = {
+        &amp;#39;*repeat&amp;#39;: sayThis
+      };
+
+      // Turn on debugging for the console
+      annyang.debug();
+
+      // Initialize annyang with our commands
+      annyang.init(commands);
+
+      // Start listening.
+      annyang.start();
+    }
+  &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the above example, we begin by checking to see if annyang will work in this browser. If so, we define a function called &lt;code&gt;sayThis&lt;/code&gt; that takes the output from our wildcard variable in annyong called &lt;code&gt;*repeat&lt;/code&gt; and uses the speak.js function &lt;code&gt;speak()&lt;/code&gt; to output a .wav file to &lt;code&gt;&amp;lt;div id="audio"&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://webjam.org/speak/" target="_blank"&gt;Try the demo&amp;nbsp;&amp;raquo;&lt;/a&gt;&lt;/p&gt;</summary><category term="Javascript"></category></entry><entry><title>What’s Under the Hood?</title><link href="http://alexpgates.com/blog/2013/06/whats-under-the-hood.html" rel="alternate"></link><updated>2013-06-22T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-06-22:blog/2013/06/whats-under-the-hood.html</id><summary type="html">&lt;p&gt;Many months ago, &lt;a href="http://christopherkollars.com"&gt;a buddy&lt;/a&gt; sent me &lt;a href="http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/"&gt;this article&lt;/a&gt; written by &lt;a href="http://kylerush.net/"&gt;Kyle Rush&lt;/a&gt; about the technology stack behind the Obama campaign&amp;#8217;s fundraising platform. Kyle mentioned &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated&amp;nbsp;&lt;span class="caps"&gt;CMS&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;m not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give &lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; a try. It&amp;#8217;s written in Python, and uses the &lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; templating&amp;nbsp;language.  &lt;/p&gt;
 &lt;p&gt;To get up and running, I followed &lt;a href="http://martinbrochhaus.com/pelican.html"&gt;this&lt;/a&gt; handy (but now outdated) guide by &lt;a href="http://martinbrochhaus.com"&gt;Martin Brochhaus&lt;/a&gt;. &lt;small&gt;(Note: Here&amp;#8217;s Martin&amp;#8217;s &lt;a href="http://martinbrochhaus.com/pelican2.html"&gt;updated guide&lt;/a&gt;.)&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;After getting everything configured and deployed to &lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt;, I started working on an &lt;em&gt;ugly&lt;/em&gt; theme based off the default Pelican template. I never finished it. Then, &lt;a href="http://whatcheer.com"&gt;What Cheer&lt;/a&gt; announced our &lt;a href="http://whatcheer.com/pack/"&gt;transition&lt;/a&gt; to &lt;a href="http://packlove.com"&gt;Pack&lt;/a&gt;, and things got pretty busy for a&amp;nbsp;while.&lt;/p&gt;

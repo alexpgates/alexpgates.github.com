@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Alex P. Gates</title>
+    <title>Hello World with annyang.js & speak.js</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap-responsive.min.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/base.css" type="text/css" />
-        <link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css" />
+    <link rel="stylesheet" href="http://alexpgates.com/theme/css/article.css" type="text/css" />
+    <link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/pygment.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -50,24 +51,63 @@
         </div><!-- /side panel-->
 
         <div class="main-content span7">
-        <div id="index-content">
-    <h4 id="latest-posts">Latest Posts:</h4>    <ul>
-                <li>
-            <h2><a class="latest" href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js.html">Hello World with annyang.js <span class="amp">&amp;</span>&nbsp;speak.js</a></h2>
-            <h5 class="results-date">Sep&nbsp;2013</h5>
-            <p>Annyang.js listens to what you say and speak.js repeats it back to you.</p>
-            <hr>
-        </li>
+        <section id="content" class="body">
+  <article>
 
-                        <li>
-            <h2><a class="latest" href="http://alexpgates.com/blog/2013/06/whats-under-the-hood.html">What&#8217;s Under the&nbsp;Hood?</a></h2>
-            <h5 class="results-date">Jun&nbsp;2013</h5>
-            <p>From Markdown to static HTML, by way of Pelican, Jinja2, Bootstrap, and more.</p>
-            <hr>
-        </li>
+    <header>
+      <h1 class="entry-title">Hello World with annyang.js <span class="amp">&amp;</span>&nbsp;speak.js</h1>
+    </header>
+    <h5 class="entry-date-tags">Sep&nbsp;19,&nbsp;2013&nbsp;&nbsp;&nbsp;<a href="http://alexpgates.com/tag/javascript.html">#Javascript</a>&nbsp;</h5>
 
-            </ul>
-                </div>
+    <div class="entry-content">
+      <p><a href="http://velvetcache.org">Hobbs</a> sent me a link to <a href="https://www.talater.com/annyang/">annyang.js</a> by <a href="https://github.com/TalAter">Tal Ater</a> because he thought it&#8217;d be right up my alley. (He&#8217;s right! It&nbsp;is!)</p>
+<h3>annyang.js</h3>
+<p><a href="https://www.talater.com/annyang/">Annyang</a> is &#8220;a tiny javascript library that lets your users control your site with voice commands.&#8221; It can do a lot for weighing in less than 1k. Annyang uses browser-based WebSpeech APIs and your computers microphone to translate speech-to-text and respond according to your commands. Annyang handles some pretty complex commands using variables, wildcards, optional ignoring, etc. There&#8217;s a lot of great possibilities with annyang, and when I have some extra time I plan on using it to control a set of <a href="https://www.meethue.com">Hue lights</a>.</p>
+<p>I don&#8217;t have a lot of extra play time at the moment, but I wanted to quickly throw something together to try&nbsp;annyang. </p>
+<h3>speak.js</h3>
+<p><a href="https://github.com/kripken/speak.js/">Speak.js</a>, by <a href="https://github.com/kripken">Alon Zakai</a> is a javascript port of the eSpeak speech synthesizer. Speak.js enables text-to-speech in the browser using JavaScript and&nbsp;<span class="caps">HTML5</span>.</p>
+<h3>Putting them&nbsp;together</h3>
+<p>Combining annyang.js and speak.js seemed like fun, so I created <a href="http://webjam.org/speak/" target="_blank">a little demo</a>. Annyang.js listens to what you say, and speak.js repeats it back to&nbsp;you.</p>
+<div class="highlight"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">&quot;speakClient.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">&quot;annyang.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;audio&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+  <span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span><span class="nt">&gt;</span>
+    if (annyang) {
+
+      var sayThis = function(repeat) {
+        speak(repeat);
+      }
+
+      // Let&#39;s define a command.
+      var commands = {
+        &#39;*repeat&#39;: sayThis
+      };
+
+      // Turn on debugging for the console
+      annyang.debug();
+
+      // Initialize annyang with our commands
+      annyang.init(commands);
+
+      // Start listening.
+      annyang.start();
+    }
+  <span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<p>In the above example, we begin by checking to see if annyang will work in this browser. If so, we define a function called <code>sayThis</code> that takes the output from our wildcard variable in annyong called <code>*repeat</code> and uses the speak.js function <code>speak()</code> to output a .wav file to <code>&lt;div id="audio"&gt;&lt;/div&gt;</code>.</p>
+<p><a href="http://webjam.org/speak/" target="_blank">Try the demo&nbsp;&raquo;</a></p>
+    </div>
+
+  </article>
+</section>
         </div>
     </div>
 </div>
