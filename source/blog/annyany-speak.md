@@ -4,7 +4,7 @@ Summary: Annyang.js listens to what you say and speak.js repeats it back to you.
 Slug: annyang-js-and-speak-js
 Tags: Javascript
 
-[Hobbs](http://velvetcache.org) sent me a link to [annyang.js](https://www.talater.com/annyang/) by [Tal Ater](https://github.com/TalAter) because he thought it'd be right up my alley. (He's right! It is!)
+[Hobbs](http://velvetcache.org) sent me a link to [annyang.js](https://www.talater.com/annyang/) by [Tal Ater](https://github.com/TalAter) because he thought it'd be right up my alley. (He's right! It is! And it's not just for the [Arrested Development reference](https://twitter.com/talater/status/380059244017356800)!)
 
 ### annyang.js
 
@@ -52,6 +52,6 @@ Combining annyang.js and speak.js seemed like fun, so I created <a href="http://
 	  </script>
 	</html>
 
-In the above example, we begin by checking to see if annyang will work in this browser. If so, we define a function called `sayThis` that takes the output from our wildcard variable in annyong called `*repeat` and uses the speak.js function `speak()` to output a .wav file to `<div id="audio"></div>`.
+In the above example, we begin by checking to see if annyang will work in this browser. If so, we define a function called `sayThis ` that takes the output from our wildcard variable in annyong called `*repeat` and uses the speak.js function `speak()` to output a .wav file to `<div id="audio"></div>`.
 
 <a href="http://webjam.org/speak/" target="_blank">Try the demo &raquo;</a>
