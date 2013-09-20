@@ -1,6 +1,6 @@
-Title: Hello World with annyang.js &amp;&nbsp;speak.js
+Title: "Hello world! ... Hello&nbsp;world!" with annyang.js &amp;&nbsp;speak.js
 Date: 2013-09-19
-Summary: Annyang.js listens to what you say and speak.js repeats it back to you.
+Summary: Combining annyang.js and speak.js to build a web site that listens to what you say and repeats it back to you.
 Slug: annyang-js-and-speak-js
 Tags: Javascript
 
