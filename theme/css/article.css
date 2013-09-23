@@ -29,6 +29,10 @@ h1.sitename {
 
 @media (max-width: 480px) {
 	h1.sitename {
-	font-size:15px;
+		font-size:15px;
 	}
+	h1.entry-title{
+    	font-size: 30px;
+    	line-height: 30px;
+  	}
 }
