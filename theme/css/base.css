@@ -239,6 +239,9 @@ blockquote {
   .footer-social i {
     padding:15px;
   }
+  .call i {
+    padding-left: 0px;
+  }
   .footer-social {
     display:block;
   }
