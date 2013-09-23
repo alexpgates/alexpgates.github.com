@@ -13,7 +13,7 @@
     <header>
       <h1 class="entry-title">{{ article.title}}</h1>
     </header>
-    <h5 class="entry-date-tags">{{ article.date|strftime('%b&nbsp;%d,&nbsp;%Y') }}&nbsp;&nbsp;&nbsp;{% if article.tags %}{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>&nbsp;{% endfor %}{% endif %}</h5>
+    <h5 class="entry-date-tags">{{ article.date|strftime('%b&nbsp;%d,&nbsp;%Y') }}&nbsp;&nbsp;&bull;&nbsp;&nbsp;{% if article.tags %}{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>&nbsp;{% endfor %}{% endif %}</h5>
 
     <div class="entry-content">
       {{ article.content }}
