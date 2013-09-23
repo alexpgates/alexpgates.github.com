@@ -6,6 +6,10 @@
   margin-bottom:-5px;
 }
 
+.article-title{
+  margin-bottom:5px;
+}
+
 #index-content p {
   font-size: 14px;
   font-weight: 400;
@@ -269,7 +273,6 @@ blockquote {
   #wc-pack {
     text-align:center;
   }
-
 }
 
 @media (max-width: 979px) {

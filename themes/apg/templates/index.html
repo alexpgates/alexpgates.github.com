@@ -6,7 +6,7 @@
     <ul>
         {% for article in articles_page.object_list %}
         <li>
-            <h2><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            <h2 class="article-title"><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
             <h5 class="results-date">{{ article.date|strftime('%b&nbsp;%Y') }}</h5>
             {{ article.summary }}
             <hr>
