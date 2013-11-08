@@ -143,12 +143,13 @@ a {
 footer a {
   color: #fafafa;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 footer a:hover,
 footer a:focus {
   color: #5cb1de;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .entry-content a {
