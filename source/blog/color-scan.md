@@ -59,7 +59,7 @@ After adjusting the settings to fit your Hue setup, drop a jpeg in the directory
 
 ### Why did you make this (totally useless) thing?
 
-For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image.
+For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image with the press of a button.
 
 I pulled that all together with color-scan + the addition of a folder action in OS X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it's all triggered by pressing the button on my scanner.
 

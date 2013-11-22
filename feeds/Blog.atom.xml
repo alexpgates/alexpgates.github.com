@@ -43,7 +43,7 @@
 &lt;h3&gt;How do I use&amp;nbsp;this?&lt;/h3&gt;
 &lt;p&gt;After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in &lt;code&gt;$path&lt;/code&gt;. Then run&amp;nbsp;process.php.&lt;/p&gt;
 &lt;h3&gt;Why did you make this (totally useless)&amp;nbsp;thing?&lt;/h3&gt;
-&lt;p&gt;For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image with the press of a&amp;nbsp;button.&lt;/p&gt;
 &lt;p&gt;I pulled that all together with color-scan + the addition of a folder action in &lt;span class="caps"&gt;OS&lt;/span&gt; X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&amp;#8217;s all triggered by pressing the button on my&amp;nbsp;scanner.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png" /&gt;&lt;/p&gt;
 &lt;h3&gt;Can&amp;#8217;t you already do this with digital images and the Hue&amp;nbsp;app?&lt;/h3&gt;
