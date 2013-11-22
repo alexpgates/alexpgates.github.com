@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Alex P. Gates</title>
+    <title>Scanning Colors to Philips Hue</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap-responsive.min.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/base.css" type="text/css" />
-        <link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css" />
+    <link rel="stylesheet" href="http://alexpgates.com/theme/css/article.css" type="text/css" />
+    <link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css" />
     <link rel="stylesheet" href="http://alexpgates.com/theme/css/pygment.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -51,31 +52,76 @@
         </div><!-- /side panel-->
 
         <div class="main-content span7">
-        <div id="index-content">
-    <h4 id="latest-posts">Latest Posts:</h4>    <ul>
-                <li>
-            <h2 class="article-title"><a class="latest" href="http://alexpgates.com/blog/2013/11/scanning-colors-to-hue.html">Scanning Colors to Philips&nbsp;Hue</a></h2>
-            <h5 class="results-date">Nov&nbsp;2013</h5>
-            <p>Using a scanner, folder actions, and color quantization to change the color of Philips Hue light bulbs.</p>
-            <hr>
-        </li>
+        <section id="content" class="body">
+  <article>
 
-                        <li>
-            <h2 class="article-title"><a class="latest" href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js.html"><span class="dquo">&#8220;</span>Hello world! &#8230; Hello&nbsp;world!&#8221; with annyang.js <span class="amp">&amp;</span>&nbsp;speak.js</a></h2>
-            <h5 class="results-date">Sep&nbsp;2013</h5>
-            <p>Combining annyang.js and speak.js to build a web site that listens to what you say and repeats it back to you.</p>
-            <hr>
-        </li>
+    <header>
+      <h1 class="entry-title">Scanning Colors to Philips&nbsp;Hue</h1>
+    </header>
+    <h5 class="entry-date-tags">Nov&nbsp;17,&nbsp;2013&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="http://alexpgates.com/tag/philips-hue.html">#Philips Hue</a>&nbsp;<a href="http://alexpgates.com/tag/php.html">#php</a>&nbsp;<a href="http://alexpgates.com/tag/color-quantization.html">#color quantization</a>&nbsp;</h5>
 
-                        <li>
-            <h2 class="article-title"><a class="latest" href="http://alexpgates.com/blog/2013/06/whats-under-the-hood.html">What&#8217;s Under the&nbsp;Hood?</a></h2>
-            <h5 class="results-date">Jun&nbsp;2013</h5>
-            <p>From Markdown to static HTML, by way of Pelican, Jinja2, Bootstrap, and more.</p>
-            <hr>
-        </li>
+    <div class="entry-content">
+      <div class="videoWrapper">
+<iframe src="//player.vimeo.com/video/79212881?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
-            </ul>
-                </div>
+<h3>What is&nbsp;this?</h3>
+<p><a href="https://github.com/alexpgates/color-scan">color-scan</a> grabs the dominant color(s) from images and passes the color(s) to <a href="https://www.meethue.com/en-US">Philips Hue lights</a>. You can decide if you want to send the main color to a group of lights, or individual colors to individual lights. It also works with scanned photos, of course, or with any jpeg that you drop in the directory. You don&#8217;t actually <em>need</em> the&nbsp;scanner.</p>
+<p>You can can decide whether you want the main dominant color on all your lights <code>$color_mode = 'single';</code>, or if you&#8217;d like to grab a palette of colors to send to individual bulbs <code>$color_mode = 'multi';</code>. The example in the video demonstrates using the &#8220;single&#8221; color&nbsp;mode.</p>
+<h3>How does it&nbsp;work?</h3>
+<p>When the process script is called, it grabs the latest image from a directory. Color Thief handles the color quantization and provides <span class="caps">RGB</span> colors. <span class="caps">RGB</span> is converted to the the xy color space, then sent to your Hue&nbsp;bridge.</p>
+<h3>Where can I get&nbsp;this?</h3>
+<p>Please <a href="https://github.com/alexpgates/color-scan">fork it</a> from&nbsp;GitHub!</p>
+<h3>How do the settings&nbsp;work?</h3>
+<div class="highlight"><pre><span class="x">$color_mode = &#39;multi&#39;; // &quot;multi&quot; or &quot;single&quot;</span>
+<span class="x">// &quot;multi&quot; uses different colors for each light (defined in $light_ids), </span>
+<span class="x">// &quot;single&quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)</span>
+
+<span class="x">$light_ids = array( 1, 2, 3 ); </span>
+<span class="x">// ids of your Hue lights that you want to use with color-scan</span>
+<span class="x">// Grab these from your bridge. http://developers.meethue.com/1_lightsapi.html</span>
+
+<span class="x">$brightness = 150;</span>
+<span class="x">// 0 - 255 http://developers.meethue.com/1_lightsapi.html</span>
+
+<span class="x">$group_id = 0; </span>
+<span class="x">// must be set  if using single color mode;</span>
+<span class="x">// Grab this from your bridge. http://developers.meethue.com/2_groupsapi.html</span>
+
+<span class="x">$path = &quot;/path/to/your/images/&quot;;</span>
+<span class="x">// directory where you want to look for an image to process</span>
+
+<span class="x">$bridge = &#39;x.x.x.x&#39;; </span>
+<span class="x">// ip address of your internal bridge</span>
+
+<span class="x">$hue_key = &#39;hue-user&#39;; </span>
+<span class="x">// valid api user</span>
+
+<span class="x">//$debug = &#39;debug&#39;; // uncomment this for some debug info</span>
+</pre></div>
+
+
+<p><small>*Note: color-scan doesn&#8217;t handle registering a user on your bridge. You&#8217;ll need to handle that <a href="http://developers.meethue.com/4_configurationapi.html">on your own</a>.</small></p>
+<h3>How do I use&nbsp;this?</h3>
+<p>After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in <code>$path</code>. Then run&nbsp;process.php.</p>
+<h3>Why did you make this (totally useless)&nbsp;thing?</h3>
+<p>For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned&nbsp;image.</p>
+<p>I pulled that all together with color-scan + the addition of a folder action in <span class="caps">OS</span> X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&#8217;s all triggered by pressing the button on my&nbsp;scanner.</p>
+<p><img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png" /></p>
+<h3>Can&#8217;t you already do this with digital images and the Hue&nbsp;app?</h3>
+<p>Yes. But I just got this fancy new scanner and I wanted to hook it up to my light&nbsp;bulbs!</p>
+<h3>Dependencies</h3>
+<ul>
+<li>This uses a <a href="https://github.com/ksubileau/color-thief-php">color-thief-php</a> by <a href="http://kevinsubileau.fr">Kevin Subileau</a>, which is a port of <a href="https://github.com/lokesh/color-thief," title="Color Thief">Color Thief</a> written by <a href="http://lokeshdhakar.com/">Lokesh&nbsp;Dhakar</a></li>
+<li><span class="caps">PHP</span> (Only tested in 5.3.6) with&nbsp;cURL</li>
+</ul>
+<h3>License</h3>
+<p>color-scan is <span class="caps">MIT</span>&nbsp;licensed.</p>
+<p>Color Thief has it&#8217;s own license, so check <a href="https://github.com/lokesh/color-thief">here</a> and <a href="https://github.com/ksubileau/color-thief-php">here</a>.</p>
+    </div>
+
+  </article>
+</section>
         </div>
     </div>
 </div>

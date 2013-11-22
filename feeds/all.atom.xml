@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-09-19T00:00:00-05:00</updated><entry><title>“Hello world! … Hello world!” with annyang.js &amp; speak.js</title><link href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js.html" rel="alternate"></link><updated>2013-09-19T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-09-19:blog/2013/09/annyang-js-and-speak-js.html</id><summary type="html">&lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; sent me a link to &lt;a href="https://www.talater.com/annyang/"&gt;annyang.js&lt;/a&gt; by &lt;a href="https://github.com/TalAter"&gt;Tal Ater&lt;/a&gt; because he thought it&amp;#8217;d be right up my alley. (He&amp;#8217;s right! It is! And it&amp;#8217;s not just for the &lt;a href="https://twitter.com/talater/status/380059244017356800"&gt;Arrested Development reference&lt;/a&gt;!)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-11-17T00:00:00-06:00</updated><entry><title>Scanning Colors to Philips Hue</title><link href="http://alexpgates.com/blog/2013/11/scanning-colors-to-hue.html" rel="alternate"></link><updated>2013-11-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-11-17:blog/2013/11/scanning-colors-to-hue.html</id><summary type="html">&lt;div class="videoWrapper"&gt;
+&lt;iframe src="//player.vimeo.com/video/79212881?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;What is&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/alexpgates/color-scan"&gt;color-scan&lt;/a&gt; grabs the dominant color(s) from images and passes the color(s) to &lt;a href="https://www.meethue.com/en-US"&gt;Philips Hue lights&lt;/a&gt;. You can decide if you want to send the main color to a group of lights, or individual colors to individual lights. It also works with scanned photos, of course, or with any jpeg that you drop in the directory. You don&amp;#8217;t actually &lt;em&gt;need&lt;/em&gt; the&amp;nbsp;scanner.&lt;/p&gt;
+&lt;p&gt;You can can decide whether you want the main dominant color on all your lights &lt;code&gt;$color_mode = 'single';&lt;/code&gt;, or if you&amp;#8217;d like to grab a palette of colors to send to individual bulbs &lt;code&gt;$color_mode = 'multi';&lt;/code&gt;. The example in the video demonstrates using the &amp;#8220;single&amp;#8221; color&amp;nbsp;mode.&lt;/p&gt;
+&lt;h3&gt;How does it&amp;nbsp;work?&lt;/h3&gt;
+&lt;p&gt;When the process script is called, it grabs the latest image from a directory. Color Thief handles the color quantization and provides &lt;span class="caps"&gt;RGB&lt;/span&gt; colors. &lt;span class="caps"&gt;RGB&lt;/span&gt; is converted to the the xy color space, then sent to your Hue&amp;nbsp;bridge.&lt;/p&gt;
+&lt;h3&gt;Where can I get&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;Please &lt;a href="https://github.com/alexpgates/color-scan"&gt;fork it&lt;/a&gt; from&amp;nbsp;GitHub!&lt;/p&gt;
+&lt;h3&gt;How do the settings&amp;nbsp;work?&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;$color_mode = &amp;#39;multi&amp;#39;; // &amp;quot;multi&amp;quot; or &amp;quot;single&amp;quot;&lt;/span&gt;
+&lt;span class="x"&gt;// &amp;quot;multi&amp;quot; uses different colors for each light (defined in $light_ids), &lt;/span&gt;
+&lt;span class="x"&gt;// &amp;quot;single&amp;quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)&lt;/span&gt;
+
+&lt;span class="x"&gt;$light_ids = array( 1, 2, 3 ); &lt;/span&gt;
+&lt;span class="x"&gt;// ids of your Hue lights that you want to use with color-scan&lt;/span&gt;
+&lt;span class="x"&gt;// Grab these from your bridge. http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+
+&lt;span class="x"&gt;$brightness = 150;&lt;/span&gt;
+&lt;span class="x"&gt;// 0 - 255 http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+
+&lt;span class="x"&gt;$group_id = 0; &lt;/span&gt;
+&lt;span class="x"&gt;// must be set  if using single color mode;&lt;/span&gt;
+&lt;span class="x"&gt;// Grab this from your bridge. http://developers.meethue.com/2_groupsapi.html&lt;/span&gt;
+
+&lt;span class="x"&gt;$path = &amp;quot;/path/to/your/images/&amp;quot;;&lt;/span&gt;
+&lt;span class="x"&gt;// directory where you want to look for an image to process&lt;/span&gt;
+
+&lt;span class="x"&gt;$bridge = &amp;#39;x.x.x.x&amp;#39;; &lt;/span&gt;
+&lt;span class="x"&gt;// ip address of your internal bridge&lt;/span&gt;
+
+&lt;span class="x"&gt;$hue_key = &amp;#39;hue-user&amp;#39;; &lt;/span&gt;
+&lt;span class="x"&gt;// valid api user&lt;/span&gt;
+
+&lt;span class="x"&gt;//$debug = &amp;#39;debug&amp;#39;; // uncomment this for some debug info&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;small&gt;*Note: color-scan doesn&amp;#8217;t handle registering a user on your bridge. You&amp;#8217;ll need to handle that &lt;a href="http://developers.meethue.com/4_configurationapi.html"&gt;on your own&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;h3&gt;How do I use&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in &lt;code&gt;$path&lt;/code&gt;. Then run&amp;nbsp;process.php.&lt;/p&gt;
+&lt;h3&gt;Why did you make this (totally useless)&amp;nbsp;thing?&lt;/h3&gt;
+&lt;p&gt;For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned&amp;nbsp;image.&lt;/p&gt;
+&lt;p&gt;I pulled that all together with color-scan + the addition of a folder action in &lt;span class="caps"&gt;OS&lt;/span&gt; X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&amp;#8217;s all triggered by pressing the button on my&amp;nbsp;scanner.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;Can&amp;#8217;t you already do this with digital images and the Hue&amp;nbsp;app?&lt;/h3&gt;
+&lt;p&gt;Yes. But I just got this fancy new scanner and I wanted to hook it up to my light&amp;nbsp;bulbs!&lt;/p&gt;
+&lt;h3&gt;Dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This uses a &lt;a href="https://github.com/ksubileau/color-thief-php"&gt;color-thief-php&lt;/a&gt; by &lt;a href="http://kevinsubileau.fr"&gt;Kevin Subileau&lt;/a&gt;, which is a port of &lt;a href="https://github.com/lokesh/color-thief," title="Color Thief"&gt;Color Thief&lt;/a&gt; written by &lt;a href="http://lokeshdhakar.com/"&gt;Lokesh&amp;nbsp;Dhakar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; (Only tested in 5.3.6) with&amp;nbsp;cURL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;color-scan is &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;nbsp;licensed.&lt;/p&gt;
+&lt;p&gt;Color Thief has it&amp;#8217;s own license, so check &lt;a href="https://github.com/lokesh/color-thief"&gt;here&lt;/a&gt; and &lt;a href="https://github.com/ksubileau/color-thief-php"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><category term="Philips Hue"></category><category term="php"></category><category term="color quantization"></category></entry><entry><title>“Hello world! … Hello world!” with annyang.js &amp; speak.js</title><link href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js.html" rel="alternate"></link><updated>2013-09-19T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-09-19:blog/2013/09/annyang-js-and-speak-js.html</id><summary type="html">&lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; sent me a link to &lt;a href="https://www.talater.com/annyang/"&gt;annyang.js&lt;/a&gt; by &lt;a href="https://github.com/TalAter"&gt;Tal Ater&lt;/a&gt; because he thought it&amp;#8217;d be right up my alley. (He&amp;#8217;s right! It is! And it&amp;#8217;s not just for the &lt;a href="https://twitter.com/talater/status/380059244017356800"&gt;Arrested Development reference&lt;/a&gt;!)&lt;/p&gt;
 &lt;h3&gt;annyang.js&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.talater.com/annyang/"&gt;Annyang&lt;/a&gt; is &amp;#8220;a tiny javascript library that lets your users control your site with voice commands.&amp;#8221; It can do a lot for weighing in less than 1k. Annyang uses browser-based WebSpeech APIs and your computers microphone to translate speech-to-text and respond according to your commands. Annyang handles some pretty complex commands using variables, wildcards, optional ignoring, etc. There&amp;#8217;s a lot of great possibilities with annyang, and when I have some extra time I plan on using it to control a set of &lt;a href="https://www.meethue.com"&gt;Hue lights&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I don&amp;#8217;t have a lot of extra play time at the moment, but I wanted to quickly throw something together to try&amp;nbsp;annyang. &lt;/p&gt;
