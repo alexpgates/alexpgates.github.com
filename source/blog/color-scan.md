@@ -80,3 +80,7 @@ Yes. But I just got this fancy new scanner and I wanted to hook it up to my ligh
 color-scan is MIT licensed.
 
 Color Thief has it's own license, so check [here](https://github.com/lokesh/color-thief) and [here](https://github.com/ksubileau/color-thief-php).
+
+### Want more Hue?
+
+Here's an [earlier post](/blog/2013/04/voice-controlled-hue.html) about using voice commands and weather data to control these lights.
