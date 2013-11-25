@@ -128,6 +128,10 @@ footer {
   line-height: 16px;
 }
 
+footer .projects{
+  text-align: left;
+}
+
 footer img {
   margin:10px;
 }
