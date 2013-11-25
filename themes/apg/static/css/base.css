@@ -132,6 +132,10 @@ footer .projects{
   text-align: left;
 }
 
+.projects li ul li {
+list-style: disc;
+}
+
 footer img {
   margin:10px;
 }
