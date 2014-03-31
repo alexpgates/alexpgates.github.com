@@ -37,3 +37,11 @@ Store managers need to **pay attention** to the entrances of their stores. Emplo
 Omahans should speak up. We need to <a href="https://twitter.com/intent/tweet?text=Please%2C%20%40hyvee%2C%20stop%20allowing%20your%20property%20to%20be%20used%20as%20a%20mouthpiece%20for%20hate%20in%20our%20community!%20http%3A%2F%2Falexpgates.com%2Fblog%2F2014%2F03%2Fhyvee-complicit-in-hate.html" target="_blank">ask Hy-Vee to stop allowing their property to be used as a mouthpiece for hate in our community</a>. If you notice a sticker, go to the customer service desk and ask to speak with the store manager. "We didn't notice it" isn't a good excuse. Let's *help* them notice it, and ask them to fix it.
 
 Questions? Please feel free to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#108;&#101;&#120;&#64;&#119;&#104;&#97;&#116;&#99;&#104;&#101;&#101;&#114;&#46;&#99;&#111;&#109;">email me</a>. I'd love to update this post with a response from Hy-Vee detailing how they'll *actually* put a plan in place to correct this issue. (hint hint)
+
+### Update!
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/alexpgates">@alexpgates</a>: Thanks, Alex. We have received your email and alerted store management and their supervisors to the ongoing vandalism.</p>&mdash; Hy-Vee (@HyVee) <a href="https://twitter.com/HyVee/statuses/450741852262907906">March 31, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/alexpgates">@alexpgates</a>: Thanks for alerting us to this activity.</p>&mdash; Hy-Vee (@HyVee) <a href="https://twitter.com/HyVee/statuses/450745426237747200">March 31, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
