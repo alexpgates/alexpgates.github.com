@@ -3,6 +3,7 @@ Date: 2014-03-31
 Summary: We need to take a stand against local businesses that serve as a mouthpiece to hate&nbsp;groups.
 Slug: hyvee-complicit-in-hate
 Tags: Omaha, immigration, Hy-Vee
+Status: draft
 
 <img src="/static/images/stop-hate.jpg" alt="stop hate">
 
