@@ -13,7 +13,17 @@ Status: draft
 
 <a href="http://alfredapp.com">Alfred</a> is a productivity application for Mac OS X.
 
-Out of the box, it's a tremendously useful tool that helps you quickly launch apps with a few keystrokes or self-assigned hotkeys. You can use Alfred to perform quick web searches other little things, like calculations.
+Out of the box, it's a tremendously useful tool that helps you quickly launch apps with a few keystrokes or self-assigned hotkeys. 
+<div class="row text-center">
+    <img src="/static/images/alfred-launch-sparrow.png" alt="Launching apps with Alfred">
+</div>
+You can use Alfred to search all sorts of websites.
+
+<div class="row text-center">
+    <img src="/static/images/alfred-search-youtube.png" alt="Search YouTube with Alfred">
+</div>
+
+You can even do lots of little things right inside Alfred, like perform quick calculations
 
 <div class="row text-center">
     <img src="/static/images/alfred-calculator.png" alt="Alfred calculator">
@@ -21,16 +31,18 @@ Out of the box, it's a tremendously useful tool that helps you quickly launch ap
 
 ### Upgrade, seriously
 
-To get the most out of Alfred, you need to <a href="http://www.alfredapp.com/powerpack/">buy the Powerpack</a>. The Powerpack gives you the ability to create and import workflows, access clipboard history, manage a snippet library, create custom web searches, and import beautiful custom themes (basically everything I'm covering in this article). Without question, the Powerpack is absolutely worth it. It will pay for itself with the time you save. 
+To get the most out of Alfred, you need to <a href="http://www.alfredapp.com/powerpack/">buy the Powerpack</a>. The Powerpack gives you the ability to create and import workflows, access clipboard history, manage a snippet library, create custom web searches, and import beautiful custom themes.
 
-### Quick results with Custom Web Searches
+Without question, the Powerpack is absolutely worth it if you want to adapt Alfred to your personal workflow and make your job easier. It will pay for itself with the time you save.
 
-Alfred makes it very easy to open frequently used websites and perform searches on many popular sites or _any_ site that accepts query parameters for searches. 
+### Use Custom Web Searches for your own Admin tools
+
+Alfred makes it very easy to open frequently used websites and perform searches on many popular sites. You can also create Custom Web Searches for _any_ site that accepts query parameters for searches. 
 
 <div class="row text-center">
     <img src="/static/images/alfred-web-search.png" alt="Alfred Pack Admin">
 </div>
-<hr>
+
 #### Quickly access frequently used websites
 
 While working on <a href="http://packdog.com">Pack</a>, I frequently open our admin site. Instead of cmd+tabing to Chrome and clicking a bookmark or typing the URL, I simply invoke Alfred (option+space) and begin typing _packadmin_. As soon as Alfred recognizes what I'm typing, I hit enter and Chrome brings up the admin site. 
@@ -40,7 +52,7 @@ While working on <a href="http://packdog.com">Pack</a>, I frequently open our ad
 </div>
 
 Opening frequently-used websites is incredibly fast and simple with Alfred, no matter which app you are currently using on your Mac.
-<hr>
+<br><br>
 #### Perform searches in a jiffy
 
 The Pack admin site gives us a search tool to find dogs by name and users by name or email address. This is something I do multiple times per day.
@@ -60,16 +72,19 @@ To search for a user, I start typing _human_ then tab, then the name or email ad
 </div>
 
 After hitting enter, I'm taken directly to the search results page in Pack admin. 
-<hr>
-#### Create your own Custom Web Search
 
-Setting up a custom web search is easy. From the Web Search setting under the Features tab, just click Add Custom Search on the bottom right of the screen. <code>{query}</code> is the variable that is passed from the Alfred window.
+#### Set up your own Custom Web Search
+
+Setting up a custom web search is easy. From the Web Search setting under the Features tab, just click Add Custom Search on the bottom right of the screen. Add the URL for your results page in the _Search URL_ field. <code>{query}</code> is the variable that is passed from the Alfred window.
 
 Dropping in an icon will keep things looking nice and fancy, too.
 
 <div class="row text-center">
-    <img src="/static/images/alfred-custom-search-setup.png" alt="Alfred Pack Admin">
+    <img src="/static/images/alfred-custom-search-setup.png" class="margin" alt="Alfred Pack Admin">
 </div>
+
+Save time by creating Custom Web Searches for any site that you frequently search.  
+
 <hr>
 
 ### Creating Workflows to make your job easier
@@ -88,7 +103,7 @@ These are just a few examples that barely scratch the surface, but it should be 
 
 #### Email the Pack Team
 
-There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I'd cmd+tab to my mail program (Sparrow), cmd+n to open a new email. Then I'd start typing each team member's name, followed by tab, until all five were in the TO field. _At best_, that's 14 keystrokes. 
+There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I'd _cmd+tab_ to my mail program (Sparrow), _cmd+n_ to open a new email. Then I'd start typing each team member's name, followed by tab, until all four were in the _To_ field. _At best_, that's 14 keystrokes. 
 
 With Alfred, I've reduced it to 2.
 
@@ -98,15 +113,15 @@ I just invoke quicksilver, and begin typing _emailpack_.
     <img src="/static/images/alfred-email-pack.png" alt="Alfred Email Pack">
 </div>
 
-Once Alfred detects what I'm typing (it usually just takes the _e_ I hit enter.
+Once Alfred detects what I'm typing, (it usually just takes the _e_) I just hit enter.
 
-Immediately, a new message window is opened with everyone's email address in the TO field.
-
-I can invoke this workflow from _anywhere_ on my Mac. In other words, I don't need to be in Sparrow (or even have Sparrow open, for that matter).
+Immediately, a new message window is opened with everyone's email address in the _To_ field.
 
 <div class="row text-center">
     <img src="/static/images/alfred-email-pack-sparrow.png" alt="Alfred Email Pack">
 </div>
+
+I can invoke this workflow from _anywhere_ on my Mac. In other words, I don't need to be in Sparrow (or even have Sparrow open, for that matter).
 
 This workflow is a bit more complicated to set up, since it requires a little Applescript to make it happen. 
 
@@ -131,7 +146,7 @@ Yes, it takes a bit of time to get this set up initially, but all those saved ke
 
 #### Add an item to my Pep Rally inbox
 
-At Pack, we use a task collaboration app we created at <a href="http://whatcheer.com">What Cheer</a> called <a href="http://peprallyapp.com">Pep Rally</a>. Unfortunately (for you) Pep Rally isn't available to the public, but it's a tool that we rely on heavily.
+At Pack, we use a task collaboration app we built at <a href="http://whatcheer.com">What Cheer</a> called <a href="http://peprallyapp.com">Pep Rally</a>. Unfortunately (for you) Pep Rally isn't available to the public, but it's a tool that we rely on heavily.
 
 One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I'm in the middle of completing another task. 
 
@@ -165,8 +180,7 @@ This one is a little vague, I know. But I chose to include it so you can see an 
 
 There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. I haven't spent too much time browsing, but there are a few that I've imported that have been very useful. 
 
-<hr>
-
+<br>
 #### Super fast GIF Workflow!
 
 Pack's team is distributed, so we rely on <a href="https://campfirenow.com/">Campfire</a> as a central place for communication. Sometimes text just isn't the best avenue to convey emotion, so we (perhaps too frequently) harness the power of animated gifs.
@@ -193,8 +207,32 @@ This Workflow allows you to harvest your own gifs and store them in a public fol
 
 #### iMessage to a friend
 
+<a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/">Stefan Grund</a> made a really handy iMessage Workflow to quickly send an iMessage right from Alfred. It's not directly integrated to your Address Book, so you need to manually set up the Workflow for contacts that you message frequently.
+
 <div class="row text-center">
     <img src="/static/images/alfred-imessage.png" alt="imessage workflow">
 </div>
 
+Like the other plugins, a little setup in the beginning saves lots of time down the road. <a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/">Read more about Stefan's iMessage workflow</a>.
+
 <hr>
+
+#### Philips Hue Controller
+
+<a href="https://github.com/benknight">Benjamin Knight</a> wrote a Workflow to control <a href="http://meethue.com/">Philips Hue lights</a>. I've written <a href="/tag/philips-hue.html"> a couple posts</a> about Philips Hue bulbs, and anyone who knows me knows I get really excited about these things.
+
+<div class="row text-center">
+    <img src="/static/images/alfred-hue-overview.png" alt="hue workflow">
+</div>
+
+With Ben's Workflow, I'm able to control the lights in my house right inside Alfred. 
+
+<hr>
+
+### Go!
+
+There are tons of Workflows available on the <a href="http://www.alfredforum.com/forum/3-share-your-workflows/">Alfred Forum</a> or through the repository <a href="http://packal.org">Packal</a>.
+
+The trick is to take things slowly and add Custom Web Searches and Workflows that will be helpful in your day-to-day. Try not to overload yourself with too many things to remember right away. As you get used to Alfred, you'll start to notice parts of your workflow that could benefit from a little automation or faster access. 
+
+Keystrokes add up. A few seconds saved on the same small task goes a long way. Put Alfred to work for you, and soon you'll start to wonder how you ever got by without it. 
