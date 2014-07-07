@@ -5,7 +5,7 @@ Slug: scanning-colors-to-hue
 Tags: Philips Hue, PHP, color quantization
 
 <div class="videoWrapper">
-<iframe src="//player.vimeo.com/video/79212881?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/100126411?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 ### What is this?
