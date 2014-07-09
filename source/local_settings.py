@@ -34,7 +34,6 @@ DEFAULT_PAGINATION = 10
 REVERSE_ARCHIVE_ORDER = True
 REVERSE_CATEGORY_ORDER = True
 
-
 # Settings for articles.
 ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}.html'
