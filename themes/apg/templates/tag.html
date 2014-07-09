@@ -1,2 +1,20 @@
-{% extends "index.html" %}
-{% block result_title %}<h4 id="latest-posts">Posts tagged: {{ tag }}</h4>{% endblock %}
+{% extends "base.html" %}
+{% block content %}
+
+<div id="index-content">
+    {% block result_title %}<h4 id="latest-posts">Articles tagged: <em>{{ tag }}</em></h4>{% endblock %}
+    <ul>
+        {% for article in dates %}
+        <li>
+            <h2 class="article-title"><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            <h5 class="results-date">{{ article.date|strftime('%b&nbsp;%Y') }}</h5>
+            {{ article.summary }}
+            <hr>
+        </li>
+
+        {% if loop.last %}
+    </ul>
+        {% endif %}
+        {% endfor %}
+</div>
+{% endblock %}
