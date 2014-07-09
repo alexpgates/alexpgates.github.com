@@ -13,15 +13,13 @@
     <hr>
     {% block result_title %}<h4 id="latest-posts">Latest Blog Posts:</h4>{% endblock %}
     <ul>
-        {% for article in articles_page.object_list %}
-            {% if loop.index <= 3 %} 
+        {% for article in articles_page.object_list[:3] %}
         <li>
             <h2 class="article-title"><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
             <h5 class="results-date">{{ article.date|strftime('%b&nbsp;%Y') }}</h5>
             {{ article.summary }}
             <hr>
         </li>
-            {% endif %}
         {% if loop.last %}
     </ul>
         {% endif %}
