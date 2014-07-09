@@ -36,12 +36,12 @@ REVERSE_CATEGORY_ORDER = True
 
 # Settings for articles.
 ARTICLE_PATHS = ['blog']
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}.html'
 ARCHIVES_SAVE_AS = 'blog/archives.html'
 TAGS_SAVE_AS = 'blog/tags.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
-TAG_URL = 'blog/tag/{slug}.html'
+TAG_URL = 'blog/tag/{slug}'
 CATEGORIES_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
@@ -49,7 +49,7 @@ AUTHOR_SAVE_AS = ''
 
 # Settings for pages. 
 PAGE_PATHS = ['pages']
-PAGE_URL = '{slug}.html'
+PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 
 # Uncomment what ever you want to use
