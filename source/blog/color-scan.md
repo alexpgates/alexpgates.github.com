@@ -25,6 +25,7 @@ Please [fork it](https://github.com/alexpgates/color-scan) from GitHub!
 ### How do the settings work?
 
     :::php
+    <?php
     $color_mode = 'multi'; // "multi" or "single"
     // "multi" uses different colors for each light (defined in $light_ids), 
     // "single" uses the most dominant color found in the image for a Hue group (defined in $group_id)
@@ -50,6 +51,7 @@ Please [fork it](https://github.com/alexpgates/color-scan) from GitHub!
     // valid api user
 
     //$debug = 'debug'; // uncomment this for some debug info
+    ?>
 
 <small>*Note: color-scan doesn't handle registering a user on your bridge. You'll need to handle that [on your own](http://developers.meethue.com/4_configurationapi.html).</small>
 

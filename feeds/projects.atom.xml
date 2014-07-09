@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/projects.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2013-05-29T00:00:00-05:00</updated><entry><title>This is project the first</title><link href="http://alexpgates.com/project-the-first.html" rel="alternate"></link><updated>2013-05-29T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-05-29:project-the-first.html</id><summary type="html">&lt;h3&gt;Testing&lt;/h3&gt;
-&lt;p&gt;This is a page in the root of&amp;nbsp;pages.&lt;/p&gt;</summary></entry></feed>

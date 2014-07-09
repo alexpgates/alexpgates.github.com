@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-04-05T00:00:00-05:00</updated><entry><title>Pack Presents at 1 Million Cups</title><link href="http://alexpgates.com/blog/2014/04/pack-presents-at-1-million-cups.html" rel="alternate"></link><updated>2014-04-05T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-04-05:blog/2014/04/pack-presents-at-1-million-cups.html</id><summary type="html">&lt;p&gt;&lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; was invited to present at &lt;a href="http://www.1millioncups.com/"&gt;1 Million Cups&lt;/a&gt; in Omaha on April 2, 2014. Here&amp;#8217;s a video of our&amp;nbsp;presentation.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-04-05T00:00:00-05:00</updated><entry><title>Video: Pack Presents at 1 Million Cups</title><link href="http://alexpgates.com/blog/2014/04/pack-presents-at-1-million-cups.html" rel="alternate"></link><updated>2014-04-05T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-04-05:blog/2014/04/pack-presents-at-1-million-cups.html</id><summary type="html">&lt;p&gt;&lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; was invited to present at &lt;a href="http://www.1millioncups.com/"&gt;1 Million Cups&lt;/a&gt; in Omaha on April 2, 2014. Here&amp;#8217;s a video of our&amp;nbsp;presentation.&lt;/p&gt;
 &lt;h3&gt;Pack, in six&amp;nbsp;minutes&lt;/h3&gt;
 &lt;div class="videoWrapper"&gt;
 &lt;iframe src="//player.vimeo.com/video/90800707?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -18,31 +18,33 @@
 &lt;h3&gt;Where can I get&amp;nbsp;this?&lt;/h3&gt;
 &lt;p&gt;Please &lt;a href="https://github.com/alexpgates/color-scan"&gt;fork it&lt;/a&gt; from&amp;nbsp;GitHub!&lt;/p&gt;
 &lt;h3&gt;How do the settings&amp;nbsp;work?&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;$color_mode = &amp;#39;multi&amp;#39;; // &amp;quot;multi&amp;quot; or &amp;quot;single&amp;quot;&lt;/span&gt;
-&lt;span class="x"&gt;// &amp;quot;multi&amp;quot; uses different colors for each light (defined in $light_ids), &lt;/span&gt;
-&lt;span class="x"&gt;// &amp;quot;single&amp;quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class="nv"&gt;$color_mode&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;multi&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// &amp;quot;multi&amp;quot; or &amp;quot;single&amp;quot;&lt;/span&gt;
+&lt;span class="c1"&gt;// &amp;quot;multi&amp;quot; uses different colors for each light (defined in $light_ids), &lt;/span&gt;
+&lt;span class="c1"&gt;// &amp;quot;single&amp;quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)&lt;/span&gt;
 
-&lt;span class="x"&gt;$light_ids = array( 1, 2, 3 ); &lt;/span&gt;
-&lt;span class="x"&gt;// ids of your Hue lights that you want to use with color-scan&lt;/span&gt;
-&lt;span class="x"&gt;// Grab these from your bridge. http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+&lt;span class="nv"&gt;$light_ids&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="c1"&gt;// ids of your Hue lights that you want to use with color-scan&lt;/span&gt;
+&lt;span class="c1"&gt;// Grab these from your bridge. http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
 
-&lt;span class="x"&gt;$brightness = 150;&lt;/span&gt;
-&lt;span class="x"&gt;// 0 - 255 http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+&lt;span class="nv"&gt;$brightness&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="c1"&gt;// 0 - 255 http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
 
-&lt;span class="x"&gt;$group_id = 0; &lt;/span&gt;
-&lt;span class="x"&gt;// must be set  if using single color mode;&lt;/span&gt;
-&lt;span class="x"&gt;// Grab this from your bridge. http://developers.meethue.com/2_groupsapi.html&lt;/span&gt;
+&lt;span class="nv"&gt;$group_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// must be set  if using single color mode;&lt;/span&gt;
+&lt;span class="c1"&gt;// Grab this from your bridge. http://developers.meethue.com/2_groupsapi.html&lt;/span&gt;
 
-&lt;span class="x"&gt;$path = &amp;quot;/path/to/your/images/&amp;quot;;&lt;/span&gt;
-&lt;span class="x"&gt;// directory where you want to look for an image to process&lt;/span&gt;
+&lt;span class="nv"&gt;$path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/path/to/your/images/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="c1"&gt;// directory where you want to look for an image to process&lt;/span&gt;
 
-&lt;span class="x"&gt;$bridge = &amp;#39;x.x.x.x&amp;#39;; &lt;/span&gt;
-&lt;span class="x"&gt;// ip address of your internal bridge&lt;/span&gt;
+&lt;span class="nv"&gt;$bridge&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;x.x.x.x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// ip address of your internal bridge&lt;/span&gt;
 
-&lt;span class="x"&gt;$hue_key = &amp;#39;hue-user&amp;#39;; &lt;/span&gt;
-&lt;span class="x"&gt;// valid api user&lt;/span&gt;
+&lt;span class="nv"&gt;$hue_key&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;hue-user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// valid api user&lt;/span&gt;
 
-&lt;span class="x"&gt;//$debug = &amp;#39;debug&amp;#39;; // uncomment this for some debug info&lt;/span&gt;
+&lt;span class="c1"&gt;//$debug = &amp;#39;debug&amp;#39;; // uncomment this for some debug info&lt;/span&gt;
+&lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -173,7 +175,7 @@ def dev&lt;span class="o"&gt;()&lt;/span&gt;:
 &lt;h3&gt;So far, so&amp;nbsp;good&lt;/h3&gt;
 &lt;p&gt;I&amp;#8217;m the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of old &lt;span class="caps"&gt;NES&lt;/span&gt; games. I&amp;#8217;m optimistic that an easy, fast, and fun way to manage a new blog will encourage me to get my act together and finally start writing somewhat&amp;nbsp;regularly.&lt;/p&gt;
 &lt;h3&gt;Get the&amp;nbsp;theme&lt;/h3&gt;
-&lt;p&gt;Fork the current version of this theme on &lt;a href="https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg"&gt;github&lt;/a&gt;. It really wasn&amp;#8217;t built with with sharing in mind, but you&amp;#8217;re free to use what you&amp;nbsp;can!&lt;/p&gt;</summary><category term="Pelican"></category><category term="Boostrap"></category><category term="Github"></category></entry><entry><title>Voice &amp; Weather Controlled Philips Hue Lights</title><link href="http://alexpgates.com/blog/2013/04/voice-controlled-hue.html" rel="alternate"></link><updated>2013-04-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-04-27:blog/2013/04/voice-controlled-hue.html</id><summary type="html">&lt;h3&gt;Voice&amp;nbsp;control&lt;/h3&gt;
+&lt;p&gt;Fork the current version of this theme on &lt;a href="https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg"&gt;github&lt;/a&gt;. It really wasn&amp;#8217;t built with with sharing in mind, but you&amp;#8217;re free to use what you&amp;nbsp;can!&lt;/p&gt;</summary><category term="Pelican"></category><category term="Bootstrap"></category><category term="Github"></category></entry><entry><title>Voice &amp; Weather Controlled Philips Hue Lights</title><link href="http://alexpgates.com/blog/2013/04/voice-controlled-hue.html" rel="alternate"></link><updated>2013-04-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-04-27:blog/2013/04/voice-controlled-hue.html</id><summary type="html">&lt;h3&gt;Voice&amp;nbsp;control&lt;/h3&gt;
 &lt;p&gt;This is a very simple demonstration of using voice commands to control Philips Hue light bulbs. In this example, I&amp;#8217;m using Chrome&amp;#8217;s x-webkit-speech speech input and &lt;a href="https://github.com/danray0424/phpHue"&gt;Dan Ray&amp;#8217;s phpHue&lt;/a&gt; to interact with the Hue&amp;nbsp;system.&lt;/p&gt;
 &lt;div class="videoWrapper"&gt;
 &lt;iframe width="560" height="315" src="//www.youtube.com/embed/rOW7RapR_d8?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;

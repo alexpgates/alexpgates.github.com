@@ -5,8 +5,16 @@ from fabric.api import lcd, local, settings
 
 def pub():
     """Re-generates the output using absolute urls."""
-    local('pelican . -o ../ -s settings.py')
+    local('pelican . -o /Applications/MAMP/htdocs/alexpgates.github.com -s settings.py')
 
 def dev():
     """Re-generates the output using relative urls."""
-    local('pelican . -o ../ -s local_settings.py')
+    local('pelican . -o /Applications/MAMP/htdocs/alexpgates.github.com -s local_settings.py')
+
+def pubnocache():
+    """Re-generates the output using absolute urls."""
+    local('pelican . -o /Applications/MAMP/htdocs/alexpgates.github.com -s settings.py --ignore-cache')
+
+def devnocache():
+    """Re-generates the output using relative urls."""
+    local('pelican . -o /Applications/MAMP/htdocs/alexpgates.github.com -s local_settings.py --ignore-cache')

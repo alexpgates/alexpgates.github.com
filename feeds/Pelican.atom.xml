@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>alexpgates.com</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/Pelican.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2012-12-16T00:00:00-06:00</updated><entry><title>Hello (again) world</title><link href="http://alexpgates.com/hello-again-world.html" rel="alternate"></link><updated>2012-12-16T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-16:hello-again-world.html</id><summary type="html">&lt;h1&gt;I think we're set&lt;/h1&gt;
-&lt;p&gt;I believe everything is properly in place to be generate the files and push to github to host the blog. &lt;/p&gt;
-&lt;p&gt;There are a few things that I need to do now.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Patiently wait for the DNS to propagate to see if the domain is in fact working properly.&lt;/li&gt;
-&lt;li&gt;Do something about this theme. I have no idea where to begin with that.&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="blogging"></category><category term="test"></category></entry><entry><title>Hello world</title><link href="http://alexpgates.com/hello-world.html" rel="alternate"></link><updated>2012-12-16T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2012-12-16:hello-world.html</id><summary type="html">&lt;p&gt;This is a post that should live in the Pelican category.&lt;/p&gt;</summary><category term="blogging"></category><category term="test"></category></entry></feed>

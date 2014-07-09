@@ -34,18 +34,22 @@ DEFAULT_PAGINATION = 10
 REVERSE_ARCHIVE_ORDER = True
 REVERSE_CATEGORY_ORDER = True
 
-#Delete the output directory, and all of its contents, before generating new files.
-DELETE_OUTPUT_DIRECTORY = True
-
-# Settings for articles. We're putting them all in "blog" because that's my preference
-ARTICLE_DIR = 'blog/'
+# Settings for articles.
+ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}.html'
+ARCHIVES_SAVE_AS = 'blog/archives.html'
+TAGS_SAVE_AS = 'blog/tags.html'
+TAG_SAVE_AS = 'blog/tag/{slug}.html'
+CATEGORIES_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
 
-# Settings for pages. We're putting them all in "projects" because that's my preference
-PAGE_DIR = 'projects/'
-PAGE_URL = 'projects/{slug}.html'
-PAGE_SAVE_AS = 'projects/{slug}.html'
+# Settings for pages. 
+PAGE_PATHS = ['pages']
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 # Uncomment what ever you want to use
 GOOGLE_ANALYTICS = 'UA-39747483-2'

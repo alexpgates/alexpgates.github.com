@@ -2,7 +2,7 @@ Title: What's Under the Hood?
 Date: 2013-06-22
 Summary: From Markdown to static HTML, by way of Pelican, Jinja2, Bootstrap, and more.
 Slug: whats-under-the-hood
-Tags: Pelican, Boostrap, Github
+Tags: Pelican, Bootstrap, Github
 
 Many months ago, [a buddy](http://christopherkollars.com) sent me [this article](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) written by [Kyle Rush](http://kylerush.net/) about the technology stack behind the Obama campaign's fundraising platform. Kyle mentioned [Jekyll](http://jekyllrb.com/), a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated CMS.
 

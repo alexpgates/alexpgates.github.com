@@ -1,6 +1,6 @@
-Title: Pack Presents at 1 Million Cups
+Title: Video: Pack Presents at 1 Million Cups
 Date: 2014-04-05
-Summary: 
+Summary: John Hobbs, Paul Graff, and me talk about Pack at 1 Million Cups in Omaha.
 Slug: pack-presents-at-1-million-cups
 Tags: Pack, speaking
 
