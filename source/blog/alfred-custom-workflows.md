@@ -1,21 +1,23 @@
-Title: Working Smarter, with Alfred
-Date: 2014-07-03
-Summary: How I use Alfred to make work (and play) more efficient. 
-Slug: working-smarter-with-alfred
-Tags: Productivity, Mac
-Status: draft
+Title: Working Smarter with Alfred: Custom Workflows
+Date: 2014-07-10
+Summary: 
+Slug: working-smarter-with-alfred-custom-workflows
+Tags: Alfred, Productivity, Mac
+Status: Draft
 
 <div class="row text-center">
     <img src="/static/images/alfred-logo.png" alt="Alfred logo">
 </div>
 
-### Hello Alfred!
+_Something here about this being the send part in the series. Also, obviously clean this up to remove the stuff about custom web searches._
+
+### Hello again, Alfred!
 
 <a href="http://alfredapp.com">Alfred</a> is a productivity application for Mac OS X.
 
 Out of the box, it's a tremendously useful tool that helps you quickly launch apps with a few keystrokes or self-assigned hotkeys. 
 <div class="row text-center">
-    <img src="/static/images/alfred-launch-sparrow.png" alt="Launching apps with Alfred">
+    <img src="/static/images/alfred-launch-chrome.png" alt="Launching apps with Alfred">
 </div>
 You can use Alfred to search all sorts of websites.
 
@@ -29,31 +31,35 @@ You can even do lots of little things right inside Alfred, like perform quick ca
     <img src="/static/images/alfred-calculator.png" alt="Alfred calculator">
 </div>
 
-### Upgrade, seriously
+### Step one: buy the Powerpack
 
-To get the most out of Alfred, you need to <a href="http://www.alfredapp.com/powerpack/">buy the Powerpack</a>. The Powerpack gives you the ability to create and import workflows, access clipboard history, manage a snippet library, create custom web searches, and import beautiful custom themes.
+To create custom web searches (and get the most out of Alfred), you need to <a href="http://www.alfredapp.com/powerpack/">buy the Powerpack</a>. In addition to creating custom web searches, the Powerpack gives you the ability to create create and import workflows, access clipboard history, manage a snippet library, and import beautiful custom themes.
 
-Without question, the Powerpack is absolutely worth it if you want to adapt Alfred to your personal workflow and make your job easier. It will pay for itself with the time you save.
+We'll get to all those other things in later articles. For now, I'll show you how to use custom web searches to make searching _any site_, including your own custom admin tools, much faster. 
 
-### Use Custom Web Searches for your own Admin tools
+### Use a custom web search to quickly launch any website
 
-Alfred makes it very easy to open frequently used websites and perform searches on many popular sites. You can also create Custom Web Searches for _any_ site that accepts query parameters for searches. 
-
-<div class="row text-center">
-    <img src="/static/images/alfred-web-search.png" alt="Alfred Pack Admin">
-</div>
-
-#### Quickly access frequently used websites
-
-While working on <a href="http://packdog.com">Pack</a>, I frequently open our admin site. Instead of cmd+tabing to Chrome and clicking a bookmark or typing the URL, I simply invoke Alfred (option+space) and begin typing _packadmin_. As soon as Alfred recognizes what I'm typing, I hit enter and Chrome brings up the admin site. 
+While working on <a href="http://packdog.com">Pack</a>, I frequently open our admin site. But instead of cmd+tabing to Chrome and clicking a bookmark or typing the URL, I simply invoke Alfred (_option+space_) and begin typing _packadmin_. As soon as Alfred recognizes what I'm typing, I hit enter and Chrome brings up the admin site. 
 
 <div class="row text-center">
     <img src="/static/images/alfred-pack-admin.png" alt="Alfred Pack Admin">
 </div>
 
-Opening frequently-used websites is incredibly fast and simple with Alfred, no matter which app you are currently using on your Mac.
-<br><br>
-#### Perform searches in a jiffy
+#### Set it up
+
+To set this up for any websites you frequently use, click on _Web Search_ under the _Features_ tab in Alfred Preferences. Then click _Add Custom Search_ at the bottom right.
+
+Add a URL in the _Search URL_ text box, then assign a title (this will appear in Alfred when you start typing). Then set a keyword (this is what you start typing after invoking Alfred to open the website.) Finally, add a nice icon to keep everything nice and fancy.
+
+<div class="row text-center">
+    <img src="/static/images/alfred-custom-search-launch-site.png" class="margin" alt="Set up Alfred to quickly launch any website">
+</div>
+
+After you click _save_, test it out by invoking Alfred and typing your keyword. Now you'll be able to quickly launch this website no matter where you are on your Mac, even if your browser is closed.
+
+---
+
+### Search your own admin site in a jiffy
 
 The Pack admin site gives us a search tool to find dogs by name and users by name or email address. This is something I do multiple times per day.
 
@@ -65,25 +71,21 @@ To search for a dog, I simply invoke Alfred using my Alfred hotkey (option+space
     <img src="/static/images/alfred-pack-dogs.png" alt="Alfred Pack Dog Search">
 </div>
 
-To search for a user, I start typing _human_ then tab, then the name or email address of the Pack user I want to find.
+To search for a user, I start typing _human_ then tab, then the name or email address of the Pack user I want to find. After hitting enter, I'm taken directly to the search results.
 
 <div class="row text-center">
     <img src="/static/images/alfred-pack-humans.png" alt="Alfred Pack Human Search">
 </div>
 
-After hitting enter, I'm taken directly to the search results page in Pack admin. 
+#### Set it up
 
-#### Set up your own Custom Web Search
+Setting up a custom web search is easy. In order for this to work, though, you need the name of the query parameter used in your search results. In my case, it's <code>search</code>. YouTube, for example, uses <code>search_query</code>. The easiest way to find this is to perform a search using the regular search field, then look for anything that comes after the <code>?</code> in the URL. 
 
-Setting up a custom web search is easy. From the Web Search setting under the Features tab, just click Add Custom Search on the bottom right of the screen. Add the URL for your results page in the _Search URL_ field. <code>{query}</code> is the variable that is passed from the Alfred window.
-
-Dropping in an icon will keep things looking nice and fancy, too.
+Like the first example, add this in the _Web Search_ pane under the _Features_ tab in Alfred Preferences. Click Add Custom Search on the bottom right of the screen. Then add the URL for your results page in the _Search URL_ field. Use <code>{query}</code> as the variable that is passed from the Alfred window. Finally, set your title, keyword, and icon.
 
 <div class="row text-center">
     <img src="/static/images/alfred-custom-search-setup.png" class="margin" alt="Alfred Pack Admin">
 </div>
-
-Save time by creating Custom Web Searches for any site that you frequently search.  
 
 <hr>
 
