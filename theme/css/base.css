@@ -99,8 +99,12 @@ p.pull-right > #archive-link {
   padding:10px;
 }
 
-.footer-social {
+.call {
   display: none;
+}
+
+footer i {
+  padding:15px;
 }
 
 .top-hr {
@@ -173,8 +177,13 @@ footer .projects{
 list-style: disc;
 }
 
-footer img {
-  margin:10px;
+.built {
+  font-size: small;
+  padding-top: 50px;
+}
+
+.spb {
+  padding-top:15px;
 }
 
 footer h5 {
@@ -284,11 +293,6 @@ hr {
   padding-top:20px;
 }
 
-.call{
-  display:none;
-  font-family: Arial, sans-serif;
-}
-
 blockquote {
   color: #939393;
 }
@@ -318,9 +322,6 @@ blockquote {
   .footer-social i {
     padding:15px;
   }
-  .call i {
-    padding-left: 0px;
-  }
   .footer-social {
     display:block;
   }
@@ -341,8 +342,7 @@ blockquote {
     margin-top: 0px;
   }
   .call {
-    display:block;
-    font-family: Arial, sans-serif;
+    display:inline;
   }
   h1.sitename{
     font-size:15px;
