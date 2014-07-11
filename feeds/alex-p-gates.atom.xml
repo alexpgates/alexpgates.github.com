@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/alex-p-gates.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-07-03T00:00:00-05:00</updated><entry><title>Working Smarter with Alfred: Custom Web Searches</title><link href="http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-custom-web-searches" rel="alternate"></link><updated>2014-07-03T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</id><summary type="html">&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Meet&amp;nbsp;Alfred!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://alfredapp.com"&gt;Alfred&lt;/a&gt; is a productivity application for Mac &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;nbsp;X.&lt;/p&gt;
+&lt;p&gt;Out of the box, it&amp;#8217;s a tremendously useful tool that helps you quickly launch apps with a few keystrokes or self-assigned hotkeys. 
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-launch-chrome.png" alt="Launching apps with Alfred"&gt;
+&lt;/div&gt;
+You can use Alfred to search all sorts of&amp;nbsp;websites.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-search-youtube.png" alt="Search YouTube with Alfred"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can even do lots of little things right inside Alfred, like perform quick&amp;nbsp;calculations&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-calculator.png" alt="Alfred calculator"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Step one: buy the&amp;nbsp;Powerpack&lt;/h3&gt;
+&lt;p&gt;To create custom web searches (and get the most out of Alfred), you need to &lt;a href="http://www.alfredapp.com/powerpack/"&gt;buy the Powerpack&lt;/a&gt;. In addition to creating custom web searches, the Powerpack gives you the ability to create create and import workflows, access clipboard history, manage a snippet library, and import beautiful custom&amp;nbsp;themes.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ll get to all those other things in later articles in this series. For now, I&amp;#8217;ll show you how to use custom web searches to make opening and searching &lt;em&gt;any site&lt;/em&gt;, including your own custom admin tools, much more&amp;nbsp;efficient. &lt;/p&gt;
+&lt;h3&gt;Use a custom web search to quickly launch any&amp;nbsp;website&lt;/h3&gt;
+&lt;p&gt;While working on &lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt;, I frequently open our admin site. Instead of &lt;em&gt;cmd+tabing&lt;/em&gt; to Chrome and clicking a bookmark or typing the &lt;span class="caps"&gt;URL&lt;/span&gt;, I simply invoke Alfred (&lt;em&gt;option+space&lt;/em&gt;) and begin typing &lt;em&gt;packadmin&lt;/em&gt;. As soon as Alfred recognizes what I&amp;#8217;m typing, I hit enter and Chrome brings up the admin site. Like&amp;nbsp;magic.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-pack-admin.png" alt="Alfred Pack Admin"&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Set it&amp;nbsp;up&lt;/h4&gt;
+&lt;p&gt;To set this up for any website, click on &lt;em&gt;Web Search&lt;/em&gt; under the &lt;em&gt;Features&lt;/em&gt; tab in Alfred Preferences. Then click &lt;em&gt;Add Custom Search&lt;/em&gt; at the bottom&amp;nbsp;right.&lt;/p&gt;
+&lt;p&gt;Add a &lt;span class="caps"&gt;URL&lt;/span&gt; in the &lt;em&gt;Search &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/em&gt; text box, then assign a title (this will appear in Alfred when you start typing). Then set a keyword (this is what you start typing after invoking Alfred to open the website.) Finally, add a nice icon to keep everything looking&amp;nbsp;fancy.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-custom-search-launch-site.png" class="margin" alt="Set up Alfred to quickly launch any website"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After you click &lt;em&gt;save&lt;/em&gt;, test it out by invoking Alfred and typing your keyword. Now you&amp;#8217;ll be able to quickly launch this website no matter where you are on your Mac, even if your browser is&amp;nbsp;closed.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Search in a&amp;nbsp;jiffy&lt;/h3&gt;
+&lt;p&gt;The Pack admin site gives us a search tool to find dogs by name and users by name or email address. This is something I do multiple times per&amp;nbsp;day.&lt;/p&gt;
+&lt;p&gt;Instead of opening the admin site and performing a search from a search field, Alfred allows me to skip the middleman and go directly to the search&amp;nbsp;results.&lt;/p&gt;
+&lt;p&gt;To search for a dog, I simply invoke Alfred and type &lt;em&gt;dog&lt;/em&gt; followed by a tab, and the name of the dog I&amp;#8217;m looking&amp;nbsp;for.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-pack-dogs.png" alt="Alfred Pack Dog Search"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To search for a user, I start typing &lt;em&gt;human&lt;/em&gt; then tab, then the name or email address of the Pack user I want to find. After hitting enter, I&amp;#8217;m taken directly to the search&amp;nbsp;results.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-pack-humans.png" alt="Alfred Pack Human Search"&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Set it&amp;nbsp;up&lt;/h4&gt;
+&lt;p&gt;Setting up a custom web search is easy. In order for this to work, though, you need the name of the query parameter used in your search results. In my case, it&amp;#8217;s &lt;code&gt;search&lt;/code&gt;. YouTube, for example, uses &lt;code&gt;search_query&lt;/code&gt;. The easiest way to find this is to perform a search using the regular search field, then look at everything that comes after the &lt;code&gt;?&lt;/code&gt; in the &lt;span class="caps"&gt;URL&lt;/span&gt; on your results page. You&amp;#8217;ll find&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;Like the first example, add this in the &lt;em&gt;Web Search&lt;/em&gt; pane under the &lt;em&gt;Features&lt;/em&gt; tab in Alfred Preferences. Click Add Custom Search on the bottom right of the screen. Then add the &lt;span class="caps"&gt;URL&lt;/span&gt; for your results page in the &lt;em&gt;Search &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/em&gt; field. Use &lt;code&gt;{query}&lt;/code&gt; as the variable that is passed from the Alfred window. Finally, set your title, keyword, and&amp;nbsp;icon.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-custom-search-setup.png" class="margin" alt="Alfred Pack Admin"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That&amp;#8217;s it! Adding custom web searches is a great way to save keystrokes, mouse clicks, and page loads. Plus, when your co-workers notice what you&amp;#8217;ve done, they&amp;#8217;ll think you&amp;#8217;re super&amp;nbsp;smart.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Go!&lt;/h3&gt;
+&lt;p&gt;Alfred can do &lt;em&gt;a lot&lt;/em&gt; of things to help speed up your workflow. The trick is to take things slowly and add these improvements to your workflow over time. If you try to cram too many things in at once, you&amp;#8217;ll never remember them all, and you&amp;#8217;ll easily fall back into old, wasteful&amp;nbsp;habits.&lt;/p&gt;
+&lt;p&gt;Custom web searches are a perfect first step to learning Alfred. Master this, then you&amp;#8217;ll be ready for the next article in the &lt;em&gt;Working Smarter with Alfred&lt;/em&gt; series: &lt;em&gt;Custom&amp;nbsp;Workflows.&lt;/em&gt; &lt;/p&gt;</summary><category term="Alfred"></category><category term="Productivity"></category><category term="Mac"></category></entry><entry><title>Video: Pack Presents at 1 Million Cups</title><link href="http://alexpgates.com/blog/2014/04/pack-presents-at-1-million-cups" rel="alternate"></link><updated>2014-04-05T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-04-05:blog/2014/04/pack-presents-at-1-million-cups</id><summary type="html">&lt;p&gt;&lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; was invited to present at &lt;a href="http://www.1millioncups.com/"&gt;1 Million Cups&lt;/a&gt; in Omaha on April 2, 2014. Here&amp;#8217;s a video of our&amp;nbsp;presentation.&lt;/p&gt;
+&lt;h3&gt;Pack, in six&amp;nbsp;minutes&lt;/h3&gt;
+&lt;div class="videoWrapper"&gt;
+&lt;iframe src="//player.vimeo.com/video/90800707?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Thank&amp;nbsp;you!&lt;/h3&gt;
+&lt;p&gt;Thanks to &lt;a href="http://www.nebraskaentrepreneurship.com/"&gt;Nebraska Entrepreneurship&lt;/a&gt; for recording and publishing the video. And big thanks to the &lt;a href="http://omaha.sites.1millioncups.com/"&gt;Omaha 1 Million Cups&lt;/a&gt; organizers for inviting&amp;nbsp;us!&lt;/p&gt;</summary><category term="Pack"></category><category term="speaking"></category></entry><entry><title>Scanning Colors to Philips Hue</title><link href="http://alexpgates.com/blog/2013/11/scanning-colors-to-hue" rel="alternate"></link><updated>2013-11-17T00:00:00-06:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-11-17:blog/2013/11/scanning-colors-to-hue</id><summary type="html">&lt;div class="videoWrapper"&gt;
+&lt;iframe src="//player.vimeo.com/video/100126411?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;What is&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/alexpgates/color-scan"&gt;color-scan&lt;/a&gt; grabs the dominant color(s) from images and passes the color(s) to &lt;a href="https://www.meethue.com/en-US"&gt;Philips Hue lights&lt;/a&gt;. You can decide if you want to send the main color to a group of lights, or individual colors to individual lights. It also works with scanned photos, of course, or with any jpeg that you drop in the directory. You don&amp;#8217;t actually &lt;em&gt;need&lt;/em&gt; the&amp;nbsp;scanner.&lt;/p&gt;
+&lt;p&gt;You can can decide whether you want the main dominant color on all your lights &lt;code&gt;$color_mode = 'single';&lt;/code&gt;, or if you&amp;#8217;d like to grab a palette of colors to send to individual bulbs &lt;code&gt;$color_mode = 'multi';&lt;/code&gt;. The example in the video demonstrates using the &amp;#8220;single&amp;#8221; color&amp;nbsp;mode.&lt;/p&gt;
+&lt;h3&gt;How does it&amp;nbsp;work?&lt;/h3&gt;
+&lt;p&gt;When the process script is called, it grabs the latest image from a directory. Color Thief handles the color quantization and provides &lt;span class="caps"&gt;RGB&lt;/span&gt; colors. &lt;span class="caps"&gt;RGB&lt;/span&gt; is converted to the the xy color space, then sent to your Hue&amp;nbsp;bridge.&lt;/p&gt;
+&lt;h3&gt;Where can I get&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;Please &lt;a href="https://github.com/alexpgates/color-scan"&gt;fork it&lt;/a&gt; from&amp;nbsp;GitHub!&lt;/p&gt;
+&lt;h3&gt;How do the settings&amp;nbsp;work?&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class="nv"&gt;$color_mode&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;multi&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// &amp;quot;multi&amp;quot; or &amp;quot;single&amp;quot;&lt;/span&gt;
+&lt;span class="c1"&gt;// &amp;quot;multi&amp;quot; uses different colors for each light (defined in $light_ids), &lt;/span&gt;
+&lt;span class="c1"&gt;// &amp;quot;single&amp;quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)&lt;/span&gt;
+
+&lt;span class="nv"&gt;$light_ids&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="c1"&gt;// ids of your Hue lights that you want to use with color-scan&lt;/span&gt;
+&lt;span class="c1"&gt;// Grab these from your bridge. http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+
+&lt;span class="nv"&gt;$brightness&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="c1"&gt;// 0 - 255 http://developers.meethue.com/1_lightsapi.html&lt;/span&gt;
+
+&lt;span class="nv"&gt;$group_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// must be set  if using single color mode;&lt;/span&gt;
+&lt;span class="c1"&gt;// Grab this from your bridge. http://developers.meethue.com/2_groupsapi.html&lt;/span&gt;
+
+&lt;span class="nv"&gt;$path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/path/to/your/images/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="c1"&gt;// directory where you want to look for an image to process&lt;/span&gt;
+
+&lt;span class="nv"&gt;$bridge&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;x.x.x.x&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// ip address of your internal bridge&lt;/span&gt;
+
+&lt;span class="nv"&gt;$hue_key&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;hue-user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="c1"&gt;// valid api user&lt;/span&gt;
+
+&lt;span class="c1"&gt;//$debug = &amp;#39;debug&amp;#39;; // uncomment this for some debug info&lt;/span&gt;
+&lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;small&gt;*Note: color-scan doesn&amp;#8217;t handle registering a user on your bridge. You&amp;#8217;ll need to handle that &lt;a href="http://developers.meethue.com/4_configurationapi.html"&gt;on your own&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;h3&gt;How do I use&amp;nbsp;this?&lt;/h3&gt;
+&lt;p&gt;After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in &lt;code&gt;$path&lt;/code&gt;. Then run&amp;nbsp;process.php.&lt;/p&gt;
+&lt;h3&gt;Why did you make this (totally useless)&amp;nbsp;thing?&lt;/h3&gt;
+&lt;p&gt;For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image with the press of a&amp;nbsp;button.&lt;/p&gt;
+&lt;p&gt;I pulled that all together with color-scan + the addition of a folder action in &lt;span class="caps"&gt;OS&lt;/span&gt; X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&amp;#8217;s all triggered by pressing the button on my&amp;nbsp;scanner.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;Can&amp;#8217;t you already do this with digital images and the Hue&amp;nbsp;app?&lt;/h3&gt;
+&lt;p&gt;Yes. But I just got this fancy new scanner and I wanted to hook it up to my light&amp;nbsp;bulbs!&lt;/p&gt;
+&lt;h3&gt;Dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This uses a &lt;a href="https://github.com/ksubileau/color-thief-php"&gt;color-thief-php&lt;/a&gt; by &lt;a href="http://kevinsubileau.fr"&gt;Kevin Subileau&lt;/a&gt;, which is a port of &lt;a href="https://github.com/lokesh/color-thief," title="Color Thief"&gt;Color Thief&lt;/a&gt; written by &lt;a href="http://lokeshdhakar.com/"&gt;Lokesh&amp;nbsp;Dhakar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; (Only tested in 5.3.6) with&amp;nbsp;cURL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;color-scan is &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;nbsp;licensed.&lt;/p&gt;
+&lt;p&gt;Color Thief has it&amp;#8217;s own license, so check &lt;a href="https://github.com/lokesh/color-thief"&gt;here&lt;/a&gt; and &lt;a href="https://github.com/ksubileau/color-thief-php"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Want more&amp;nbsp;Hue?&lt;/h3&gt;
+&lt;p&gt;Here&amp;#8217;s an &lt;a href="/blog/2013/04/voice-controlled-hue.html"&gt;earlier post&lt;/a&gt; about using voice commands and weather data to control these&amp;nbsp;lights.&lt;/p&gt;</summary><category term="Philips Hue"></category><category term="PHP"></category><category term="color quantization"></category></entry><entry><title>“Hello world! … Hello world!” with annyang.js &amp; speak.js</title><link href="http://alexpgates.com/blog/2013/09/annyang-js-and-speak-js" rel="alternate"></link><updated>2013-09-19T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-09-19:blog/2013/09/annyang-js-and-speak-js</id><summary type="html">&lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; sent me a link to &lt;a href="https://www.talater.com/annyang/"&gt;annyang.js&lt;/a&gt; by &lt;a href="https://github.com/TalAter"&gt;Tal Ater&lt;/a&gt; because he thought it&amp;#8217;d be right up my alley. (He&amp;#8217;s right! It is! And it&amp;#8217;s not just for the &lt;a href="https://twitter.com/talater/status/380059244017356800"&gt;Arrested Development reference&lt;/a&gt;!)&lt;/p&gt;
+&lt;h3&gt;annyang.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.talater.com/annyang/"&gt;Annyang&lt;/a&gt; is &amp;#8220;a tiny javascript library that lets your users control your site with voice commands.&amp;#8221; It can do a lot for weighing in less than 1k. Annyang uses browser-based WebSpeech APIs and your computers microphone to translate speech-to-text and respond according to your commands. Annyang handles some pretty complex commands using variables, wildcards, optional ignoring, etc. There&amp;#8217;s a lot of great possibilities with annyang, and when I have some extra time I plan on using it to control a set of &lt;a href="https://www.meethue.com"&gt;Hue lights&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t have a lot of extra play time at the moment, but I wanted to quickly throw something together to try&amp;nbsp;annyang. &lt;/p&gt;
+&lt;h3&gt;speak.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/kripken/speak.js/"&gt;Speak.js&lt;/a&gt;, by &lt;a href="https://github.com/kripken"&gt;Alon Zakai&lt;/a&gt; is a javascript port of the eSpeak speech synthesizer. Speak.js enables text-to-speech in the browser using JavaScript and&amp;nbsp;&lt;span class="caps"&gt;HTML5&lt;/span&gt;.&lt;/p&gt;
+&lt;h3&gt;Putting them&amp;nbsp;together&lt;/h3&gt;
+&lt;p&gt;Combining annyang.js and speak.js seemed like fun, so I created &lt;a href="http://webjam.org/speak/" target="_blank"&gt;a little demo&lt;/a&gt;. Annyang.js listens to what you say, and speak.js repeats it back to&amp;nbsp;you.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;speakClient.js&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;annyang.min.js&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;audio&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;type=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    if (annyang) {
+
+      var sayThis = function(repeat) {
+        speak(repeat);
+      }
+
+      // Let&amp;#39;s define a command.
+      var commands = {
+        &amp;#39;*repeat&amp;#39;: sayThis
+      };
+
+      // Turn on debugging for the console
+      annyang.debug();
+
+      // Initialize annyang with our commands
+      annyang.init(commands);
+
+      // Start listening.
+      annyang.start();
+    }
+  &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the above example, we begin by checking to see if annyang will work in this browser. If so, we define a function called &lt;code&gt;sayThis&lt;/code&gt; that takes the output from our wildcard variable in annyong called &lt;code&gt;*repeat&lt;/code&gt; and uses the speak.js function &lt;code&gt;speak()&lt;/code&gt; to output a .wav file to &lt;code&gt;&amp;lt;div id="audio"&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://webjam.org/speak/" target="_blank"&gt;Try the demo&amp;nbsp;&amp;raquo;&lt;/a&gt;&lt;/p&gt;</summary><category term="Javascript"></category></entry><entry><title>What’s Under the Hood?</title><link href="http://alexpgates.com/blog/2013/06/whats-under-the-hood" rel="alternate"></link><updated>2013-06-22T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-06-22:blog/2013/06/whats-under-the-hood</id><summary type="html">&lt;p&gt;Many months ago, &lt;a href="http://christopherkollars.com"&gt;a buddy&lt;/a&gt; sent me &lt;a href="http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/"&gt;this article&lt;/a&gt; written by &lt;a href="http://kylerush.net/"&gt;Kyle Rush&lt;/a&gt; about the technology stack behind the Obama campaign&amp;#8217;s fundraising platform. Kyle mentioned &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, a static site generator written in Ruby, and recommended giving it a whirl to create fast, simple websites without the need for a bloated&amp;nbsp;&lt;span class="caps"&gt;CMS&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not a Ruby guy, and despite making an attempt to get things working properly on my Mac, I backed out of the rabbit hole and instead decided to give &lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; a try. It&amp;#8217;s written in Python, and uses the &lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; templating&amp;nbsp;language.  &lt;/p&gt;
+&lt;p&gt;To get up and running, I followed &lt;a href="http://martinbrochhaus.com/pelican.html"&gt;this&lt;/a&gt; handy (but now outdated) guide by &lt;a href="http://martinbrochhaus.com"&gt;Martin Brochhaus&lt;/a&gt;. &lt;small&gt;(Note: Here&amp;#8217;s Martin&amp;#8217;s &lt;a href="http://martinbrochhaus.com/pelican2.html"&gt;updated guide&lt;/a&gt;.)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;After getting everything configured and deployed to &lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt;, I started working on an &lt;em&gt;ugly&lt;/em&gt; theme based off the default Pelican template. I never finished it. Then, &lt;a href="http://whatcheer.com"&gt;What Cheer&lt;/a&gt; announced our &lt;a href="http://whatcheer.com/pack/"&gt;transition&lt;/a&gt; to &lt;a href="http://packlove.com"&gt;Pack&lt;/a&gt;, and things got pretty busy for a&amp;nbsp;while.&lt;/p&gt;
+&lt;h3&gt;Fast-forward six&amp;nbsp;months&lt;/h3&gt;
+&lt;p&gt;I picked things up again a couple weeks ago after reading about the &lt;a href="http://blog.getpelican.com/pelican-3.2-released.html"&gt;updates&lt;/a&gt; to Pelican. I began piecing together this current theme using &lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt;. (I haven&amp;#8217;t worked with any other front-end frameworks, but I&amp;#8217;ve been using it on &lt;a href="http://news.packlove.com/admin/"&gt;some stuff&lt;/a&gt; I&amp;#8217;m building with Pack, and also a &lt;a href="http://yearbooks.edison-pta.org"&gt;Yearbook project&lt;/a&gt; for the &lt;span class="caps"&gt;PTA&lt;/span&gt;.) I like it. Since the bulk of my front-end development happened between 1996 and 2004, it&amp;#8217;s allowed me get back in the game pretty&amp;nbsp;quickly.&lt;/p&gt;
+&lt;h3&gt;A complete list of&amp;nbsp;tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.getpelican.com/en/latest/"&gt;Pelican&lt;/a&gt; - A static site generator written in&amp;nbsp;Python&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; - A templating language for Python used to create Pelican&amp;nbsp;themes&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; - A lightweight markup language to quickly write&amp;nbsp;content&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://twitter.github.io/bootstrap/"&gt;Bootstrap&lt;/a&gt; - A  front-end framework - helpful for responsive&amp;nbsp;development&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/fonts/"&gt;Google Fonts&lt;/a&gt; - For nicer&amp;nbsp;fonts&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pygments.org/"&gt;Pygments&lt;/a&gt; - For syntax&amp;nbsp;highlighting&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican-typogrify"&gt;Typogrify&lt;/a&gt; - To fancy up the text a&amp;nbsp;bit&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.fabfile.org/en/1.6/"&gt;Fabric&lt;/a&gt; - To streamline&amp;nbsp;deployment&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt; - Fast, reliable&amp;nbsp;hosting &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The&amp;nbsp;process&lt;/h3&gt;
+&lt;h4&gt;Install&amp;nbsp;Pelican&lt;/h4&gt;
+&lt;p&gt;Again, here&amp;#8217;s Martin Brochhaus&amp;#8217; &lt;a href="http://martinbrochhaus.com/pelican2.html"&gt;updated guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Create your first&amp;nbsp;post&lt;/h4&gt;
+&lt;p&gt;Include your metadata at the top. &lt;small&gt;(More &lt;a href="http://docs.getpelican.com/en/latest/getting_started.html#writing-content-using-pelican"&gt;here&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Title: What&amp;#39;s Under the Hood?
+Date: 2013-06-22
+Summary: From Markdown to static HTML, by way of Pelican, Jinja2, Bootstrap, and more.
+Slug: whats-under-the-hood
+Tags: Pelican, Boostrap, Github
+
+Many months ago, [a buddy](http://christopherkollars.com) sent me ...
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Preview!&lt;/h4&gt;
+&lt;p&gt;I use two separate config files for Pelican. One uses relative URLs (so I can preview locally), and the other generates absolute URLs for production. To avoid typing the full Pelican commands to generate the output, I use this&amp;nbsp;fabfile.py:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Fabric tasks for generating &lt;span class="caps"&gt;HTML&lt;/span&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+from __future__ import with_statement
+
+from fabric.api import lcd, &lt;span class="nb"&gt;local&lt;/span&gt;, settings
+
+def pub&lt;span class="o"&gt;()&lt;/span&gt;:
+    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output using absolute urls.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican . -o ../ -s settings.py&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+
+def dev&lt;span class="o"&gt;()&lt;/span&gt;:
+    &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;Re-generates the output using relative urls.&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican . -o ../ -s local_settings.py&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Preview&amp;nbsp;locally&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;fab dev
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then I check it out on my local&amp;nbsp;vhost.&lt;/p&gt;
+&lt;h4&gt;Deploy&lt;/h4&gt;
+&lt;p&gt;If everything looks okay, I generate the &lt;span class="caps"&gt;HTML&lt;/span&gt; with absolute&amp;nbsp;URLs.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;fab pub
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then simply commit my changes to&amp;nbsp;Github.&lt;/p&gt;
+&lt;h3&gt;So far, so&amp;nbsp;good&lt;/h3&gt;
+&lt;p&gt;I&amp;#8217;m the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of old &lt;span class="caps"&gt;NES&lt;/span&gt; games. I&amp;#8217;m optimistic that an easy, fast, and fun way to manage a new blog will encourage me to get my act together and finally start writing somewhat&amp;nbsp;regularly.&lt;/p&gt;
+&lt;h3&gt;Get the&amp;nbsp;theme&lt;/h3&gt;
+&lt;p&gt;Fork the current version of this theme on &lt;a href="https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg"&gt;github&lt;/a&gt;. It really wasn&amp;#8217;t built with with sharing in mind, but you&amp;#8217;re free to use what you&amp;nbsp;can!&lt;/p&gt;</summary><category term="Pelican"></category><category term="Bootstrap"></category><category term="Github"></category></entry><entry><title>Voice &amp; Weather Controlled Philips Hue Lights</title><link href="http://alexpgates.com/blog/2013/04/voice-controlled-hue" rel="alternate"></link><updated>2013-04-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2013-04-27:blog/2013/04/voice-controlled-hue</id><summary type="html">&lt;h3&gt;Voice&amp;nbsp;control&lt;/h3&gt;
+&lt;p&gt;This is a very simple demonstration of using voice commands to control Philips Hue light bulbs. In this example, I&amp;#8217;m using Chrome&amp;#8217;s x-webkit-speech speech input and &lt;a href="https://github.com/danray0424/phpHue"&gt;Dan Ray&amp;#8217;s phpHue&lt;/a&gt; to interact with the Hue&amp;nbsp;system.&lt;/p&gt;
+&lt;div class="videoWrapper"&gt;
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/rOW7RapR_d8?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Controlling lights using weather&amp;nbsp;data&lt;/h3&gt;
+&lt;p&gt;Here&amp;#8217;s a lightning talk I gave at &lt;a href="http://nebraskajs.com"&gt;NebraskaJS&lt;/a&gt; about Hue and this voice controlled application, and how I&amp;#8217;m also using weather data to control these&amp;nbsp;lights.&lt;/p&gt;
+&lt;div class="videoWrapper"&gt;
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/wsFSLDluypk?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;Thanks &lt;a href="http://techomaha.com/"&gt;TechOmaha&lt;/a&gt; for the video!&lt;/small&gt;&lt;/p&gt;</summary><category term="Philips Hue"></category></entry></feed>
