@@ -6,7 +6,7 @@ Tags: Twilio, PHP, SMS
 
 ### Keep the whole group in the loop
 
-During my first year as an Industory Advisor at <a href="http://www.businesshorizonsiowa.org/">Business Horizons</a> (a week-long summer program for Iowa high school students) it occurred to me that we really didn't have a way for everyone to quickly get messages to the group in the event of a schedule change or emergency.
+During my first year as an Industry Advisor at <a href="http://www.businesshorizonsiowa.org/">Business Horizons</a> (a week-long summer program for Iowa high school students) it occurred to me that we really didn't have a way for everyone to quickly get messages to the group in the event of a schedule change or emergency.
 
 There were about 20 or so advisors. Some had iPhones, some had Androids, and some had flip-phones. 
 
