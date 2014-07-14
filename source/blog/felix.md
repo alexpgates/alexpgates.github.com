@@ -1,6 +1,6 @@
 Title: Felix: a PHP / Twilio Group Messaging Tool
 Date: 2014-07-14
-Summary: Group Texter is an easy way to keep the whole group in the loop.
+Summary: Keep the whole group in the loop.
 Slug: group-texting-with-php-and-twilio
 Tags: Twilio, PHP, SMS
 
