@@ -153,8 +153,9 @@ h1.sitename{
 }
 
 .entry-content li{
-  margin: 20px 0;
-  line-height: 30px;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 footer {

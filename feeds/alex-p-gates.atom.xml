@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/alex-p-gates.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-07-03T00:00:00-05:00</updated><entry><title>Working Smarter with Alfred: Custom Web Searches</title><link href="http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-custom-web-searches" rel="alternate"></link><updated>2014-07-03T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</id><summary type="html">&lt;div class="row text-center"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/alex-p-gates.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-07-14T00:00:00-05:00</updated><entry><title>Felix: a PHP / Twilio Group Messaging Tool</title><link href="http://alexpgates.com/blog/2014/07/group-texting-with-php-and-twilio" rel="alternate"></link><updated>2014-07-14T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-14:blog/2014/07/group-texting-with-php-and-twilio</id><summary type="html">&lt;h3&gt;Keep the whole group in the&amp;nbsp;loop&lt;/h3&gt;
+&lt;p&gt;During my first year as an Industory Advisor at &lt;a href="http://www.businesshorizonsiowa.org/"&gt;Business Horizons&lt;/a&gt; (a week-long summer program for Iowa high school students) it occurred to me that we really didn&amp;#8217;t have a way for everyone to quickly get messages to the group in the event of a schedule change or&amp;nbsp;emergency.&lt;/p&gt;
+&lt;p&gt;There were about 20 or so advisors. Some had iPhones, some had Androids, and some had&amp;nbsp;flip-phones. &lt;/p&gt;
+&lt;p&gt;In just a couple hours, I put together a &lt;span class="caps"&gt;SMS&lt;/span&gt; tool using &lt;a href="http://twilio.com"&gt;Twilio&lt;/a&gt; that we&amp;#8217;ve used for the last two&amp;nbsp;years.&lt;/p&gt;
+&lt;p&gt;Recently, I updated the tool to use &lt;a href="https://github.com/twilio/twilio-php"&gt;Twilio&amp;#8217;s updated &lt;span class="caps"&gt;PHP&lt;/span&gt; library&lt;/a&gt;, put &lt;a href="https://github.com/alexpgates/felix"&gt;everything on Github&lt;/a&gt;, and named it after my 6-week old baby&amp;nbsp;boy.&lt;/p&gt;
+&lt;h3&gt;No smartphone&amp;nbsp;required&lt;/h3&gt;
+&lt;p&gt;Felix could be very useful for event organizers, summer camp counselors, schools, or anyone looking for an easy and inexpensive way to keep a group connected without requiring anyone to download an app or own a&amp;nbsp;smartphone.&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The onboarding flow allows users to join the group by texting anything to the number, then following simple&amp;nbsp;directions.&lt;/li&gt;
+&lt;li&gt;Members can leave the group by sending: &lt;code&gt;-stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Members can change their nicknames by sending: &lt;code&gt;-name&lt;/code&gt;, followed by their new&amp;nbsp;nickname.&lt;/li&gt;
+&lt;li&gt;The group administrator receives an alert when new members&amp;nbsp;join.&lt;/li&gt;
+&lt;li&gt;All messages are logged in the&amp;nbsp;database.&lt;/li&gt;
+&lt;li&gt;Messages can contain up to 1600&amp;nbsp;characters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Join&amp;nbsp;Flow&lt;/h3&gt;
+&lt;p&gt;Members join the group by texting anything to the phone number. After replying with your name, you&amp;#8217;re all&amp;nbsp;set.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/felix-join-flow.png" width="300px"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Use&lt;/h3&gt;
+&lt;p&gt;As you can see, Felix is also handy for some good old&amp;nbsp;trash-talking.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/felix-use.png" width="300px"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Requirements &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;Setup&lt;/h3&gt;
+&lt;p&gt;Felix requires a Twilio account, a verified phone number, MySQL, &lt;span class="caps"&gt;PHP&lt;/span&gt;, and a web host. Everything you need to know can be found on &lt;a href="https://github.com/alexpgates/felix"&gt;the Github page&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Give it a&amp;nbsp;try!&lt;/h3&gt;
+&lt;p&gt;Feel free to shoot me an email if you have any questions or run in to any issues. If you fix any bugs or add any features, send me a pull request on&amp;nbsp;Github!&lt;/p&gt;
+&lt;p&gt;If this came in handy for your event, I&amp;#8217;d love to hear about&amp;nbsp;it!&lt;/p&gt;</summary><category term="Twilio"></category><category term="PHP"></category><category term="SMS"></category></entry><entry><title>Working Smarter with Alfred: Custom Web Searches</title><link href="http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-custom-web-searches" rel="alternate"></link><updated>2014-07-03T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</id><summary type="html">&lt;div class="row text-center"&gt;
     &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
 &lt;/div&gt;
 
