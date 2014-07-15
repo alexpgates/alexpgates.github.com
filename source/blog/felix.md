@@ -54,3 +54,7 @@ Felix requires a Twilio account, a verified phone number, MySQL, PHP, and a web 
 Feel free to shoot me an email if you have any questions or run in to any issues. If you fix any bugs or add any features, send me a pull request on Github!
 
 If this came in handy for your event, I'd love to hear about it!
+
+<div class="row text-center top-padding download">
+    <a class="btn btn-large" href="https://github.com/alexpgates/felix/archive/master.zip">Download Felix <i class="fa fa-arrow-circle-right"></i></a>
+</div>
