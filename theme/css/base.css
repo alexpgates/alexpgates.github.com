@@ -372,6 +372,11 @@ blockquote {
     font-size: 1.2em;
     padding: 10px;
   }
+
+  h1.entry-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 979px) {
