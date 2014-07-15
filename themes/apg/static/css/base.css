@@ -367,6 +367,10 @@ blockquote {
   #wc-pack {
     text-align:center;
   }
+
+  .fa-2x {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 979px) {
