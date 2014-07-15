@@ -56,5 +56,5 @@ Feel free to shoot me an email if you have any questions or run in to any issues
 If this came in handy for your event, I'd love to hear about it!
 
 <div class="row text-center top-padding download">
-    <a class="btn btn-large" href="https://github.com/alexpgates/felix/archive/master.zip">Download Felix <i class="fa fa-arrow-circle-right"></i></a>
+    <a class="btn btn-large" href="https://github.com/alexpgates/felix/archive/master.zip">Download Felix <i class="fa fa-arrow-circle-down"></i></a>
 </div>

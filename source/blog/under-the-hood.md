@@ -91,5 +91,5 @@ I'm the kind of guy who will spend 15 hours hacking my Wii to play 15 minutes of
 Fork the current version of this theme on [Github](https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg). It really wasn't built with with sharing in mind, but you're free to use what you can!
 
 <div class="row text-center top-padding download">
-    <a class="btn btn-large" href="https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg">Download this theme <i class="fa fa-arrow-circle-right"></i></a>
+    <a class="btn btn-large" href="https://github.com/alexpgates/alexpgates.github.com/tree/master/themes/apg">Download this theme <i class="fa fa-arrow-circle-down"></i></a>
 </div>

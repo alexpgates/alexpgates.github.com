@@ -88,5 +88,5 @@ Color Thief has it's own license, so check [here](https://github.com/lokesh/colo
 Here's an [earlier post](/blog/2013/04/voice-controlled-hue.html) about using voice commands and weather data to control these lights.
 
 <div class="row text-center top-padding download">
-    <a class="btn btn-large" href="https://github.com/alexpgates/color-scan">Download color-scan <i class="fa fa-arrow-circle-right"></i></a>
+    <a class="btn btn-large" href="https://github.com/alexpgates/color-scan">Download color-scan <i class="fa fa-arrow-circle-down"></i></a>
 </div>
