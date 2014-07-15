@@ -32,7 +32,7 @@ Felix could be very useful for event organizers, summer camp counselors, schools
 Members join the group by texting anything to the phone number. After replying with your name, you're all set.
 
 <div class="row text-center">
-    <img src="/static/images/felix-join-flow.png" width="300px">
+    <img src="/static/images/felix-join-flow.png" class="margin" width="300px">
 </div>
 
 ### Use
@@ -40,7 +40,7 @@ Members join the group by texting anything to the phone number. After replying w
 As you can see, Felix is also handy for some good old trash-talking.
 
 <div class="row text-center">
-    <img src="/static/images/felix-use.png" width="300px">
+    <img src="/static/images/felix-use.png" class="margin" width="300px">
 </div>
 
 ### Requirements &amp; Setup
