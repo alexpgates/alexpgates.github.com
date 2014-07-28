@@ -28,7 +28,7 @@ These are just a few examples that barely scratch the surface, but it should be 
 
 There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. Websites like <a href="http://www.alfredworkflow.com/">alfredworkflow.com</a> and <a href="http://www.packal.org/">Packal</a> have hundreds of available Workflows to download for free. You can also find lots of great resources on the <a href="http://www.alfredforum.com/forum/3-share-your-workflows/">Alfred Forum</a>.
 
-If you search around, you'll likely find something that will shave off some time for things you frequently do on your Mac. I've downloaded a few of these, and the following list are Workflows I use quite frequently.
+If you search around, you'll likely find something that will shave off some time for things you frequently do on your Mac. I've downloaded a few of these, and the following list contains Workflows I use quite frequently.
 
 <br>
 #### Super fast GIF Workflow!
@@ -94,7 +94,7 @@ Here are a few Workflows I've put together to help around the office.
 
 There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I'd _cmd+tab_ to my mail program (Sparrow), _cmd+n_ to open a new email. Then I'd start typing each team member's name, followed by tab, until all four were in the _To_ field. _At best_, that's 14 keystrokes. 
 
-With Alfred, I've reduced it to 2.
+With Alfred, I've reduced it to 3.
 
 I just invoke quicksilver, and begin typing _emailpack_.
 
@@ -141,10 +141,6 @@ One feature of Pep Rally I frequently use is the inbox. Adding an item to my inb
 
 Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing _inbox_, then hit tab and start typing what I need to remember. 
 
-<div class="row text-center">
-    <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">
-</div>
-
 <a href="http://velvetcache.org">Hobbs</a> added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a BASH script to use it by selecting <code>/bin/bash</code> from the Language dropdown.
 
     :::bash
@@ -154,6 +150,10 @@ Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfre
     then
     echo "{query}"
     fi
+
+<div class="row text-center">
+    <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">
+</div>
 
 For this Workflow, I added a Post Notification output so Growl alerts me that my task was successfully added. To do this, I clicked the _+_ symbol, then clicked _Outputs_ &#10142; _Post Notification_. With Alfred, you can output to Growl or Notification Center, and set a custom title and text for the notification. Using <code>{query}</code> in either of these fields will use the output from the previous action.
 

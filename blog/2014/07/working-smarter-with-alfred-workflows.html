@@ -73,7 +73,7 @@
 <p>These are just a few examples that barely scratch the surface, but it should be enough to help you grasp the general idea of Alfred Workflows and get excited about downloading or creating your own Workflows to make your job&nbsp;easier.</p>
 <h3>Don&#8217;t reinvent the&nbsp;wheel</h3>
 <p>There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. Websites like <a href="http://www.alfredworkflow.com/">alfredworkflow.com</a> and <a href="http://www.packal.org/">Packal</a> have hundreds of available Workflows to download for free. You can also find lots of great resources on the <a href="http://www.alfredforum.com/forum/3-share-your-workflows/">Alfred Forum</a>.</p>
-<p>If you search around, you&#8217;ll likely find something that will shave off some time for things you frequently do on your Mac. I&#8217;ve downloaded a few of these, and the following list are Workflows I use quite&nbsp;frequently.</p>
+<p>If you search around, you&#8217;ll likely find something that will shave off some time for things you frequently do on your Mac. I&#8217;ve downloaded a few of these, and the following list contains Workflows I use quite&nbsp;frequently.</p>
 <p><br></p>
 <h4>Super fast <span class="caps">GIF</span>&nbsp;Workflow!</h4>
 <p>Pack&#8217;s team is distributed, so we rely on <a href="https://campfirenow.com/">Campfire</a> as a central place for communication. Sometimes text just isn&#8217;t the best avenue to convey emotion, so we (perhaps too frequently) harness the power of animated&nbsp;gifs.</p>
@@ -121,7 +121,7 @@
 </div>
 
 <p>There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I&#8217;d <em>cmd+tab</em> to my mail program (Sparrow), <em>cmd+n</em> to open a new email. Then I&#8217;d start typing each team member&#8217;s name, followed by tab, until all four were in the <em>To</em> field. <em>At best</em>, that&#8217;s 14&nbsp;keystrokes. </p>
-<p>With Alfred, I&#8217;ve reduced it to&nbsp;2.</p>
+<p>With Alfred, I&#8217;ve reduced it to&nbsp;3.</p>
 <p>I just invoke quicksilver, and begin typing <em>emailpack</em>.</p>
 <div class="row text-center">
     <img src="/static/images/alfred-email-pack.png" alt="Alfred Email Pack">
@@ -157,10 +157,6 @@
 <p>At Pack, we use a task collaboration app we built at <a href="http://whatcheer.com">What Cheer</a> called <a href="http://peprallyapp.com">Pep Rally</a>. Unfortunately Pep Rally isn&#8217;t available to the public, but it&#8217;s a tool that we rely on&nbsp;heavily.</p>
 <p>One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I&#8217;m in the middle of completing another&nbsp;task. </p>
 <p>Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing <em>inbox</em>, then hit tab and start typing what I need to&nbsp;remember. </p>
-<div class="row text-center">
-    <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">
-</div>
-
 <p><a href="http://velvetcache.org">Hobbs</a> added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a <span class="caps">BASH</span> script to use it by selecting <code>/bin/bash</code> from the Language&nbsp;dropdown.</p>
 <div class="highlight"><pre><span class="nv">created</span><span class="o">=</span><span class="sb">`</span>/Applications/<span class="caps">MAMP</span>/htdocs/Pep-Rally/peprally_python/scripts/peprally inbox:create <span class="s2">&quot;{query}&quot;</span><span class="sb">`</span>
 
@@ -170,6 +166,10 @@
 <span class="k">fi</span>
 </pre></div>
 
+
+<div class="row text-center">
+    <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">
+</div>
 
 <p>For this Workflow, I added a Post Notification output so Growl alerts me that my task was successfully added. To do this, I clicked the <em>+</em> symbol, then clicked <em>Outputs</em> &#10142; <em>Post Notification</em>. With Alfred, you can output to Growl or Notification Center, and set a custom title and text for the notification. Using <code>{query}</code> in either of these fields will use the output from the previous&nbsp;action.</p>
 <div class="row text-center">
