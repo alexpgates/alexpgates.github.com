@@ -26,7 +26,7 @@ These are just a few examples that barely scratch the surface, but it should be 
 
 ### Don't reinvent the wheel
 
-There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. Websites like <a href="http://www.alfredworkflow.com/">alfredworkflow.com</a> and <a href="http://www.packal.org/">Packal</a> have hundreds of available Workflows to download for free. You can also find lots of great resources in the <a href="http://www.alfredforum.com/forum/3-share-your-workflows/">Alfred Forum</a>.
+There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. Websites like <a href="http://www.alfredworkflow.com/">alfredworkflow.com</a> and <a href="http://www.packal.org/">Packal</a> have hundreds of available Workflows to download for free. You can also find lots of great resources on the <a href="http://www.alfredforum.com/forum/3-share-your-workflows/">Alfred Forum</a>.
 
 If you search around, you'll likely find something that will shave off some time for things you frequently do on your Mac. I've downloaded a few of these, and the following list are Workflows I use quite frequently.
 
@@ -47,7 +47,7 @@ This Workflow allows you to harvest your own GIFs and store them in a public fol
 
 #### Don't forget about emoji!
 
-<a href="https://github.com/carlosgaldino/alfred-emoji-workflow">Carlos Galdino's Alfred Emoji Workflow</a> is the emoji equivalent of the gif Workflow. Sometimes a reply just calls for something small, so Carlos has you covered.
+<a href="https://github.com/carlosgaldino/alfred-emoji-workflow">Carlos Galdino's Alfred Emoji Workflow</a> is the emoji equivalent of the GIF Workflow. Sometimes a reply just calls for something small, so Carlos has you covered.
 
 <div class="row text-center">
     <a href="https://github.com/carlosgaldino/alfred-emoji-workflow"><img src="/static/images/alfred-emoji-workflow.png" alt="emoji workflow"></a>
