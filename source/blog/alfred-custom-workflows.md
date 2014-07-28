@@ -36,7 +36,7 @@ If you search around, you'll likely find something that will shave off some time
 Pack's team is distributed, so we rely on <a href="https://campfirenow.com/">Campfire</a> as a central place for communication. Sometimes text just isn't the best avenue to convey emotion, so we (perhaps too frequently) harness the power of animated gifs.
 
 <div class="row text-center">
-    <img src="/static/images/alfred-dog-pug-wut.gif" class="margin" alt="pug wut">
+    <a href="http://destroytoday.com/blog/gif-workflow/"><img src="/static/images/alfred-dog-pug-wut.gif" class="margin" alt="pug wut"></a>
 </div>
 
 It's <a href="https://dl.dropboxusercontent.com/u/2227623/gifs/obama-kidding-me.gif">a proven fact</a> that the hilarity of a gif reply diminishes over time, so it's absolutely essential to be quick with your response. <a href="http://destroytoday.com/blog/gif-workflow/">Jonnie Hallman's GIF Workflow</a> can help.
