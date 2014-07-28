@@ -1,5 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Jul 2014 00:00:00 -0500</lastBuildDate><item><title>Felix: a PHP / Twilio Group Messaging Tool</title><link>http://alexpgates.com/blog/2014/07/group-texting-with-php-and-twilio</link><description>&lt;h3&gt;Keep the whole group in the&amp;nbsp;loop&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 27 Jul 2014 00:00:00 -0500</lastBuildDate><item><title>Working Smarter with Alfred: Workflows</title><link>http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-workflows</link><description>&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Hello again,&amp;nbsp;Alfred!&lt;/h3&gt;
+&lt;p&gt;This is the second post in a series on &lt;a href="http://alfredapp.com"&gt;Alfred&lt;/a&gt;, a productivity application for Mac &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;nbsp;X.&lt;/p&gt;
+&lt;p&gt;For an overview of Alfred, and to learn about using Custom Web Searches to work smarter and faster, &lt;a href="/blog/2014/07/working-smarter-with-alfred-custom-web-searches"&gt;read my first post in this series here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this post, I&amp;#8217;m assuming you&amp;#8217;re already familiar with Alfred and have &lt;a href="https://buy.alfredapp.com/"&gt;purchased the Powerpack&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Understanding&amp;nbsp;Workflows&lt;/h3&gt;
+&lt;p&gt;An Alfred Workflow is basically a chain of things that you want to do on your Mac incredibly&amp;nbsp;quickly. &lt;/p&gt;
+&lt;p&gt;The possibilities are honestly unlimited, so this makes it a bit complicated to actually explain what a Workflow &lt;em&gt;is&lt;/em&gt; and how powerful they are. Instead, I&amp;#8217;ll just &lt;em&gt;show&lt;/em&gt; you a few of the Alfred Workflows I use to make my day-to-day tasks easier and more&amp;nbsp;efficient.&lt;/p&gt;
+&lt;p&gt;These are just a few examples that barely scratch the surface, but it should be enough to help you grasp the general idea of Alfred Workflows and get excited about downloading or creating your own Workflows to make your job&amp;nbsp;easier.&lt;/p&gt;
+&lt;h3&gt;Don&amp;#8217;t reinvent the&amp;nbsp;wheel&lt;/h3&gt;
+&lt;p&gt;There are many super smart Alfred users who have created many wonderful Workflows and shared them on the web. Websites like &lt;a href="http://www.alfredworkflow.com/"&gt;alfredworkflow.com&lt;/a&gt; and &lt;a href="http://www.packal.org/"&gt;Packal&lt;/a&gt; have hundreds of available Workflows to download for free. You can also find lots of great resources in the &lt;a href="http://www.alfredforum.com/forum/3-share-your-workflows/"&gt;Alfred Forum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you search around, you&amp;#8217;ll likely find something that will shave off some time for things you frequently do on your Mac. I&amp;#8217;ve downloaded a few of these, and the following list are Workflows I use quite&amp;nbsp;frequently.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Super fast &lt;span class="caps"&gt;GIF&lt;/span&gt;&amp;nbsp;Workflow!&lt;/h4&gt;
+&lt;p&gt;Pack&amp;#8217;s team is distributed, so we rely on &lt;a href="https://campfirenow.com/"&gt;Campfire&lt;/a&gt; as a central place for communication. Sometimes text just isn&amp;#8217;t the best avenue to convey emotion, so we (perhaps too frequently) harness the power of animated&amp;nbsp;gifs.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-dog-pug-wut.gif" class="margin" alt="pug wut"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It&amp;#8217;s &lt;a href="https://dl.dropboxusercontent.com/u/2227623/gifs/obama-kidding-me.gif"&gt;a proven fact&lt;/a&gt; that the hilarity of a gif reply diminishes over time, so it&amp;#8217;s absolutely essential to be quick with your response. &lt;a href="http://destroytoday.com/blog/gif-workflow/"&gt;Jonnie Hallman&amp;#8217;s &lt;span class="caps"&gt;GIF&lt;/span&gt; Workflow&lt;/a&gt; can&amp;nbsp;help.&lt;/p&gt;
+&lt;p&gt;This Workflow allows you to harvest your own GIFs and store them in a public folder on Dropbox. Just add keywords in the filename when you save a &lt;span class="caps"&gt;GIF&lt;/span&gt;, then search for them when you run the Workflow. &lt;a href="https://dl.dropboxusercontent.com/u/2227623/gifs/kim-yes-clapping-good-joke.gif"&gt;Brilliant&lt;/a&gt;!&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h4&gt;Don&amp;#8217;t forget about&amp;nbsp;emoji!&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/carlosgaldino/alfred-emoji-workflow"&gt;Carlos Galdino&amp;#8217;s Alfred Emoji Workflow&lt;/a&gt; is the emoji equivalent of the gif Workflow. Sometimes a reply just calls for something small, so Carlos has you&amp;nbsp;covered.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;a href="https://github.com/carlosgaldino/alfred-emoji-workflow"&gt;&lt;img src="/static/images/alfred-emoji-workflow.png" alt="emoji workflow"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;iMessage to a&amp;nbsp;friend&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/"&gt;Stefan Grund&lt;/a&gt; made a really handy iMessage Workflow to quickly send an iMessage right from Alfred. It&amp;#8217;s not directly integrated to your Address Book, so you need to manually set up the Workflow for contacts that you message&amp;nbsp;frequently.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/"&gt;&lt;img src="/static/images/alfred-imessage.png" alt="imessage workflow"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Like some other plugins, a little setup in the beginning saves lots of time down the&amp;nbsp;road.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h4&gt;Phillips Hue&amp;nbsp;Controller&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/benknight"&gt;Benjamin Knight&lt;/a&gt; wrote a Workflow to control &lt;a href="http://meethue.com/"&gt;Phillips Hue lights&lt;/a&gt;. I&amp;#8217;ve written &lt;a href="/blog/tag/philips-hue.html"&gt; a couple posts&lt;/a&gt; about Philips Hue bulbs, and anyone who knows me knows I get really excited about these&amp;nbsp;things.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;a href="https://github.com/benknight"&gt;&lt;img src="/static/images/alfred-hue-overview.png" alt="hue workflow"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With Ben&amp;#8217;s Workflow, I&amp;#8217;m able to control the lights in my house right inside&amp;nbsp;Alfred. &lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Custom Alfred&amp;nbsp;Workflows&lt;/h3&gt;
+&lt;p&gt;Clearly, most of the Workflows that I&amp;#8217;ve downloaded really don&amp;#8217;t do too much to make my &lt;em&gt;work&lt;/em&gt; more efficient. But that doesn&amp;#8217;t mean &lt;em&gt;all&lt;/em&gt; Workflows are just for fun and&amp;nbsp;games.&lt;/p&gt;
+&lt;p&gt;Here are a few Workflows I&amp;#8217;ve put together to help around the&amp;nbsp;office.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Email the Pack&amp;nbsp;Team&lt;/h4&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-workflow-setup.png" alt="Alfred Workflow Setup"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I&amp;#8217;d &lt;em&gt;cmd+tab&lt;/em&gt; to my mail program (Sparrow), &lt;em&gt;cmd+n&lt;/em&gt; to open a new email. Then I&amp;#8217;d start typing each team member&amp;#8217;s name, followed by tab, until all four were in the &lt;em&gt;To&lt;/em&gt; field. &lt;em&gt;At best&lt;/em&gt;, that&amp;#8217;s 14&amp;nbsp;keystrokes. &lt;/p&gt;
+&lt;p&gt;With Alfred, I&amp;#8217;ve reduced it to&amp;nbsp;2.&lt;/p&gt;
+&lt;p&gt;I just invoke quicksilver, and begin typing &lt;em&gt;emailpack&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-email-pack.png" alt="Alfred Email Pack"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once Alfred detects what I&amp;#8217;m typing, (it usually just takes the &lt;em&gt;e&lt;/em&gt;) I just hit&amp;nbsp;enter.&lt;/p&gt;
+&lt;p&gt;Immediately, a new message window is opened with everyone&amp;#8217;s email address in the &lt;em&gt;To&lt;/em&gt;&amp;nbsp;field.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-email-pack-sparrow.png" alt="Alfred Email Pack"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I can invoke this Workflow from &lt;em&gt;anywhere&lt;/em&gt; on my Mac. In other words, I don&amp;#8217;t need to be in Sparrow (or even have Sparrow open, for that&amp;nbsp;matter).&lt;/p&gt;
+&lt;p&gt;This Workflow is a bit more complicated to set up, since it requires a little Applescript to make it&amp;nbsp;happen. &lt;/p&gt;
+&lt;p&gt;Begin by creating a new blank Workflow, then set your keyword input. For your action, choose &lt;em&gt;Run Script&lt;/em&gt;. Choose &lt;code&gt;/usr/bin/osascript&lt;/code&gt; from the Language dropdown. Then, use this as a guide for creating your own email&amp;nbsp;list:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;tell&lt;/span&gt; &lt;span class="nb"&gt;application&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Sparrow&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;activate&lt;/span&gt;
+    &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;theMessage&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nb"&gt;new&lt;/span&gt; &lt;span class="nv"&gt;outgoing&lt;/span&gt; &lt;span class="nv"&gt;message&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nv"&gt;subject&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="na"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="k"&gt;tell&lt;/span&gt; &lt;span class="nv"&gt;theMessage&lt;/span&gt;
+        &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nb"&gt;new&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipient&lt;/span&gt; &lt;span class="nb"&gt;at&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipients&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Fred&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;address&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;fred@flintstone.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nb"&gt;new&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipient&lt;/span&gt; &lt;span class="nb"&gt;at&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipients&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Wilma&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;address&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;wilma@flintstone.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nb"&gt;new&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipient&lt;/span&gt; &lt;span class="nb"&gt;at&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipients&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Barney&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;address&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;barney@rubble.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nb"&gt;new&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipient&lt;/span&gt; &lt;span class="nb"&gt;at&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;recipients&lt;/span&gt; &lt;span class="nv"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Betty&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;address&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;betty@rubble.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+         &lt;span class="nv"&gt;compose&lt;/span&gt;
+    &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Yes, it takes a bit of time to get this set up initially, but all those saved keystrokes add up over time. Remember, this example is for Sparrow only, but it&amp;#8217;d be easy to do something very similar for&amp;nbsp;Mail.app.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h4&gt;Add an item to my Pep Rally&amp;nbsp;inbox&lt;/h4&gt;
+&lt;p&gt;At Pack, we use a task collaboration app we built at &lt;a href="http://whatcheer.com"&gt;What Cheer&lt;/a&gt; called &lt;a href="http://peprallyapp.com"&gt;Pep Rally&lt;/a&gt;. Unfortunately Pep Rally isn&amp;#8217;t available to the public, but it&amp;#8217;s a tool that we rely on&amp;nbsp;heavily.&lt;/p&gt;
+&lt;p&gt;One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I&amp;#8217;m in the middle of completing another&amp;nbsp;task. &lt;/p&gt;
+&lt;p&gt;Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing &lt;em&gt;inbox&lt;/em&gt;, then hit tab and start typing what I need to&amp;nbsp;remember. &lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a &lt;span class="caps"&gt;BASH&lt;/span&gt; script to use it by selecting &lt;code&gt;/bin/bash&lt;/code&gt; from the Language&amp;nbsp;dropdown.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;created&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;/Applications/&lt;span class="caps"&gt;MAMP&lt;/span&gt;/htdocs/Pep-Rally/peprally_python/scripts/peprally inbox:create &lt;span class="s2"&gt;&amp;quot;{query}&amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; &lt;span class="nv"&gt;$created&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; *&lt;span class="caps"&gt;TRUE&lt;/span&gt;* &lt;span class="o"&gt;]]&lt;/span&gt;
+&lt;span class="k"&gt;then&lt;/span&gt;
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;{query}&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For this Workflow, I added a Post Notification output so Growl alerts me that my task was successfully added. To do this, I clicked the &lt;em&gt;+&lt;/em&gt; symbol, then clicked &lt;em&gt;Outputs&lt;/em&gt; &amp;#10142; &lt;em&gt;Post Notification&lt;/em&gt;. With Alfred, you can output to Growl or Notification Center, and set a custom title and text for the notification. Using &lt;code&gt;{query}&lt;/code&gt; in either of these fields will use the output from the previous&amp;nbsp;action.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/alfred-growl-peprally.png" alt="Alfred Growl"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This one is a little vague, I know. But I chose to include it so you can see an example of extending Alfred to a &lt;span class="caps"&gt;CLI&lt;/span&gt; and to your own&amp;nbsp;tools.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Go!&lt;/h3&gt;
+&lt;p&gt;As I mentioned in &lt;a href="/blog/2014/07/working-smarter-with-alfred-custom-web-searches"&gt;my first post about Alfred Custom Web Searches&lt;/a&gt;, you should add helpful Workflows slowly. If you add too many new tools at once, you&amp;#8217;ll never keep track of them all and all the potential efficiencies will be&amp;nbsp;lost.&lt;/p&gt;
+&lt;p&gt;Soon these new tools will become second nature, and all the seconds you save in your day-to-day will definitely add&amp;nbsp;up.&lt;/p&gt;
+&lt;p&gt;Do you have an Alfred Workflow you&amp;#8217;d like me to check out? &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#97;&amp;#108;&amp;#101;&amp;#120;&amp;#64;&amp;#119;&amp;#104;&amp;#97;&amp;#116;&amp;#99;&amp;#104;&amp;#101;&amp;#101;&amp;#114;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;Let me know&lt;/a&gt;!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Sun, 27 Jul 2014 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2014-07-27:blog/2014/07/working-smarter-with-alfred-workflows</guid><category>Alfred</category><category>Productivity</category><category>Mac</category></item><item><title>Felix: a PHP / Twilio Group Messaging Tool</title><link>http://alexpgates.com/blog/2014/07/group-texting-with-php-and-twilio</link><description>&lt;h3&gt;Keep the whole group in the&amp;nbsp;loop&lt;/h3&gt;
 &lt;p&gt;During my first year as an Industry Advisor at &lt;a href="http://www.businesshorizonsiowa.org/"&gt;Business Horizons&lt;/a&gt; (a week-long summer program for Iowa high school students) it occurred to me that we really didn&amp;#8217;t have a way for everyone to quickly get messages to the group in the event of a schedule change or&amp;nbsp;emergency.&lt;/p&gt;
 &lt;p&gt;There were about 20 or so advisors. Some had iPhones, some had Androids, and some had&amp;nbsp;flip-phones. &lt;/p&gt;
 &lt;p&gt;In just a couple hours, I put together a &lt;span class="caps"&gt;SMS&lt;/span&gt; tool using &lt;a href="http://twilio.com"&gt;Twilio&lt;/a&gt; that we&amp;#8217;ve used for the last two&amp;nbsp;years.&lt;/p&gt;
@@ -98,7 +221,7 @@ You can use Alfred to search all sorts of&amp;nbsp;websites.&lt;/p&gt;
 
 &lt;h3&gt;Go!&lt;/h3&gt;
 &lt;p&gt;Alfred can do &lt;em&gt;a lot&lt;/em&gt; of things to help speed up your workflow. The trick is to take things slowly and add these improvements to your workflow over time. If you try to cram too many things in at once, you&amp;#8217;ll never remember them all, and you&amp;#8217;ll easily fall back into old, wasteful&amp;nbsp;habits.&lt;/p&gt;
-&lt;p&gt;Custom web searches are a perfect first step to learning Alfred. Master this, then you&amp;#8217;ll be ready for the next article in the &lt;em&gt;Working Smarter with Alfred&lt;/em&gt; series: &lt;em&gt;Custom&amp;nbsp;Workflows.&lt;/em&gt; &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Thu, 03 Jul 2014 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</guid><category>Alfred</category><category>Productivity</category><category>Mac</category></item><item><title>Video: Pack Presents at 1 Million Cups</title><link>http://alexpgates.com/blog/2014/04/pack-presents-at-1-million-cups</link><description>&lt;p&gt;&lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; was invited to present at &lt;a href="http://www.1millioncups.com/"&gt;1 Million Cups&lt;/a&gt; in Omaha on April 2, 2014. Here&amp;#8217;s a video of our&amp;nbsp;presentation.&lt;/p&gt;
+&lt;p&gt;Custom web searches are a perfect first step to learning Alfred. Master this, then you&amp;#8217;ll be ready for the next article in the &lt;em&gt;Working Smarter with Alfred&lt;/em&gt; series: &lt;em&gt;Workflows.&lt;/em&gt; &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Thu, 03 Jul 2014 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</guid><category>Alfred</category><category>Productivity</category><category>Mac</category></item><item><title>Video: Pack Presents at 1 Million Cups</title><link>http://alexpgates.com/blog/2014/04/pack-presents-at-1-million-cups</link><description>&lt;p&gt;&lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; was invited to present at &lt;a href="http://www.1millioncups.com/"&gt;1 Million Cups&lt;/a&gt; in Omaha on April 2, 2014. Here&amp;#8217;s a video of our&amp;nbsp;presentation.&lt;/p&gt;
 &lt;h3&gt;Pack, in six&amp;nbsp;minutes&lt;/h3&gt;
 &lt;div class="videoWrapper"&gt;
 &lt;iframe src="//player.vimeo.com/video/90800707?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
