@@ -1,6 +1,6 @@
 Title: Working Smarter with Alfred: Workflows
 Date: 2014-07-27
-Summary: Learn how to use Alfred workflows help you automate tasks and get your work done quicker.
+Summary: Learn how to use Alfred Workflows help you automate tasks and get your work done quicker.
 Slug: working-smarter-with-alfred-workflows
 Tags: Alfred, Productivity, Mac
 
