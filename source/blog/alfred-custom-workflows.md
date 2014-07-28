@@ -139,8 +139,6 @@ At Pack, we use a task collaboration app we built at <a href="http://whatcheer.c
 
 One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I'm in the middle of completing another task. 
 
-Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing _inbox_, then hit tab and start typing what I need to remember. 
-
 <a href="http://velvetcache.org">Hobbs</a> added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a BASH script to use it by selecting <code>/bin/bash</code> from the Language dropdown.
 
     :::bash
@@ -150,6 +148,8 @@ Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfre
     then
     echo "{query}"
     fi
+
+Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing _inbox_, then hit tab and start typing what I need to remember. 
 
 <div class="row text-center">
     <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">

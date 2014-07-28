@@ -156,7 +156,6 @@
 <h4>Add an item to my Pep Rally&nbsp;inbox</h4>
 <p>At Pack, we use a task collaboration app we built at <a href="http://whatcheer.com">What Cheer</a> called <a href="http://peprallyapp.com">Pep Rally</a>. Unfortunately Pep Rally isn&#8217;t available to the public, but it&#8217;s a tool that we rely on&nbsp;heavily.</p>
 <p>One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I&#8217;m in the middle of completing another&nbsp;task. </p>
-<p>Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing <em>inbox</em>, then hit tab and start typing what I need to&nbsp;remember. </p>
 <p><a href="http://velvetcache.org">Hobbs</a> added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a <span class="caps">BASH</span> script to use it by selecting <code>/bin/bash</code> from the Language&nbsp;dropdown.</p>
 <div class="highlight"><pre><span class="nv">created</span><span class="o">=</span><span class="sb">`</span>/Applications/<span class="caps">MAMP</span>/htdocs/Pep-Rally/peprally_python/scripts/peprally inbox:create <span class="s2">&quot;{query}&quot;</span><span class="sb">`</span>
 
@@ -167,6 +166,7 @@
 </pre></div>
 
 
+<p>Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing <em>inbox</em>, then hit tab and start typing what I need to&nbsp;remember. </p>
 <div class="row text-center">
     <img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox">
 </div>

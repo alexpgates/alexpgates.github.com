@@ -96,7 +96,6 @@
 &lt;h4&gt;Add an item to my Pep Rally&amp;nbsp;inbox&lt;/h4&gt;
 &lt;p&gt;At Pack, we use a task collaboration app we built at &lt;a href="http://whatcheer.com"&gt;What Cheer&lt;/a&gt; called &lt;a href="http://peprallyapp.com"&gt;Pep Rally&lt;/a&gt;. Unfortunately Pep Rally isn&amp;#8217;t available to the public, but it&amp;#8217;s a tool that we rely on&amp;nbsp;heavily.&lt;/p&gt;
 &lt;p&gt;One feature of Pep Rally I frequently use is the inbox. Adding an item to my inbox is a quick way to document a task quickly when I&amp;#8217;m in the middle of completing another&amp;nbsp;task. &lt;/p&gt;
-&lt;p&gt;Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing &lt;em&gt;inbox&lt;/em&gt;, then hit tab and start typing what I need to&amp;nbsp;remember. &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://velvetcache.org"&gt;Hobbs&lt;/a&gt; added a Python command line tool to interact with Pep Rally, so for this Workflow action I execute a &lt;span class="caps"&gt;BASH&lt;/span&gt; script to use it by selecting &lt;code&gt;/bin/bash&lt;/code&gt; from the Language&amp;nbsp;dropdown.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;created&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;/Applications/&lt;span class="caps"&gt;MAMP&lt;/span&gt;/htdocs/Pep-Rally/peprally_python/scripts/peprally inbox:create &lt;span class="s2"&gt;&amp;quot;{query}&amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
 
@@ -107,6 +106,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing &lt;em&gt;inbox&lt;/em&gt;, then hit tab and start typing what I need to&amp;nbsp;remember. &lt;/p&gt;
 &lt;div class="row text-center"&gt;
     &lt;img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox"&gt;
 &lt;/div&gt;
