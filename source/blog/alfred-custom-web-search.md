@@ -92,4 +92,4 @@ That's it! Adding custom web searches is a great way to save keystrokes, mouse c
 
 Alfred can do _a lot_ of things to help speed up your workflow. The trick is to take things slowly and add these improvements to your workflow over time. If you try to cram too many things in at once, you'll never remember them all, and you'll easily fall back into old, wasteful habits.
 
-Custom web searches are a perfect first step to learning Alfred. Master this, then you'll be ready for the next article in the _Working Smarter with Alfred_ series: _Workflows._ 
+Custom web searches are a perfect first step to learning Alfred. Master this, then you'll be ready for the next article in the _Working Smarter with Alfred_ series: <a href="/blog/2014/07/working-smarter-with-alfred-workflows">_Workflows._</a>
