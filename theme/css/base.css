@@ -309,6 +309,13 @@ blockquote {
   text-decoration: none;
   font-weight: 600;
 }
+
+::selection {
+  background: #fff2a8; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fff2a8; /* Gecko Browsers */
+}
 /*Responsive overrides*/
 
 @media (max-width: 767px) {
