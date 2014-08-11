@@ -5,8 +5,8 @@ Slug: strangers-please-control-my-kitchen-lights
 Tags: Philips Hue, Node.js, Raspberry Pi, Twitter
 Status: draft
 
-<div class="row text-center">
-    <img src="/static/images/kitchencolors-header.jpg" width="650px">
+<div class="row text-center span12">
+    <img src="/static/images/kitchencolors-header.jpg" class="margin" width="650px">
 </div>
 
 ### It occurred to me that I should probably let strangers from the internet control the lights in my kitchen.

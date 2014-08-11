@@ -384,6 +384,10 @@ blockquote {
     font-size: 30px;
     line-height: 30px;
   }
+
+  article h3{
+    margin-top:0px;
+  }
 }
 
 @media (max-width: 979px) {
