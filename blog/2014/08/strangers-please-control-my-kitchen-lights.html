@@ -86,7 +86,7 @@
 <h4>Step out of my <span class="caps">PHP</span> comfort&nbsp;zone</h4>
 <p>Next I started thinking about how I&#8217;d want people to make the color requests. Since <a href="http://developers.meethue.com/">the Hue <span class="caps">API</span></a> accepts X <span class="amp">&amp;</span> Y coordinates from the <a href="http://en.wikipedia.org/wiki/CIE_1931_color_space"><span class="caps">CIE</span> color space</a>, I knew we would need an easy way to translate casual color requests without being too limiting. In other words, I didn&#8217;t want to simply hard-code 20 or so colors, because <a href="http://www.newscenter.philips.com/main/standard/news/press/2013/20130807-philips-expands-the-smart-world-of-hue.wpd#.U-gnuNNdU1g">Hue actually supports <em>16 million</em> colors</a>. </p>
 <p>The <a href="https://github.com/bahamas10/hue-cli">Hue command-line interface by bahamas10</a> accepts <span class="caps">CSS</span> color names and also hex color values. This tool runs on Node.js, and I was already familiar with it because I&#8217;ve actually been using it for a few months to control my lights from the command-line. (<a href="/static/images/prof.gif"><span class="caps">HOYVIN</span>-<span class="caps">GLAVIN</span>!</a>).</p>
-<p><strong>I don&#8217;t have much experience with Node.js, so this seemed like a perfect way to step out of my <span class="caps">PHP</span> comfort&nbsp;zone.</strong></p>
+<p><strong>I don&#8217;t have much experience with Node.js, so this seemed like a perfect opportunity to try something&nbsp;new.</strong></p>
 <p>The next task was to figure out how to consume the Twitter user stream <span class="caps">API</span> from Node.js. After a little digging, I came across <a href="https://github.com/outadoc/twitter-mentions-pushover">twitter-mentions-pushover</a> by <a href="http://dev.outadoc.fr/">Baptist Candellier</a>. This provided everything I needed to consume my user stream. I just trimmed off the part in the script that sends the tweet to Pushover, removed any @mentions and # symbols, and added the <span class="caps">NPM</span> module <a href="https://www.npmjs.org/package/exec">exec()</a> to send the color command to hue-cli. All said and done, I <em>maybe</em> wrote 6 lines of&nbsp;code.</p>
 <hr />
 <h4>Power this with my Raspberry&nbsp;Pi</h4>
@@ -138,7 +138,12 @@
                 <hr class="footer-hr">
                 <div class="span4 offset1 projects">
                     <h5>Projects</h5>
-                        <ul>
+                        <ul><li><strong>Personal</srong>
+                                <ul>
+                                    <li><a href="/blog/2014/07/group-texting-with-php-and-twilio.html">Felix: Group SMS</a></li>
+                                    <li><a href="/blog/2014/08/strangers-please-control-my-kitchen-lights.html">Kitchencolors</a></li>
+                                </ul>
+                            </li>
                             <li><a href="http://packdog.com">Pack</a></li>
                             <li><a href="http://whatcheer.com">What Cheer</a>
                                 <ul>

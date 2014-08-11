@@ -49,7 +49,7 @@ Next I started thinking about how I'd want people to make the color requests. Si
 
 The <a href="https://github.com/bahamas10/hue-cli">Hue command-line interface by bahamas10</a> accepts CSS color names and also hex color values. This tool runs on Node.js, and I was already familiar with it because I've actually been using it for a few months to control my lights from the command-line. (<a href="/static/images/prof.gif">HOYVIN-GLAVIN!</a>).
 
-**I don't have much experience with Node.js, so this seemed like a perfect way to step out of my PHP comfort zone.**
+**I don't have much experience with Node.js, so this seemed like a perfect opportunity to try something new.**
 
 The next task was to figure out how to consume the Twitter user stream API from Node.js. After a little digging, I came across <a href="https://github.com/outadoc/twitter-mentions-pushover">twitter-mentions-pushover</a> by <a href="http://dev.outadoc.fr/">Baptist Candellier</a>. This provided everything I needed to consume my user stream. I just trimmed off the part in the script that sends the tweet to Pushover, removed any @mentions and # symbols, and added the NPM module <a href="https://www.npmjs.org/package/exec">exec()</a> to send the color command to hue-cli. All said and done, I *maybe* wrote 6 lines of code.
 
