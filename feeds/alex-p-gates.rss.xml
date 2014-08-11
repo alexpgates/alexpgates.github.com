@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 27 Jul 2014 00:00:00 -0500</lastBuildDate><item><title>Working Smarter with Alfred: Workflows</title><link>http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-workflows</link><description>&lt;div class="row text-center"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 10 Aug 2014 00:00:00 -0500</lastBuildDate><item><title>Strangers, Please Control my Kitchen Lights</title><link>http://alexpgates.com/blog/2014/08/strangers-please-control-my-kitchen-lights</link><description>&lt;div class="row text-center span12"&gt;
+    &lt;img src="/static/images/kitchencolors-header.jpg" class="margin" width="650px"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;It occurred to me that I should probably let strangers from the internet control the lights in my&amp;nbsp;kitchen.&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;(Because why&amp;nbsp;not?)&lt;/em&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;During our recent kitchen remodel, I made a special point to build in power outlets for a couple sets of &lt;a href="http://meethue.com/en-us/friends-of-hue/lightstrips/"&gt;Philips Hue LightStrips&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;With the &lt;a href="https://ifttt.com/hue"&gt;Philips Hue &lt;span class="caps"&gt;IFTTT&lt;/span&gt; channel&lt;/a&gt;, these lights have been set to turn on around sundown and turn off at&amp;nbsp;11pm.&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s perfectly cool and all, but lately I&amp;#8217;ve been itching to &lt;em&gt;build&lt;/em&gt; something fun to take advantage of the bigger &lt;span class="caps"&gt;RGB&lt;/span&gt; color range available with the&amp;nbsp;LightStrips.&lt;/p&gt;
+&lt;p&gt;Finally last night it dawned on me that I should let the internet choose the colors of my kitchen&amp;nbsp;lights. &lt;/p&gt;
+&lt;h3&gt;Before I began, I wrote down these three&amp;nbsp;goals:&lt;/h3&gt;
+&lt;ol&gt;
+    &lt;li&gt;Make it fast! (No waiting on &lt;span class="caps"&gt;IFTTT&lt;/span&gt; or anything like&amp;nbsp;that.)&lt;/li&gt;
+    &lt;li&gt;Step out of my &lt;span class="caps"&gt;PHP&lt;/span&gt; comfort&amp;nbsp;zone.&lt;/li&gt;
+    &lt;li&gt;Power this with my &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h4&gt;Make it&amp;nbsp;fast!&lt;/h4&gt;
+&lt;p&gt;The Philips Hue &lt;span class="caps"&gt;API&lt;/span&gt; works by making &lt;span class="caps"&gt;HTTP&lt;/span&gt; requests to a bridge connected to your local network. That, in itself, created some&amp;nbsp;limitations. &lt;/p&gt;
+&lt;p&gt;One thought was to schedule a cron job on a machine in my home network to run every minute and hit an endpoint on a public webserver to check for new color changes. That approach seemed pretty wasteful (and still pretty slow, honestly). That, and it&amp;#8217;d require building a front-end interface to interact with the&amp;nbsp;app.&lt;/p&gt;
+&lt;p&gt;So then I thought about using Twitter to handle the color requests, and realized this would a perfect time to try the &lt;a href="https://dev.twitter.com/docs/streaming-apis/streams/user"&gt;user stream &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;, since it seems to be nearly&amp;nbsp;instantaneous.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Step out of my &lt;span class="caps"&gt;PHP&lt;/span&gt; comfort&amp;nbsp;zone&lt;/h4&gt;
+&lt;p&gt;Next I started thinking about how I&amp;#8217;d want people to make the color requests. Since &lt;a href="http://developers.meethue.com/"&gt;the Hue &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt; accepts X &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Y coordinates from the &lt;a href="http://en.wikipedia.org/wiki/CIE_1931_color_space"&gt;&lt;span class="caps"&gt;CIE&lt;/span&gt; color space&lt;/a&gt;, I knew we would need an easy way to translate casual color requests without being too limiting. In other words, I didn&amp;#8217;t want to simply hard-code 20 or so colors, because &lt;a href="http://www.newscenter.philips.com/main/standard/news/press/2013/20130807-philips-expands-the-smart-world-of-hue.wpd#.U-gnuNNdU1g"&gt;Hue actually supports &lt;em&gt;16 million&lt;/em&gt; colors&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://github.com/bahamas10/hue-cli"&gt;Hue command-line interface by bahamas10&lt;/a&gt; accepts &lt;span class="caps"&gt;CSS&lt;/span&gt; color names and also hex color values. This tool runs on Node.js, and I was already familiar with it because I&amp;#8217;ve actually been using it for a few months to control my lights from the command-line. (&lt;a href="/static/images/prof.gif"&gt;&lt;span class="caps"&gt;HOYVIN&lt;/span&gt;-&lt;span class="caps"&gt;GLAVIN&lt;/span&gt;!&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I don&amp;#8217;t have much experience with Node.js, so this seemed like a perfect opportunity to try something&amp;nbsp;new.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The next task was to figure out how to consume the Twitter user stream &lt;span class="caps"&gt;API&lt;/span&gt; from Node.js. After a little digging, I came across &lt;a href="https://github.com/outadoc/twitter-mentions-pushover"&gt;twitter-mentions-pushover&lt;/a&gt; by &lt;a href="http://dev.outadoc.fr/"&gt;Baptist Candellier&lt;/a&gt;. This provided everything I needed to consume my user stream. I just trimmed off the part in the script that sends the tweet to Pushover, removed any @mentions and # symbols, and added the &lt;span class="caps"&gt;NPM&lt;/span&gt; module &lt;a href="https://www.npmjs.org/package/exec"&gt;exec()&lt;/a&gt; to send the color command to hue-cli. All said and done, I &lt;em&gt;maybe&lt;/em&gt; wrote 6 lines of&amp;nbsp;code.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Power this with my Raspberry&amp;nbsp;Pi&lt;/h4&gt;
+&lt;p&gt;Since the node process needs to be constantly running to consume the Twitter stream and pass requests to the Hue bridge, I wanted to keep my power usage low. The Raspberry Pi runs on a simple 5V power supply, and it&amp;#8217;s completely silent. It runs headless and sits nicely next to my modem, router, and hue&amp;nbsp;bridge. &lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/rpi.jpg" class="margin" width="500px"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Installing a fresh &lt;a href="http://www.raspberrypi.org/downloads/"&gt;Raspbian Wheezy image&lt;/a&gt; was a breeze. Then I followed &lt;a href="https://learn.adafruit.com/raspberry-pi-hosting-node-red/setting-up-node-dot-js"&gt;this guide&lt;/a&gt; to set up&amp;nbsp;Node.js.&lt;/p&gt;
+&lt;p&gt;From &lt;span class="caps"&gt;NPM&lt;/span&gt;, I installed &lt;a href="https://www.npmjs.org/package/hue-cli"&gt;hue-cli&lt;/a&gt; and &lt;a href="https://www.npmjs.org/package/exec"&gt;exec&lt;/a&gt;. The other dependencies (&lt;a href="https://www.npmjs.org/package/entities"&gt;entities&lt;/a&gt;, &lt;a href="https://www.npmjs.org/package/ntwitter"&gt;ntwitter&lt;/a&gt;, and &lt;a href="https://www.npmjs.org/package/request"&gt;request&lt;/a&gt;) shipped with &lt;a href="https://github.com/outadoc/twitter-mentions-pushover"&gt;twitter-mentions-pushover&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, I created a fork of twitter-mentions-pushover and renamed the project &lt;a href="https://github.com/alexpgates/kitchencolors"&gt;Kitchencolors&lt;/a&gt;. &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;See it in&amp;nbsp;action!&lt;/h3&gt;
+&lt;p&gt;I made a hilariously dramatic video to show how quickly tweets are processed as&amp;nbsp;color.&lt;/p&gt;
+&lt;div class="videoWrapper"&gt;
+&lt;iframe src="//player.vimeo.com/video/103095002?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;span class="caps"&gt;LOL&lt;/span&gt;. It was either that or the sound of my dishwasher&amp;nbsp;running.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Give it a&amp;nbsp;try!&lt;/h3&gt;
+&lt;p&gt;To change the colors of my kitchen lights, just send a tweet to &lt;a href="http://twitter.com/kitchencolors"&gt;@kitchencolors&lt;/a&gt; with a css color name &lt;em&gt;or&lt;/em&gt; a hex&amp;nbsp;value.&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/tweet-to-kitchencolors.png" width="438px"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So far, I&amp;#8217;ve had people from all over the United States, England, Brazil, New Zealand, and Panama decide what color my kitchen should&amp;nbsp;be.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Open up your Hue lights to&amp;nbsp;strangers&lt;/h3&gt;
+&lt;p&gt;It&amp;#8217;s still pretty rough around the edges, but you can &lt;a href="https://github.com/alexpgates/kitchencolors"&gt;download the source here&lt;/a&gt;! Future updates will include better color parsing to pull colors out of tweets that contain other text. If that sounds like fun, or if you have other feature ideas, please send me a pull&amp;nbsp;request!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Sun, 10 Aug 2014 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2014-08-10:blog/2014/08/strangers-please-control-my-kitchen-lights</guid><category>Philips Hue</category><category>Node.js</category><category>Raspberry Pi</category><category>Twitter</category></item><item><title>Working Smarter with Alfred: Workflows</title><link>http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-workflows</link><description>&lt;div class="row text-center"&gt;
     &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
 &lt;/div&gt;
 
