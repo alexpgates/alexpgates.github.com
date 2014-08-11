@@ -97,4 +97,4 @@ So far, I've had people from all over the United States, England, Brazil, New Ze
 
 ### Open up your Hue lights to strangers
 
-It's still pretty rough around the edges, but you can <a href="https://github.com/alexpgates/kitchencolors">download the source here</a>!
+It's still pretty rough around the edges, but you can <a href="https://github.com/alexpgates/kitchencolors">download the source here</a>! Future updates will include better color parsing to pull colors out of tweets that contain other text. If that sounds like fun, or if you have other feature ideas, please send me a pull request!
