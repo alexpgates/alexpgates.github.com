@@ -13,6 +13,7 @@ OGImage: http://alexpgates.com/static/images/kitchencolors-header.jpg
 
 _(Because why not?)_ 
 
+#### And now you can, by tweeting to <a href="http://twitter.com/kitchencolors">@kitchencolors</a>.
 ---
 
 During our recent kitchen remodel, I made a special point to build in power outlets for a couple sets of <a href="http://meethue.com/en-us/friends-of-hue/lightstrips/">Philips Hue LightStrips</a>. 
