@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-08-10T00:00:00-05:00</updated><entry><title>Strangers, Please Control my Kitchen Lights</title><link href="http://alexpgates.com/blog/2014/08/strangers-please-control-my-kitchen-lights" rel="alternate"></link><updated>2014-08-10T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-10:blog/2014/08/strangers-please-control-my-kitchen-lights</id><summary type="html">&lt;div class="row text-center span12"&gt;
-    &lt;img src="/static/images/kitchencolors-header.jpg" class="margin" width="650px"&gt;
+    &lt;img src="/static/images/kitchencolors-header.jpg" class="margin" width="650"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;It occurred to me that I should probably let strangers from the internet control the lights in my&amp;nbsp;kitchen.&lt;/h3&gt;
@@ -32,7 +32,7 @@
 &lt;h4&gt;Power this with my Raspberry&amp;nbsp;Pi&lt;/h4&gt;
 &lt;p&gt;Since the node process needs to be constantly running to consume the Twitter stream and pass requests to the Hue bridge, I wanted to keep my power usage low. The Raspberry Pi runs on a simple 5V power supply, and it&amp;#8217;s completely silent. It runs headless and sits nicely next to my modem, router, and hue&amp;nbsp;bridge. &lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/rpi.jpg" class="margin" width="500px"&gt;
+    &lt;img src="/static/images/rpi.jpg" class="margin" width="500"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Installing a fresh &lt;a href="http://www.raspberrypi.org/downloads/"&gt;Raspbian Wheezy image&lt;/a&gt; was a breeze. Then I followed &lt;a href="https://learn.adafruit.com/raspberry-pi-hosting-node-red/setting-up-node-dot-js"&gt;this guide&lt;/a&gt; to set up&amp;nbsp;Node.js.&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;h3&gt;Give it a&amp;nbsp;try!&lt;/h3&gt;
 &lt;p&gt;To change the colors of my kitchen lights, just send a tweet to &lt;a href="http://twitter.com/kitchencolors"&gt;@kitchencolors&lt;/a&gt; with a css color name &lt;em&gt;or&lt;/em&gt; a hex&amp;nbsp;value.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/tweet-to-kitchencolors.png" width="438px"&gt;
+    &lt;img src="/static/images/tweet-to-kitchencolors.png" width="438"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;So far, I&amp;#8217;ve had people from all over the United States, England, Brazil, New Zealand, and Panama decide what color my kitchen should&amp;nbsp;be.&lt;/p&gt;

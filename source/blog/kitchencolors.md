@@ -6,7 +6,7 @@ Tags: Philips Hue, Node.js, Raspberry Pi, Twitter
 OGImage: http://alexpgates.com/static/images/kitchencolors-header.jpg
 
 <div class="row text-center span12">
-    <img src="/static/images/kitchencolors-header.jpg" class="margin" width="650px">
+    <img src="/static/images/kitchencolors-header.jpg" class="margin" width="650">
 </div>
 
 ### It occurred to me that I should probably let strangers from the internet control the lights in my kitchen.
@@ -60,7 +60,7 @@ The next task was to figure out how to consume the Twitter user stream API from 
 Since the node process needs to be constantly running to consume the Twitter stream and pass requests to the Hue bridge, I wanted to keep my power usage low. The Raspberry Pi runs on a simple 5V power supply, and it's completely silent. It runs headless and sits nicely next to my modem, router, and hue bridge. 
 
 <div class="row text-center">
-    <img src="/static/images/rpi.jpg" class="margin" width="500px">
+    <img src="/static/images/rpi.jpg" class="margin" width="500">
 </div>
 
 Installing a fresh <a href="http://www.raspberrypi.org/downloads/">Raspbian Wheezy image</a> was a breeze. Then I followed <a href="https://learn.adafruit.com/raspberry-pi-hosting-node-red/setting-up-node-dot-js">this guide</a> to set up Node.js.
@@ -88,7 +88,7 @@ LOL. It was either that or the sound of my dishwasher running.
 To change the colors of my kitchen lights, just send a tweet to <a href="http://twitter.com/kitchencolors">@kitchencolors</a> with a css color name _or_ a hex value.
 
 <div class="row text-center">
-    <img src="/static/images/tweet-to-kitchencolors.png" width="438px">
+    <img src="/static/images/tweet-to-kitchencolors.png" width="438">
 </div>
 
 So far, I've had people from all over the United States, England, Brazil, New Zealand, and Panama decide what color my kitchen should be.
