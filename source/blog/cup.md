@@ -4,7 +4,6 @@ Summary: This tiny piece of advice extends beyond coffee spill prevention.
 Slug: how-to-walk-with-a-full-cup-of-coffee
 Tags: Coffee, Life
 OGImage: http://alexpgates.com/static/images/cup.jpg
-Status: draft
 
 <div class="row text-center span12">
     <img src="/static/images/cup.jpg" class="hero" alt="a full cup of coffee">
