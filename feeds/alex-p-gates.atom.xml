@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/alex-p-gates.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-08-10T00:00:00-05:00</updated><entry><title>Strangers, Please Control my Kitchen Lights</title><link href="http://alexpgates.com/blog/2014/08/strangers-please-control-my-kitchen-lights" rel="alternate"></link><updated>2014-08-10T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-10:blog/2014/08/strangers-please-control-my-kitchen-lights</id><summary type="html">&lt;div class="row text-center span12"&gt;
-    &lt;img src="/static/images/kitchencolors-header.jpg" class="margin" width="650"&gt;
+    &lt;img src="/static/images/kitchencolors-header.jpg" class="hero" alt="kitchencolors" width="650"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;It occurred to me that I should probably let strangers from the internet control the lights in my&amp;nbsp;kitchen.&lt;/h3&gt;

@@ -223,6 +223,13 @@ a {
   margin: 15px 0px 28px 0px;
 }
 
+.hero{
+  margin: 0px 0px 28px 0px;
+  width: 100%;
+  max-width: 963px;
+  height: auto;
+}
+
 footer a {
   color: #fafafa;
   font-weight: bold;
@@ -296,6 +303,7 @@ hr {
 
 blockquote {
   color: #939393;
+  margin-top:20px;
 }
 
 .download a {
