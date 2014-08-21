@@ -2,7 +2,7 @@ Title: Scanning Colors to Philips Hue
 Date: 2013-11-17
 Summary: Using a scanner, folder actions, and color quantization to change the color of Philips Hue light bulbs.
 Slug: scanning-colors-to-hue
-Tags: Philips Hue, PHP, color quantization
+Tags: Philips Hue, PHP, Color Quantization
 
 <div class="videoWrapper">
 <iframe src="//player.vimeo.com/video/100126411?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

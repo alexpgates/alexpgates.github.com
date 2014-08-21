@@ -2,7 +2,7 @@ Title: Video: Pack Presents at 1 Million Cups
 Date: 2014-04-05
 Summary: John Hobbs, Paul Graff, and me talk about Pack at 1 Million Cups in Omaha.
 Slug: pack-presents-at-1-million-cups
-Tags: Pack, speaking
+Tags: Pack, Speaking
 
 [Pack](http://packdog.com) was invited to present at [1 Million Cups](http://www.1millioncups.com/) in Omaha on April 2, 2014. Here's a video of our presentation.
 

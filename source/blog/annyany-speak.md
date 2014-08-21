@@ -2,7 +2,7 @@ Title: "Hello world! ... Hello&nbsp;world!" with annyang.js &amp;&nbsp;speak.js
 Date: 2013-09-19
 Summary: Combining annyang.js and speak.js to build a web site that listens to what you say and repeats it back to you.
 Slug: annyang-js-and-speak-js
-Tags: Javascript
+Tags: JavaScript
 
 [Hobbs](http://velvetcache.org) sent me a link to [annyang.js](https://www.talater.com/annyang/) by [Tal Ater](https://github.com/TalAter) because he thought it'd be right up my alley. (He's right! It is! And it's not just for the [Arrested Development reference](https://twitter.com/talater/status/380059244017356800)!)
 

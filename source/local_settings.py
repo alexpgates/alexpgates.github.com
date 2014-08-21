@@ -39,6 +39,7 @@ ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}.html'
 ARCHIVES_SAVE_AS = 'blog/archives.html'
+ARCHIVES_URL = 'blog/archives.html'
 TAGS_SAVE_AS = 'blog/tags.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
 TAG_URL = 'blog/tag/{slug}.html'

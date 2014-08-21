@@ -164,8 +164,7 @@ footer {
   font-size: 14px;
   background-color:#303030;
   padding:30px;
-  color: #fafafa;
-  text-align: justify;
+  color: #a2a2a2;
   letter-spacing: 1.3px;
   line-height: 16px;
 }
@@ -185,6 +184,33 @@ list-style: disc;
 
 .spb {
   padding-top:15px;
+}
+
+footer h2 {
+  font-size:35px;
+  font-weight: 700;
+  line-height: .9;
+  letter-spacing: 1px;
+}
+
+footer h4{
+  margin-top:17px;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+footer h4 a {
+  color: #d4d4d4;
+  font-weight: bold;
+}
+
+footer h4 a:hover,
+footer h4 a:focus {
+  color: #fafafa;
+}
+
+.top-hug{
+  margin-top: 0px;
 }
 
 footer h5 {
@@ -231,13 +257,13 @@ a {
 }
 
 footer a {
-  color: #fafafa;
+  color: #d4d4d4;
   font-weight: bold;
 }
 
 footer a:hover,
 footer a:focus {
-  color: #5cb1de;
+  color: #fafafa;
 }
 
 .entry-content a {
@@ -339,6 +365,11 @@ blockquote {
   h1.sitename {
     color:#757575;
     font-size:25px;
+  }
+  h2.footername {
+    color:#757575;
+    font-size:25px;
+    font-weight: 700;
   }
   .top-hr, .footer-hr {
     display:block;
