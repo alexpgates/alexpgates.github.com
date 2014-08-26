@@ -62,7 +62,7 @@ html,body{
 
 #index-content .bold {
   font-weight: bold;
-  font-size: 125%;
+  font-size: 115%;
 }
 
 #index-content p > a {
@@ -357,6 +357,7 @@ h2.intro {
   font-size: 26px;
   line-height: 130%;
   margin-bottom:20px;
+  letter-spacing:1px;
 }
 
 /*Responsive overrides*/
