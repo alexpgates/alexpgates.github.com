@@ -13,7 +13,7 @@ At my first job out of college, I learned something from one of the customer ser
 
 I was walking back from the break room with a very very full cup of coffee and struggling with it spilling.
 
-She told me the secret to walking with a full cup of coffee: _don’t look at it_.
+She told me the secret to walking with a full cup of coffee: _don’t look at&nbsp;it_.
 
 You know how to hold a mug of coffee and you know how to walk. So just do that.  When you look at it, you try to correct yourself, and you end up causing the spills.
 

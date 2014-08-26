@@ -47,8 +47,8 @@ html,body{
 }
 
 .latest{
-  line-height: 22px;
-  font-size:20px;
+  line-height: 26px;
+  font-size:26px;
 }
 
 #index-content p {
@@ -350,6 +350,15 @@ blockquote {
 ::-moz-selection {
   background: #fff2a8; /* Gecko Browsers */
 }
+
+h2.intro {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 130%;
+  margin-bottom:20px;
+}
+
 /*Responsive overrides*/
 
 @media (max-width: 767px) {

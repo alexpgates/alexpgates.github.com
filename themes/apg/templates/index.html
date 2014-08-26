@@ -2,7 +2,7 @@
 {% block content_title %}{% endblock %}
 {% block content %}
 <div id="index-content">
-    <p><span class="bold">Alex P. Gates</span> is a <span class="bold">web developer</span>, <span class="bold">strategist</span>, and <span class="bold">technophile</span> based in Omaha, Nebraska.</p>
+    <h2 class="intro"><span class="bold">Alex P. Gates</span> is a <span class="bold">web developer</span>, <span class="bold">strategist</span>, and <span class="bold">technophile</span> based in Omaha,&nbsp;Nebraska.</h2>
 
     <p>Alex is the community developer at <a href="http://packdog.com">Pack</a>. That means he's constantly developing new campaigns, theories, email, and software for engaging Pack's members and visitors. It's a great combination of technology and humanity. Most recently, he's proudest of the work he's done on building a custom newsletter app for sending over 1M newsletters via Pack.</p>
 
@@ -15,7 +15,7 @@
     <ul>
         {% for article in articles_page.object_list[:3] %}
         <li>
-            <h2 class="article-title"><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            <h3 class="article-title"><a class="latest" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
             <h5 class="results-date">{{ article.date|strftime('%b&nbsp;%Y') }}</h5>
             {{ article.summary }}
             <hr>
