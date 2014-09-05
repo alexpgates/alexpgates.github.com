@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 15 Aug 2014 00:00:00 -0500</lastBuildDate><item><title>How to Walk with a Full Cup of Coffee</title><link>http://alexpgates.com/blog/2014/08/how-to-walk-with-a-full-cup-of-coffee</link><description>&lt;div class="row text-center span12"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex P. Gates</title><link>http://alexpgates.com/</link><description>works on the internet</description><atom:link href="http://alexpgates.com/feeds/alex-p-gates.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 05 Sep 2014 00:00:00 -0500</lastBuildDate><item><title>Interview: Cultivating a Fun &amp; Creative Culture with a Distributed Team</title><link>http://alexpgates.com/blog/2014/09/interview-cultivating-a-fun-and-creative-culture-with-a-distributed-team</link><description>&lt;p&gt;I sat down with &lt;a href="http://twitter.com/jcollison"&gt;Jim Collison&lt;/a&gt; from &lt;a href="http://theaverageguy.tv/"&gt;theaverageguy.tv&lt;/a&gt; after my talk at Heartland Developer&amp;nbsp;Conference.&lt;/p&gt;
+&lt;div class="videoWrapper"&gt;
+    &lt;iframe width="560" height="315" src="//www.youtube.com/embed/VC2hNskgyH8?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Thanks for the chat and the wonderful video,&amp;nbsp;Jim!&lt;/p&gt;
+&lt;p&gt;I also want to thank &lt;a href="http://aimforbrilliance.org/"&gt;&lt;span class="caps"&gt;AIM&lt;/span&gt;&lt;/a&gt; for organizing &lt;a href="http://www.heartlanddc.com/"&gt;Heartland Developer Conference&lt;/a&gt; and for giving me the opportunity to share the various tools and processes we use at &lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; to work as a distributed&amp;nbsp;team.&lt;/p&gt;
+&lt;p&gt;I had a&amp;nbsp;blast!&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/HDC.gif" class="margin" width="450" alt="Pack Faces at HDC"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="row text-center top-padding download"&gt;
+    &lt;a class="btn btn-large" href="http://webjam.org/blog-downloads/HDC-AlexPGates.zip"&gt;Download my slides &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Fri, 05 Sep 2014 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2014-09-05:blog/2014/09/interview-cultivating-a-fun-and-creative-culture-with-a-distributed-team</guid><category>Productivity</category><category>Speaking</category></item><item><title>How to Walk with a Full Cup of Coffee</title><link>http://alexpgates.com/blog/2014/08/how-to-walk-with-a-full-cup-of-coffee</link><description>&lt;div class="row text-center span12"&gt;
     &lt;img src="/static/images/cup.jpg" class="hero" alt="a full cup of coffee"&gt;
 &lt;/div&gt;
 
@@ -484,4 +498,4 @@ def dev&lt;span class="o"&gt;()&lt;/span&gt;:
 &lt;iframe width="560" height="315" src="//www.youtube.com/embed/wsFSLDluypk?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;small&gt;Thanks &lt;a href="http://techomaha.com/"&gt;TechOmaha&lt;/a&gt; for the video!&lt;/small&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Sat, 27 Apr 2013 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2013-04-27:blog/2013/04/voice-controlled-hue</guid><category>Philips Hue</category></item></channel></rss>
+&lt;p&gt;&lt;small&gt;Thanks &lt;a href="http://techomaha.com/"&gt;TechOmaha&lt;/a&gt; for the video!&lt;/small&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alex P. Gates</dc:creator><pubDate>Sat, 27 Apr 2013 00:00:00 -0500</pubDate><guid>tag:alexpgates.com,2013-04-27:blog/2013/04/voice-controlled-hue</guid><category>Philips Hue</category><category>Speaking</category></item></channel></rss>

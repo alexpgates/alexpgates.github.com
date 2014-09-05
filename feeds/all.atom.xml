@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-08-15T00:00:00-05:00</updated><entry><title>How to Walk with a Full Cup of Coffee</title><link href="http://alexpgates.com/blog/2014/08/how-to-walk-with-a-full-cup-of-coffee" rel="alternate"></link><updated>2014-08-15T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-15:blog/2014/08/how-to-walk-with-a-full-cup-of-coffee</id><summary type="html">&lt;div class="row text-center span12"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2014-09-05T00:00:00-05:00</updated><entry><title>Interview: Cultivating a Fun &amp; Creative Culture with a Distributed Team</title><link href="http://alexpgates.com/blog/2014/09/interview-cultivating-a-fun-and-creative-culture-with-a-distributed-team" rel="alternate"></link><updated>2014-09-05T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-09-05:blog/2014/09/interview-cultivating-a-fun-and-creative-culture-with-a-distributed-team</id><summary type="html">&lt;p&gt;I sat down with &lt;a href="http://twitter.com/jcollison"&gt;Jim Collison&lt;/a&gt; from &lt;a href="http://theaverageguy.tv/"&gt;theaverageguy.tv&lt;/a&gt; after my talk at Heartland Developer&amp;nbsp;Conference.&lt;/p&gt;
+&lt;div class="videoWrapper"&gt;
+    &lt;iframe width="560" height="315" src="//www.youtube.com/embed/VC2hNskgyH8?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Thanks for the chat and the wonderful video,&amp;nbsp;Jim!&lt;/p&gt;
+&lt;p&gt;I also want to thank &lt;a href="http://aimforbrilliance.org/"&gt;&lt;span class="caps"&gt;AIM&lt;/span&gt;&lt;/a&gt; for organizing &lt;a href="http://www.heartlanddc.com/"&gt;Heartland Developer Conference&lt;/a&gt; and for giving me the opportunity to share the various tools and processes we use at &lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; to work as a distributed&amp;nbsp;team.&lt;/p&gt;
+&lt;p&gt;I had a&amp;nbsp;blast!&lt;/p&gt;
+&lt;div class="row text-center"&gt;
+    &lt;img src="/static/images/HDC.gif" class="margin" width="450" alt="Pack Faces at HDC"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="row text-center top-padding download"&gt;
+    &lt;a class="btn btn-large" href="http://webjam.org/blog-downloads/HDC-AlexPGates.zip"&gt;Download my slides &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;</summary><category term="Productivity"></category><category term="Speaking"></category></entry><entry><title>How to Walk with a Full Cup of Coffee</title><link href="http://alexpgates.com/blog/2014/08/how-to-walk-with-a-full-cup-of-coffee" rel="alternate"></link><updated>2014-08-15T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-15:blog/2014/08/how-to-walk-with-a-full-cup-of-coffee</id><summary type="html">&lt;div class="row text-center span12"&gt;
     &lt;img src="/static/images/cup.jpg" class="hero" alt="a full cup of coffee"&gt;
 &lt;/div&gt;
 
@@ -484,4 +498,4 @@ def dev&lt;span class="o"&gt;()&lt;/span&gt;:
 &lt;iframe width="560" height="315" src="//www.youtube.com/embed/wsFSLDluypk?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;small&gt;Thanks &lt;a href="http://techomaha.com/"&gt;TechOmaha&lt;/a&gt; for the video!&lt;/small&gt;&lt;/p&gt;</summary><category term="Philips Hue"></category></entry></feed>
+&lt;p&gt;&lt;small&gt;Thanks &lt;a href="http://techomaha.com/"&gt;TechOmaha&lt;/a&gt; for the video!&lt;/small&gt;&lt;/p&gt;</summary><category term="Philips Hue"></category><category term="Speaking"></category></entry></feed>

@@ -2,7 +2,7 @@ Title: Voice &amp; Weather Controlled Philips Hue Lights
 Date: 2013-04-27
 Summary: Controlling lights with voice commands and weather data.
 Slug: voice-controlled-hue
-Tags: Philips Hue
+Tags: Philips Hue, Speaking
 
 ### Voice control
 
