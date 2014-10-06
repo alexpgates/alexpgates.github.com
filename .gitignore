@@ -1,3 +1,7 @@
 
 .DS_Store
+<<<<<<< HEAD
 source/blog
+=======
+source/
+>>>>>>> FETCH_HEAD
