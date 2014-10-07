@@ -60,7 +60,7 @@ Mr Gareing also says "the Executive Directors will have information that nobody 
 
 So how do I know there is no documented process? How do I know you're not embracing leaders of parent organizations?
 
-In August I reached out to Mrs. Comine and asked two things. 
+In August I reached out to our Executive Director Mrs. Comine and asked two things. 
 
 I asked for her advice on a the proper and respectful way for a parent group to request a new principal at our school. 
 
