@@ -1,5 +1,24 @@
 {% extends "base.html" %}
-{% block content_title %}{% endblock %}
+{% block title %}{{ page.title|striptags }}{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/article.css?v2" type="text/css" />
+{% endblock %}
+
+
+
 {% block content %}
-{{ page.content }}
-{% endblock content %}
+<section id="content" class="body">
+  <article>
+
+    <header>
+      <h1 class="entry-title">{{ page.title}}</h1>
+    </header>
+    <h5 class="entry-date-tags">{{ page.date|strftime('%b&nbsp;%d,&nbsp;%Y') }}</h5>
+
+    <div class="entry-content">
+      {{ page.content }}
+    </div>
+
+  </article>
+</section>
+{% endblock %}

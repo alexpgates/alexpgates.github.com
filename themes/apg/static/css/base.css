@@ -362,6 +362,26 @@ h2.intro {
   letter-spacing:1px;
 }
 
+.footnote {
+  font-style: italic;
+  color: #505050;
+  font-size: 12px;
+}
+
+.preface {
+  font-style: italic;
+  color: #505050;
+  font-size: 15px;
+}
+
+a.footnote-link{
+  text-decoration: none;
+}
+
+.footnote{
+  margin: 0;
+}
+
 /*Responsive overrides*/
 
 @media (max-width: 767px) {
