@@ -100,8 +100,8 @@ Thank you so much for your time this evening. I look forward to hearing from you
 
 ---
 <a name="foot1"></a>
-<p class="footnote">&#42; I do not want to publish the names of these teachers, but if you'd like details of this event, please <a href="mailto:alex@whatcheer.com">email me</a>.</p>
+<p class="footnote">&#42; I do not want to publish the names of these teachers, but if you'd like details of this event, please <a href="mailto:alex@whatcheer.com">email&nbsp;me</a>.</p>
 <a name="foot2"></a>
-<p class="footnote">&#42;&#42; <a target="_blank" href="/static/documents/OPS-superintendent-correspondence.pdf">Download a PDF of my correspondence with Superintendent Evans</a></p>
+<p class="footnote">&#42;&#42; <a target="_blank" href="/static/documents/OPS-superintendent-correspondence.pdf">Download a PDF of my correspondence with Superintendent&nbsp;Evans</a></p>
 
 
