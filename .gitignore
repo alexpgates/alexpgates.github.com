@@ -1,3 +1,6 @@
 
 .DS_Store
 source/blog
+source/*.pyc
+source/ArticlesGenerator-Readers
+source/PagesGenerator-Readers
