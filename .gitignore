@@ -1,6 +1,5 @@
-
 .DS_Store
 source/blog
-source/*.pyc
-source/ArticlesGenerator-Readers
-source/PagesGenerator-Readers
+source/cache/ArticlesGenerator-Readers
+source/cache/PagesGenerator-Readers
+*.pyc
