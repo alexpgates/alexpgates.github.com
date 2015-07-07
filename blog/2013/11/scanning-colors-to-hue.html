@@ -1,76 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Scanning Colors to Philips Hue</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap-responsive.min.css" type="text/css" />
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/article.css?v2" type="text/css" />
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css" />
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/pygment.css" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://alexpgates.com/theme/css/base.css?v6" type="text/css" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Scanning Colors to Philips Hue"/>
-        <meta property="og:description" content="Using a scanner, folder actions, and color quantization to change the color of Philips Hue light bulbs."/>
-        <meta property="og:locale" content="en_US" />
-        
-    <link href="http://alexpgates.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alex P. Gates Atom Feed" />
-    <link rel="shortcut icon" href="/favicon.ico?v=4" />
-
-    <!--[if IE]>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Scanning Colors to Philips Hue</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap.min.css" type="text/css"><link rel="stylesheet" href="http://alexpgates.com/theme/css/bootstrap-responsive.min.css" type="text/css"><link rel="stylesheet" href="http://alexpgates.com/theme/css/article.css?v2" type="text/css"><link rel="stylesheet" href="http://alexpgates.com/theme/css/typogrify.css" type="text/css"><link rel="stylesheet" href="http://alexpgates.com/theme/css/pygment.css" type="text/css"><link href="http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|PT+Sans:400,700" rel="stylesheet" type="text/css"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" href="http://alexpgates.com/theme/css/base.css?v7" type="text/css"><meta property="og:type" content="article"><meta property="og:title" content="Scanning Colors to Philips Hue"><meta property="og:description" content="Using a scanner, folder actions, and color quantization to change the color of Philips Hue light bulbs."><meta property="og:locale" content="en_US"><link href="http://alexpgates.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alex P. Gates Atom Feed"><link rel="shortcut icon" href="/favicon.ico?v=4"><!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
- </head>
-<body>
-<div class="wrap">
-<div class="container-fluid">
-    <div class="row-fluid">
-
-        <div class="span4 pagination-centered side-column" id="side-column">
-            <div class="pagination-centered">
-                <div id="alex-photo"><a href="http://alexpgates.com/">
-                    <img class="me" src="http://alexpgates.com/theme/img/alex-medium.png" alt="Handsome Photo of Alex"></a>
-                </div>
-            </div>
-            <div>
-                <h1 class="sitename">Alex P. Gates</h1>
-                
-                <div class="subtitle">
-<p>works on the internet</p> 
- <span class="amp">&amp;</span><div class="omaha"><small>lives in Omaha.</small></div>                </div>
-            </div>
-            <div class="clearfix"></div>
-            <hr class="top-hr">
-        </div><!-- /side panel-->
-
-        <div class="main-content span7">
-<section id="content" class="body">
-  <article>
-
-    <header>
-      <h1 class="entry-title">Scanning Colors to Philips&nbsp;Hue</h1>
-    </header>
-    <h5 class="entry-date-tags">Nov&nbsp;17,&nbsp;2013&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="http://alexpgates.com/blog/tag/philips-hue">#Philips Hue</a>&nbsp;<a href="http://alexpgates.com/blog/tag/php">#PHP</a>&nbsp;<a href="http://alexpgates.com/blog/tag/color-quantization">#Color Quantization</a>&nbsp;</h5>
-
-    <div class="entry-content">
-      <div class="videoWrapper">
-<iframe src="//player.vimeo.com/video/100126411?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-<h3>What is&nbsp;this?</h3>
-<p><a href="https://github.com/alexpgates/color-scan">color-scan</a> grabs the dominant color(s) from images and passes the color(s) to <a href="https://www.meethue.com/en-US">Philips Hue lights</a>. You can decide if you want to send the main color to a group of lights, or individual colors to individual lights. It also works with scanned photos, of course, or with any jpeg that you drop in the directory. You don&#8217;t actually <em>need</em> the&nbsp;scanner.</p>
-<p>You can can decide whether you want the main dominant color on all your lights <code>$color_mode = 'single';</code>, or if you&#8217;d like to grab a palette of colors to send to individual bulbs <code>$color_mode = 'multi';</code>. The example in the video demonstrates using the &#8220;single&#8221; color&nbsp;mode.</p>
-<h3>How does it&nbsp;work?</h3>
-<p>When the process script is called, it grabs the latest image from a directory. Color Thief handles the color quantization and provides <span class="caps">RGB</span> colors. <span class="caps">RGB</span> is converted to the the xy color space, then sent to your Hue&nbsp;bridge.</p>
-<h3>Where can I get&nbsp;this?</h3>
-<p>Please <a href="https://github.com/alexpgates/color-scan">fork it</a> from&nbsp;GitHub!</p>
-<h3>How do the settings&nbsp;work?</h3>
-<div class="highlight"><pre><span class="cp">&lt;?php</span>
+    <![endif]--></head><body><div class="wrap"><div class="container-fluid"><div class="row-fluid"><div class="span4 pagination-centered side-column" id="side-column"><div class="pagination-centered" id="side-photo"><div id="alex-photo"><a href="http://alexpgates.com/"><img class="me" src="http://alexpgates.com/theme/img/alex-medium.png" alt="Handsome Photo of Alex"></a></div></div><div><h1 class="sitename">Alex P. Gates</h1><span class="subtitle"><p class="side-desc">Technology Consultant</p><p class="amp">&amp;</p><p class="side-desc">Freelance Web Developer</p><ul class="sidebar-contact"><li><a href="mailto:alexpgates@gmail.com">alexpgates@gmail.com</a></li><li><a href="tel:+14025147535">402-514-7535</a></li></ul></span><span class="subtitle-mobile"><p>Technology Consultant <span class="amp">&amp;</span> Freelance Web&nbsp;Developer</p></span></div><div class="clearfix"></div><hr class="top-hr"></div><div class="main-content span7"><section id="content" class="body"><article><header><h1 class="entry-title">Scanning Colors to Philips&nbsp;Hue</h1></header><h5 class="entry-date-tags">Nov&nbsp;17,&nbsp;2013&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="http://alexpgates.com/blog/tag/philips-hue">#Philips Hue</a>&nbsp;<a href="http://alexpgates.com/blog/tag/php">#PHP</a>&nbsp;<a href="http://alexpgates.com/blog/tag/color-quantization">#Color Quantization</a>&nbsp;</h5><div class="entry-content"><div class="videoWrapper"><iframe src="//player.vimeo.com/video/100126411?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><h3>What is&nbsp;this?</h3><p><a href="https://github.com/alexpgates/color-scan">color-scan</a> grabs the dominant color(s) from images and passes the color(s) to <a href="https://www.meethue.com/en-US">Philips Hue lights</a>. You can decide if you want to send the main color to a group of lights, or individual colors to individual lights. It also works with scanned photos, of course, or with any jpeg that you drop in the directory. You don&#8217;t actually <em>need</em> the&nbsp;scanner.</p><p>You can can decide whether you want the main dominant color on all your lights <code>$color_mode = 'single';</code>, or if you&#8217;d like to grab a palette of colors to send to individual bulbs <code>$color_mode = 'multi';</code>. The example in the video demonstrates using the &#8220;single&#8221; color&nbsp;mode.</p><h3>How does it&nbsp;work?</h3><p>When the process script is called, it grabs the latest image from a directory. Color Thief handles the color quantization and provides <span class="caps">RGB</span> colors. <span class="caps">RGB</span> is converted to the the xy color space, then sent to your Hue&nbsp;bridge.</p><h3>Where can I get&nbsp;this?</h3><p>Please <a href="https://github.com/alexpgates/color-scan">fork it</a> from&nbsp;GitHub!</p><h3>How do the settings&nbsp;work?</h3><div class="highlight"><pre><span class="cp">&lt;?php</span>
 <span class="nv">$color_mode</span> <span class="o">=</span> <span class="s1">&#39;multi&#39;</span><span class="p">;</span> <span class="c1">// &quot;multi&quot; or &quot;single&quot;</span>
 <span class="c1">// &quot;multi&quot; uses different colors for each light (defined in $light_ids), </span>
 <span class="c1">// &quot;single&quot; uses the most dominant color found in the image for a Hue group (defined in $group_id)</span>
@@ -97,75 +28,7 @@
 
 <span class="c1">//$debug = &#39;debug&#39;; // uncomment this for some debug info</span>
 <span class="cp">?&gt;</span><span class="x"></span>
-</pre></div>
-
-
-<p><small>*Note: color-scan doesn&#8217;t handle registering a user on your bridge. You&#8217;ll need to handle that <a href="http://developers.meethue.com/4_configurationapi.html">on your own</a>.</small></p>
-<h3>How do I use&nbsp;this?</h3>
-<p>After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in <code>$path</code>. Then run&nbsp;process.php.</p>
-<h3>Why did you make this (totally useless)&nbsp;thing?</h3>
-<p>For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image with the press of a&nbsp;button.</p>
-<p>I pulled that all together with color-scan + the addition of a folder action in <span class="caps">OS</span> X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&#8217;s all triggered by pressing the button on my&nbsp;scanner.</p>
-<p><img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png" /></p>
-<h3>Can&#8217;t you already do this with digital images and the Hue&nbsp;app?</h3>
-<p>Yes. But I just got this fancy new scanner and I wanted to hook it up to my light&nbsp;bulbs!</p>
-<h3>Dependencies</h3>
-<ul>
-<li>This uses a <a href="https://github.com/ksubileau/color-thief-php">color-thief-php</a> by <a href="http://kevinsubileau.fr">Kevin Subileau</a>, which is a port of <a href="https://github.com/lokesh/color-thief," title="Color Thief">Color Thief</a> written by <a href="http://lokeshdhakar.com/">Lokesh&nbsp;Dhakar</a></li>
-<li><span class="caps">PHP</span> (Only tested in 5.3.6) with&nbsp;cURL</li>
-</ul>
-<h3>License</h3>
-<p>color-scan is <span class="caps">MIT</span>&nbsp;licensed.</p>
-<p>Color Thief has it&#8217;s own license, so check <a href="https://github.com/lokesh/color-thief">here</a> and <a href="https://github.com/ksubileau/color-thief-php">here</a>.</p>
-<h3>Want more&nbsp;Hue?</h3>
-<p>Here&#8217;s an <a href="/blog/2013/04/voice-controlled-hue.html">earlier post</a> about using voice commands and weather data to control these&nbsp;lights.</p>
-<div class="row text-center top-padding download">
-    <a class="btn btn-large" href="https://github.com/alexpgates/color-scan">Download color-scan <i class="fa fa-arrow-circle-down"></i></a>
-</div>
-    </div>
-
-  </article>
-</section>
-        </div>
-    </div>
-</div>
-</div>
-        <footer>
-            <div class="row-fluid">
-                <div class="span5 offset1">
-                    <h2>Alex P. Gates</h2>
-                    <p><span class="bold">This is my website where I write about technology and things I've learned during my experience as an entrepreneur, programmer, and human&nbsp;being.</p>
-
-                    <h4>Topics</h4>
-                    <p><a href="http://alexpgates.com/blog/tag/alfred">Alfred</a>, <a href="http://alexpgates.com/blog/tag/bootstrap">Bootstrap</a>, <a href="http://alexpgates.com/blog/tag/coffee">Coffee</a>, <a href="http://alexpgates.com/blog/tag/color-quantization">Color Quantization</a>, <a href="http://alexpgates.com/blog/tag/github">Github</a>, <a href="http://alexpgates.com/blog/tag/javascript">JavaScript</a>, <a href="http://alexpgates.com/blog/tag/life">Life</a>, <a href="http://alexpgates.com/blog/tag/mac">Mac</a>, <a href="http://alexpgates.com/blog/tag/nodejs">Node.js</a>, <a href="http://alexpgates.com/blog/tag/pack">Pack</a>, <a href="http://alexpgates.com/blog/tag/pelican">Pelican</a>, <a href="http://alexpgates.com/blog/tag/philips-hue">Philips Hue</a>, <a href="http://alexpgates.com/blog/tag/php">PHP</a>, <a href="http://alexpgates.com/blog/tag/productivity">Productivity</a>, <a href="http://alexpgates.com/blog/tag/raspberry-pi">Raspberry Pi</a>, <a href="http://alexpgates.com/blog/tag/smart-lighting">Smart Lighting</a>, <a href="http://alexpgates.com/blog/tag/sms">SMS</a>, <a href="http://alexpgates.com/blog/tag/speaking">Speaking</a>, <a href="http://alexpgates.com/blog/tag/twilio">Twilio</a>, <a href="http://alexpgates.com/blog/tag/twitter">Twitter</a></p>
-                    
-                </div>
-                <hr class="footer-hr">
-                <div class="span5 offset1 footer-right">
-
-                    <h4 class="top-hug"><a href="mailto:alex@whatcheer.com?subject=Yo%20Alex!">Email Me</a></h4>
-                    <p>It bugs me when people say they're "bad" at returning email. Get it together, people. My inbox is under control. <a href="mailto:alex@whatcheer.com?subject=Yo%20Alex!">Email me</a>. I'll&nbsp;reply.</p>
-
-                    <h4><a href="mailto:alex@whatcheer.com?subject=Come%20Talk!">Invite Me To Speak</a></h4>
-                    <p>I enjoy talking about email, distributed work culture, The Internet of Things, and brand gamification. I also like helping teams of all sizes find clarity in their web projects. <a href="mailto:alex@whatcheer.com?subject=Come%20Talk!">Let's&nbsp;chat</a>.</p>
-
-                    <h4>Elsewhere</h4>
-                    <p>I'm on the internet! Find me on <a href="http://twitter.com">Twitter</a>, <a href="http://github.com/alexpgates">Github</a>, <a href="http://packdog.com/human/alex">Pack</a>, <a href="http://instagram.com/alexpgates">Instagram</a>, and&nbsp;<a href="http://www.linkedin.com/in/alexpgates">LinkedIn</a>.</p>
-                </div>
-            </div>
-            <hr class="footer-hr">
-            <div class="row-fluid">
-                <div class="span12 pagination-centered built">
-                    <p>Built with <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, <a href="http://docs.getpelican.com/en/latest/" target="_blank">Pelican</a>, <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>, and <a href="http://twitter.github.io/bootstrap/index.html">Bootstrap</a> and hosted on&nbsp;<a href="http://github.com">Github</a>.</p>
-                </div>
-            </div>
-            <div class="row-fluid">
-                <div class="span12 pagination-centered spb">
-                        <p><a href="http://siliconprairiebuilt.com" target="_blank"><img src="http://alexpgates.com/theme/img/footer-black-sm.png" alt="Silicon Prairie Built"></a></p>
-                </div>
-            </div>
-        </footer>
-<script>
+</pre></div><p><small>*Note: color-scan doesn&#8217;t handle registering a user on your bridge. You&#8217;ll need to handle that <a href="http://developers.meethue.com/4_configurationapi.html">on your own</a>.</small></p><h3>How do I use&nbsp;this?</h3><p>After adjusting the settings to fit your Hue setup, drop a jpeg in the directory you defined in <code>$path</code>. Then run&nbsp;process.php.</p><h3>Why did you make this (totally useless)&nbsp;thing?</h3><p>For fun, of course! I wanted to build something that would allow me to scan an image (or a piece of paper with some color) and have my lights change to match the dominant color(s) in the scanned image with the press of a&nbsp;button.</p><p>I pulled that all together with color-scan + the addition of a folder action in <span class="caps">OS</span> X that runs process.php when a new file is added to the directory I defined in $path. I have a profile in the Fujitsu settings that dumps new images in this directory, so it&#8217;s all triggered by pressing the button on my&nbsp;scanner.</p><p><img alt="'OS X Folder Action setup'" src="https://dl.dropboxusercontent.com/u/2227623/blog-images/XNMDVF-Screen_Shot_2013-11-22_at_3.03.28_PM.png"></p><h3>Can&#8217;t you already do this with digital images and the Hue&nbsp;app?</h3><p>Yes. But I just got this fancy new scanner and I wanted to hook it up to my light&nbsp;bulbs!</p><h3>Dependencies</h3><ul><li>This uses a <a href="https://github.com/ksubileau/color-thief-php">color-thief-php</a> by <a href="http://kevinsubileau.fr">Kevin Subileau</a>, which is a port of <a href="https://github.com/lokesh/color-thief," title="Color Thief">Color Thief</a> written by <a href="http://lokeshdhakar.com/">Lokesh&nbsp;Dhakar</a></li><li><span class="caps">PHP</span> (Only tested in 5.3.6) with&nbsp;cURL</li></ul><h3>License</h3><p>color-scan is <span class="caps">MIT</span>&nbsp;licensed.</p><p>Color Thief has it&#8217;s own license, so check <a href="https://github.com/lokesh/color-thief">here</a> and <a href="https://github.com/ksubileau/color-thief-php">here</a>.</p><h3>Want more&nbsp;Hue?</h3><p>Here&#8217;s an <a href="/blog/2013/04/voice-controlled-hue.html">earlier post</a> about using voice commands and weather data to control these&nbsp;lights.</p><div class="row text-center top-padding download"><a class="btn btn-large" href="https://github.com/alexpgates/color-scan">Download color-scan <i class="fa fa-arrow-circle-down"></i></a></div></div></article></section></div></div></div></div><footer><div class="row-fluid"><div class="span5 offset1"><h2>Alex P. Gates</h2><p><span class="bold">Alex is a technology consultant &amp; freelance web developer based in Omaha, Nebraska.</p><h4>Blog Topics</h4><p><a href="http://alexpgates.com/blog/tag/alfred">Alfred</a>, <a href="http://alexpgates.com/blog/tag/bootstrap">Bootstrap</a>, <a href="http://alexpgates.com/blog/tag/coffee">Coffee</a>, <a href="http://alexpgates.com/blog/tag/color-quantization">Color Quantization</a>, <a href="http://alexpgates.com/blog/tag/github">Github</a>, <a href="http://alexpgates.com/blog/tag/javascript">JavaScript</a>, <a href="http://alexpgates.com/blog/tag/life">Life</a>, <a href="http://alexpgates.com/blog/tag/mac">Mac</a>, <a href="http://alexpgates.com/blog/tag/nodejs">Node.js</a>, <a href="http://alexpgates.com/blog/tag/pack">Pack</a>, <a href="http://alexpgates.com/blog/tag/pelican">Pelican</a>, <a href="http://alexpgates.com/blog/tag/philips-hue">Philips Hue</a>, <a href="http://alexpgates.com/blog/tag/php">PHP</a>, <a href="http://alexpgates.com/blog/tag/productivity">Productivity</a>, <a href="http://alexpgates.com/blog/tag/raspberry-pi">Raspberry Pi</a>, <a href="http://alexpgates.com/blog/tag/smart-lighting">Smart Lighting</a>, <a href="http://alexpgates.com/blog/tag/sms">SMS</a>, <a href="http://alexpgates.com/blog/tag/speaking">Speaking</a>, <a href="http://alexpgates.com/blog/tag/twilio">Twilio</a>, <a href="http://alexpgates.com/blog/tag/twitter">Twitter</a></p></div><hr class="footer-hr"><div class="span5 offset1 footer-right"><h4 class="top-hug"><a href="mailto:alexpgates@gmail.com?subject=Hello%20Alex!">Email Me</a></h4><p>Interested in working together, or just meeting for a cup of coffee? <a href="mailto:alexpgates@gmail.com?subject=Hello%20Alex!">Email me</a>. I'd love to meet&nbsp;you.</p><h4><a href="mailto:alex@whatcheer.com?subject=Come%20Talk!">Invite Me To Speak</a></h4><p>I enjoy talking about email marketing, distributed work culture, The Internet of Things, and brand gamification. <a href="mailto:alex@whatcheer.com?subject=Come%20Talk!">Let's&nbsp;chat</a>.</p><h4>Elsewhere</h4><p>I'm on the internet! Find me on <a href="http://twitter.com">Twitter</a>, <a href="http://github.com/alexpgates">Github</a>, <a href="http://packdog.com/human/alex">Pack</a>, <a href="http://instagram.com/alexpgates">Instagram</a>, and&nbsp;<a href="http://www.linkedin.com/in/alexpgates">LinkedIn</a>.</p></div></div><hr class="footer-hr"><div class="row-fluid"><div class="span12 pagination-centered built"><p>Built with <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, <a href="http://docs.getpelican.com/en/latest/" target="_blank">Pelican</a>, <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>, and <a href="http://twitter.github.io/bootstrap/index.html">Bootstrap</a> and hosted on&nbsp;<a href="https://pages.github.com/">Github Pages</a>.</p></div></div><div class="row-fluid"><div class="span12 pagination-centered spb"><p><a href="http://siliconprairiebuilt.com" target="_blank"><img src="http://alexpgates.com/theme/img/footer-black-sm.png" alt="Silicon Prairie Built"></a></p></div></div></footer><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -174,6 +37,4 @@
   ga('create', 'UA-39747483-2', 'alexpgates.com');
   ga('send', 'pageview');
 
-</script>
-</body>
-</html>
+</script></body></html>

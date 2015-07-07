@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Alex P. Gates</title><link href="http://alexpgates.com/" rel="alternate"></link><link href="http://alexpgates.com/feeds/all.atom.xml" rel="self"></link><id>http://alexpgates.com/</id><updated>2015-05-27T00:00:00-05:00</updated><entry><title>Fun &amp; practical applications for smart lighting</title><link href="http://alexpgates.com/blog/2015/05/fun-and-practical-applications-for-smart-lighting" rel="alternate"></link><updated>2015-05-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2015-05-27:blog/2015/05/fun-and-practical-applications-for-smart-lighting</id><summary type="html">&lt;div class="row text-center span12"&gt;
-    &lt;img src="/static/images/infotec2015.jpg" class="hero" alt="infotec2015" width="650"&gt;
+    &lt;img src="/images/infotec2015.jpg" class="hero" alt="infotec2015" width="650"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I gave a talk about smart lighting at &lt;a href="http://infotec.org/" target="_blank"&gt;Infotec&lt;/a&gt; in April where I discussed &lt;strong&gt;five reasons why you&amp;#8217;d want to consider smart lighting&lt;/strong&gt; in your home or office, &lt;strong&gt;various smart lighting technologies&lt;/strong&gt; available on the market, and &lt;strong&gt;some &lt;a href="/blog/tag/philips-hue.html"&gt;fun things I&amp;#8217;ve built&lt;/a&gt;&lt;/strong&gt; with Philips Hue&amp;nbsp;lighting.&lt;/p&gt;
@@ -25,9 +25,9 @@
 &lt;h4&gt;Pure geeky&amp;nbsp;fun&lt;/h4&gt;
 &lt;p&gt;The &lt;span class="caps"&gt;API&lt;/span&gt; integrations with Philips Hue are very straightforward and fun to use. I&amp;#8217;ve built small apps that allow me to use &lt;a href="/blog/2013/04/voice-controlled-hue.html"&gt;weather data&lt;/a&gt; or &lt;a href="/blog/2013/04/voice-controlled-hue.html"&gt;my voice&lt;/a&gt; to control my lights. I also built a totally silly and completely useless app that &lt;a href="/blog/2013/11/scanning-colors-to-hue.html"&gt;grabs dominant colors from a scanned document&lt;/a&gt; to change the colors of lights. &lt;a href="/blog/2014/08/strangers-please-control-my-kitchen-lights.html"&gt;You can also tweet&lt;/a&gt; to &lt;a href="http://twitter.com/kitchencolors"&gt;@kitchencolors&lt;/a&gt; if you&amp;#8217;d like to change the colors of the lights in my&amp;nbsp;kitchen. &lt;/p&gt;
 &lt;h3&gt;My demo&amp;nbsp;setup&lt;/h3&gt;
-&lt;p&gt;There are some challenges to using Hue lights in live demos at conferences or other events. Since the Hue bridge needs to connect directly to a router, I knew I&amp;#8217;d need to set up my own&amp;nbsp;network.&lt;/p&gt;
-&lt;p&gt;To do this, I reset the Airport Express that I use upstairs as an AirPlay receiver and WiFi extender. I created a new network using the Airport Express and connected my Hue bridge. After configuring the bulbs through this network, I packaged everything up in a big suitcase to bring to the event&amp;nbsp;center.&lt;/p&gt;
-&lt;p&gt;I used the &lt;a href="https://itunes.apple.com/us/app/philips-hue/id557206189?mt=8"&gt;official Hue app&lt;/a&gt; on my iPad, which was connected to my Airport Express network. On my laptop I toggled back and forth between my conference WiFi and my private Airport Express network. This allowed me to control my lights using my local network, and also get online to pull up websites and videos using the conference&amp;nbsp;WiFi.&lt;/p&gt;
+&lt;p&gt;There are some challenges to using Hue lights in live demos at conferences or other events. Since the Hue bridge needs to connect directly to a router, you&amp;#8217;ll want to be sure to bring your&amp;nbsp;router.&lt;/p&gt;
+&lt;p&gt;I reset an old Airport Express and connected my Hue bridge before setting everythign up. Everything worked just fine when I plugged it in at the event&amp;nbsp;center.&lt;/p&gt;
+&lt;p&gt;To control the lights, I used the &lt;a href="https://itunes.apple.com/us/app/philips-hue/id557206189?mt=8"&gt;official Hue app&lt;/a&gt; on my iPad, which was connected to my Airport Express network. On my laptop I toggled back and forth between my conference WiFi and my private Airport Express network. This allowed me to control my lights using my local network, and also get online to pull up websites and videos using the conference&amp;nbsp;WiFi.&lt;/p&gt;
 &lt;p&gt;I used &lt;a href="http://www.alfredapp.com/"&gt;Alfred&lt;/a&gt; workflows that executed &lt;span class="caps"&gt;BASH&lt;/span&gt; scripts to trigger more complex lighting sequences. &lt;a href="http://www.alfredapp.com/remote/"&gt;Alfred Remote&lt;/a&gt; made it easy to trigger these workflows right from my iPad, since my laptop was used for my slide&amp;nbsp;deck.&lt;/p&gt;
 &lt;h3&gt;Watch my follow-up interview with&amp;nbsp;Jim:&lt;/h3&gt;
 &lt;p&gt;After my talk, I had &lt;a href="/blog/2014/09/interview-cultivating-a-fun-and-creative-culture-with-a-distributed-team.html"&gt;another&lt;/a&gt; wonderful opportunity to chat with Jim Collison from &lt;a href="http://theaverageguy.tv/"&gt;theaverageguy.tv&lt;/a&gt;&lt;/p&gt;
@@ -50,13 +50,13 @@
 &lt;p&gt;I also want to thank &lt;a href="http://aimforbrilliance.org/"&gt;&lt;span class="caps"&gt;AIM&lt;/span&gt;&lt;/a&gt; for organizing &lt;a href="http://www.heartlanddc.com/"&gt;Heartland Developer Conference&lt;/a&gt; and for giving me the opportunity to share the various tools and processes we use at &lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt; to work as a distributed&amp;nbsp;team.&lt;/p&gt;
 &lt;p&gt;Thanks so&amp;nbsp;much!&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/HDC.gif" class="margin" width="450" alt="Pack Faces at HDC"&gt;&lt;/a&gt;
+    &lt;img src="/images/HDC.gif" class="margin" width="450" alt="Pack Faces at HDC"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class="row text-center top-padding download"&gt;
     &lt;a class="btn btn-large" href="http://webjam.org/blog-downloads/HDC-AlexPGates.zip"&gt;Download my slides &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;</summary><category term="Productivity"></category><category term="Speaking"></category></entry><entry><title>How to Walk with a Full Cup of Coffee</title><link href="http://alexpgates.com/blog/2014/08/how-to-walk-with-a-full-cup-of-coffee" rel="alternate"></link><updated>2014-08-15T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-15:blog/2014/08/how-to-walk-with-a-full-cup-of-coffee</id><summary type="html">&lt;div class="row text-center span12"&gt;
-    &lt;img src="/static/images/cup.jpg" class="hero" alt="a full cup of coffee"&gt;
+    &lt;img src="/images/cup.jpg" class="hero" alt="a full cup of coffee"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;At my first job out of college, I learned something from one of the customer service reps that I’ve used so incredibly&amp;nbsp;often. &lt;/p&gt;
@@ -66,7 +66,7 @@
 &lt;hr /&gt;
 &lt;h4&gt;Trust&amp;nbsp;yourself&lt;/h4&gt;
 &lt;p&gt;It seems to me that this tiny piece of advice extends beyond coffee spill prevention. It’s a reminder to be confident in things we innately know how to&amp;nbsp;do.&lt;/p&gt;</summary><category term="Coffee"></category><category term="Life"></category></entry><entry><title>Strangers, Please Control my Kitchen Lights</title><link href="http://alexpgates.com/blog/2014/08/strangers-please-control-my-kitchen-lights" rel="alternate"></link><updated>2014-08-10T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-08-10:blog/2014/08/strangers-please-control-my-kitchen-lights</id><summary type="html">&lt;div class="row text-center span12"&gt;
-    &lt;img src="/static/images/kitchencolors-header.jpg" class="hero" alt="kitchencolors" width="650"&gt;
+    &lt;img src="/images/kitchencolors-header.jpg" class="hero" alt="kitchencolors" width="650"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;It occurred to me that I should probably let strangers from the internet control the lights in my&amp;nbsp;kitchen.&lt;/h3&gt;
@@ -92,14 +92,14 @@
 &lt;hr /&gt;
 &lt;h4&gt;Step out of my &lt;span class="caps"&gt;PHP&lt;/span&gt; comfort&amp;nbsp;zone&lt;/h4&gt;
 &lt;p&gt;Next I started thinking about how I&amp;#8217;d want people to make the color requests. Since &lt;a href="http://developers.meethue.com/"&gt;the Hue &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt; accepts X &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Y coordinates from the &lt;a href="http://en.wikipedia.org/wiki/CIE_1931_color_space"&gt;&lt;span class="caps"&gt;CIE&lt;/span&gt; color space&lt;/a&gt;, I knew we would need an easy way to translate casual color requests without being too limiting. In other words, I didn&amp;#8217;t want to simply hard-code 20 or so colors, because &lt;a href="http://www.newscenter.philips.com/main/standard/news/press/2013/20130807-philips-expands-the-smart-world-of-hue.wpd#.U-gnuNNdU1g"&gt;Hue actually supports &lt;em&gt;16 million&lt;/em&gt; colors&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://github.com/bahamas10/hue-cli"&gt;Hue command-line interface by bahamas10&lt;/a&gt; accepts &lt;span class="caps"&gt;CSS&lt;/span&gt; color names and also hex color values. This tool runs on Node.js, and I was already familiar with it because I&amp;#8217;ve actually been using it for a few months to control my lights from the command-line. (&lt;a href="/static/images/prof.gif"&gt;&lt;span class="caps"&gt;HOYVIN&lt;/span&gt;-&lt;span class="caps"&gt;GLAVIN&lt;/span&gt;!&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://github.com/bahamas10/hue-cli"&gt;Hue command-line interface by bahamas10&lt;/a&gt; accepts &lt;span class="caps"&gt;CSS&lt;/span&gt; color names and also hex color values. This tool runs on Node.js, and I was already familiar with it because I&amp;#8217;ve actually been using it for a few months to control my lights from the command-line. (&lt;a href="/images//prof.gif"&gt;&lt;span class="caps"&gt;HOYVIN&lt;/span&gt;-&lt;span class="caps"&gt;GLAVIN&lt;/span&gt;!&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I don&amp;#8217;t have much experience with Node.js, so this seemed like a perfect opportunity to try something&amp;nbsp;new.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The next task was to figure out how to consume the Twitter user stream &lt;span class="caps"&gt;API&lt;/span&gt; from Node.js. After a little digging, I came across &lt;a href="https://github.com/outadoc/twitter-mentions-pushover"&gt;twitter-mentions-pushover&lt;/a&gt; by &lt;a href="http://dev.outadoc.fr/"&gt;Baptist Candellier&lt;/a&gt;. This provided everything I needed to consume my user stream. I just trimmed off the part in the script that sends the tweet to Pushover, removed any @mentions and # symbols, and added the &lt;span class="caps"&gt;NPM&lt;/span&gt; module &lt;a href="https://www.npmjs.org/package/exec"&gt;exec()&lt;/a&gt; to send the color command to hue-cli. All said and done, I &lt;em&gt;maybe&lt;/em&gt; wrote 6 lines of&amp;nbsp;code.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4&gt;Power this with my Raspberry&amp;nbsp;Pi&lt;/h4&gt;
 &lt;p&gt;Since the node process needs to be constantly running to consume the Twitter stream and pass requests to the Hue bridge, I wanted to keep my power usage low. The Raspberry Pi runs on a simple 5V power supply, and it&amp;#8217;s completely silent. It runs headless and sits nicely next to my modem, router, and hue&amp;nbsp;bridge. &lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/rpi.jpg" class="margin" width="500"&gt;
+    &lt;img src="/images/rpi.jpg" class="margin" width="500"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Installing a fresh &lt;a href="http://www.raspberrypi.org/downloads/"&gt;Raspbian Wheezy image&lt;/a&gt; was a breeze. Then I followed &lt;a href="https://learn.adafruit.com/raspberry-pi-hosting-node-red/setting-up-node-dot-js"&gt;this guide&lt;/a&gt; to set up&amp;nbsp;Node.js.&lt;/p&gt;
@@ -118,14 +118,14 @@
 &lt;h3&gt;Give it a&amp;nbsp;try!&lt;/h3&gt;
 &lt;p&gt;To change the colors of my kitchen lights, just send a tweet to &lt;a href="http://twitter.com/kitchencolors"&gt;@kitchencolors&lt;/a&gt; with a css color name &lt;em&gt;or&lt;/em&gt; a hex&amp;nbsp;value.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/tweet-to-kitchencolors.png" width="438"&gt;
+    &lt;img src="/images/tweet-to-kitchencolors.png" width="438"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;So far, I&amp;#8217;ve had people from all over the United States, England, Brazil, New Zealand, and Panama decide what color my kitchen should&amp;nbsp;be.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Open up your Hue lights to&amp;nbsp;strangers&lt;/h3&gt;
 &lt;p&gt;It&amp;#8217;s still pretty rough around the edges, but you can &lt;a href="https://github.com/alexpgates/kitchencolors"&gt;download the source here&lt;/a&gt;! Future updates will include better color parsing to pull colors out of tweets that contain other text. If that sounds like fun, or if you have other feature ideas, please send me a pull&amp;nbsp;request!&lt;/p&gt;</summary><category term="Philips Hue"></category><category term="Node.js"></category><category term="Raspberry Pi"></category><category term="Twitter"></category></entry><entry><title>Working Smarter with Alfred: Workflows</title><link href="http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-workflows" rel="alternate"></link><updated>2014-07-27T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-27:blog/2014/07/working-smarter-with-alfred-workflows</id><summary type="html">&lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
+    &lt;img src="/images/alfred-logo.png" alt="Alfred logo"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Hello again,&amp;nbsp;Alfred!&lt;/h3&gt;
@@ -143,7 +143,7 @@
 &lt;h4&gt;Super fast &lt;span class="caps"&gt;GIF&lt;/span&gt;&amp;nbsp;Workflow!&lt;/h4&gt;
 &lt;p&gt;Pack&amp;#8217;s team is distributed, so we rely on &lt;a href="https://campfirenow.com/"&gt;Campfire&lt;/a&gt; as a central place for communication. Sometimes text just isn&amp;#8217;t the best avenue to convey emotion, so we (perhaps too frequently) harness the power of animated&amp;nbsp;gifs.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;a href="http://destroytoday.com/blog/gif-workflow/"&gt;&lt;img src="/static/images/alfred-dog-pug-wut.gif" class="margin" alt="pug wut"&gt;&lt;/a&gt;
+    &lt;a href="http://destroytoday.com/blog/gif-workflow/"&gt;&lt;img src="/images/alfred-dog-pug-wut.gif" class="margin" alt="pug wut"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It&amp;#8217;s &lt;a href="https://dl.dropboxusercontent.com/u/2227623/gifs/obama-kidding-me.gif"&gt;a proven fact&lt;/a&gt; that the hilarity of a gif reply diminishes over time, so it&amp;#8217;s absolutely essential to be quick with your response. &lt;a href="http://destroytoday.com/blog/gif-workflow/"&gt;Jonnie Hallman&amp;#8217;s &lt;span class="caps"&gt;GIF&lt;/span&gt; Workflow&lt;/a&gt; can&amp;nbsp;help.&lt;/p&gt;
@@ -153,7 +153,7 @@
 &lt;h4&gt;Don&amp;#8217;t forget about&amp;nbsp;emoji!&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://github.com/carlosgaldino/alfred-emoji-workflow"&gt;Carlos Galdino&amp;#8217;s Alfred Emoji Workflow&lt;/a&gt; is the emoji equivalent of the &lt;span class="caps"&gt;GIF&lt;/span&gt; Workflow. Sometimes a reply just calls for something small, so Carlos has you&amp;nbsp;covered.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;a href="https://github.com/carlosgaldino/alfred-emoji-workflow"&gt;&lt;img src="/static/images/alfred-emoji-workflow.png" alt="emoji workflow"&gt;&lt;/a&gt;
+    &lt;a href="https://github.com/carlosgaldino/alfred-emoji-workflow"&gt;&lt;img src="/images/alfred-emoji-workflow.png" alt="emoji workflow"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;hr&gt;
@@ -161,7 +161,7 @@
 &lt;h4&gt;iMessage to a&amp;nbsp;friend&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/"&gt;Stefan Grund&lt;/a&gt; made a really handy iMessage Workflow to quickly send an iMessage right from Alfred. It&amp;#8217;s not directly integrated to your Address Book, so you need to manually set up the Workflow for contacts that you message&amp;nbsp;frequently.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/"&gt;&lt;img src="/static/images/alfred-imessage.png" alt="imessage workflow"&gt;&lt;/a&gt;
+    &lt;a href="http://eay.cc/projects/alfred-workflow-imessage-to-friend/"&gt;&lt;img src="/images/alfred-imessage.png" alt="imessage workflow"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Like some other plugins, a little setup in the beginning saves lots of time down the&amp;nbsp;road.&lt;/p&gt;
@@ -170,7 +170,7 @@
 &lt;h4&gt;Phillips Hue&amp;nbsp;Controller&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://github.com/benknight"&gt;Benjamin Knight&lt;/a&gt; wrote a Workflow to control &lt;a href="http://meethue.com/"&gt;Phillips Hue lights&lt;/a&gt;. I&amp;#8217;ve written &lt;a href="/blog/tag/philips-hue.html"&gt; a couple posts&lt;/a&gt; about Philips Hue bulbs, and anyone who knows me knows I get really excited about these&amp;nbsp;things.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;a href="https://github.com/benknight"&gt;&lt;img src="/static/images/alfred-hue-overview.png" alt="hue workflow"&gt;&lt;/a&gt;
+    &lt;a href="https://github.com/benknight"&gt;&lt;img src="/images/alfred-hue-overview.png" alt="hue workflow"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With Ben&amp;#8217;s Workflow, I&amp;#8217;m able to control the lights in my house right inside&amp;nbsp;Alfred. &lt;/p&gt;
@@ -182,20 +182,20 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4&gt;Email the Pack&amp;nbsp;Team&lt;/h4&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-workflow-setup.png" alt="Alfred Workflow Setup"&gt;
+    &lt;img src="/images/alfred-workflow-setup.png" alt="Alfred Workflow Setup"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;There are five us on the Pack team, so every time I wanted to send an email to everyone on the team, I&amp;#8217;d &lt;em&gt;cmd+tab&lt;/em&gt; to my mail program (Sparrow), &lt;em&gt;cmd+n&lt;/em&gt; to open a new email. Then I&amp;#8217;d start typing each team member&amp;#8217;s name, followed by tab, until all four were in the &lt;em&gt;To&lt;/em&gt; field. &lt;em&gt;At best&lt;/em&gt;, that&amp;#8217;s 14&amp;nbsp;keystrokes. &lt;/p&gt;
 &lt;p&gt;With Alfred, I&amp;#8217;ve reduced it to&amp;nbsp;3.&lt;/p&gt;
 &lt;p&gt;I just invoke quicksilver, and begin typing &lt;em&gt;emailpack&lt;/em&gt;.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-email-pack.png" alt="Alfred Email Pack"&gt;
+    &lt;img src="/images/alfred-email-pack.png" alt="Alfred Email Pack"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Once Alfred detects what I&amp;#8217;m typing, (it usually just takes the &lt;em&gt;e&lt;/em&gt;) I just hit&amp;nbsp;enter.&lt;/p&gt;
 &lt;p&gt;Immediately, a new message window is opened with everyone&amp;#8217;s email address in the &lt;em&gt;To&lt;/em&gt;&amp;nbsp;field.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-email-pack-sparrow.png" alt="Alfred Email Pack"&gt;
+    &lt;img src="/images/alfred-email-pack-sparrow.png" alt="Alfred Email Pack"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I can invoke this Workflow from &lt;em&gt;anywhere&lt;/em&gt; on my Mac. In other words, I don&amp;#8217;t need to be in Sparrow (or even have Sparrow open, for that&amp;nbsp;matter).&lt;/p&gt;
@@ -233,12 +233,12 @@
 
 &lt;p&gt;Instead of opening Pep Rally and clicking on my inbox tab, I simply invoke Alfred, begin typing &lt;em&gt;inbox&lt;/em&gt;, then hit tab and start typing what I need to&amp;nbsp;remember. &lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox"&gt;
+    &lt;img src="/images/alfred-peprally-inbox.png" alt="Alfred Pep Rally Inbox"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;For this Workflow, I added a Post Notification output so Growl alerts me that my task was successfully added. To do this, I clicked the &lt;em&gt;+&lt;/em&gt; symbol, then clicked &lt;em&gt;Outputs&lt;/em&gt; &amp;#10142; &lt;em&gt;Post Notification&lt;/em&gt;. With Alfred, you can output to Growl or Notification Center, and set a custom title and text for the notification. Using &lt;code&gt;{query}&lt;/code&gt; in either of these fields will use the output from the previous&amp;nbsp;action.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-growl-peprally.png" alt="Alfred Growl"&gt;
+    &lt;img src="/images/alfred-growl-peprally.png" alt="Alfred Growl"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This one is a little vague, I know. But I chose to include it so you can see an example of extending Alfred to a &lt;span class="caps"&gt;CLI&lt;/span&gt; and to your own&amp;nbsp;tools.&lt;/p&gt;
@@ -266,13 +266,13 @@
 &lt;h3&gt;Join&amp;nbsp;Flow&lt;/h3&gt;
 &lt;p&gt;Members join the group by texting anything to the phone number. After replying with your name, you&amp;#8217;re all&amp;nbsp;set.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/felix-join-flow.png" class="margin" width="300px"&gt;
+    &lt;img src="/images/felix-join-flow.png" class="margin" width="300px"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Use&lt;/h3&gt;
 &lt;p&gt;As you can see, Felix is also handy for some good old&amp;nbsp;trash-talking.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/felix-use.png" class="margin" width="300px"&gt;
+    &lt;img src="/images/felix-use.png" class="margin" width="300px"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Requirements &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;Setup&lt;/h3&gt;
@@ -284,23 +284,23 @@
 &lt;div class="row text-center top-padding download"&gt;
     &lt;a class="btn btn-large" href="https://github.com/alexpgates/felix/archive/master.zip"&gt;Download Felix &lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;</summary><category term="Twilio"></category><category term="PHP"></category><category term="SMS"></category></entry><entry><title>Working Smarter with Alfred: Custom Web Searches</title><link href="http://alexpgates.com/blog/2014/07/working-smarter-with-alfred-custom-web-searches" rel="alternate"></link><updated>2014-07-03T00:00:00-05:00</updated><author><name>Alex P. Gates</name></author><id>tag:alexpgates.com,2014-07-03:blog/2014/07/working-smarter-with-alfred-custom-web-searches</id><summary type="html">&lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-logo.png" alt="Alfred logo"&gt;
+    &lt;img src="/images/alfred-logo.png" alt="Alfred logo"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Meet&amp;nbsp;Alfred!&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://alfredapp.com"&gt;Alfred&lt;/a&gt; is a productivity application for Mac &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;nbsp;X.&lt;/p&gt;
 &lt;p&gt;Out of the box, it&amp;#8217;s a tremendously useful tool that helps you quickly launch apps with a few keystrokes or self-assigned hotkeys. 
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-launch-chrome.png" alt="Launching apps with Alfred"&gt;
+    &lt;img src="/images/alfred-launch-chrome.png" alt="Launching apps with Alfred"&gt;
 &lt;/div&gt;
 You can use Alfred to search all sorts of&amp;nbsp;websites.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-search-youtube.png" alt="Search YouTube with Alfred"&gt;
+    &lt;img src="/images/alfred-search-youtube.png" alt="Search YouTube with Alfred"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;You can even do lots of little things right inside Alfred, like perform quick&amp;nbsp;calculations&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-calculator.png" alt="Alfred calculator"&gt;
+    &lt;img src="/images/alfred-calculator.png" alt="Alfred calculator"&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Step one: buy the&amp;nbsp;Powerpack&lt;/h3&gt;
@@ -309,14 +309,14 @@ You can use Alfred to search all sorts of&amp;nbsp;websites.&lt;/p&gt;
 &lt;h3&gt;Use a custom web search to quickly launch any&amp;nbsp;website&lt;/h3&gt;
 &lt;p&gt;While working on &lt;a href="http://packdog.com"&gt;Pack&lt;/a&gt;, I frequently open our admin site. Instead of &lt;em&gt;cmd+tabing&lt;/em&gt; to Chrome and clicking a bookmark or typing the &lt;span class="caps"&gt;URL&lt;/span&gt;, I simply invoke Alfred (&lt;em&gt;option+space&lt;/em&gt;) and begin typing &lt;em&gt;packadmin&lt;/em&gt;. As soon as Alfred recognizes what I&amp;#8217;m typing, I hit enter and Chrome brings up the admin site. Like&amp;nbsp;magic.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-pack-admin.png" alt="Alfred Pack Admin"&gt;
+    &lt;img src="/images/alfred-pack-admin.png" alt="Alfred Pack Admin"&gt;
 &lt;/div&gt;
 
 &lt;h4&gt;Set it&amp;nbsp;up&lt;/h4&gt;
 &lt;p&gt;To set this up for any website, click on &lt;em&gt;Web Search&lt;/em&gt; under the &lt;em&gt;Features&lt;/em&gt; tab in Alfred Preferences. Then click &lt;em&gt;Add Custom Search&lt;/em&gt; at the bottom&amp;nbsp;right.&lt;/p&gt;
 &lt;p&gt;Add a &lt;span class="caps"&gt;URL&lt;/span&gt; in the &lt;em&gt;Search &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/em&gt; text box, then assign a title (this will appear in Alfred when you start typing). Then set a keyword (this is what you start typing after invoking Alfred to open the website.) Finally, add a nice icon to keep everything looking&amp;nbsp;fancy.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-custom-search-launch-site.png" class="margin" alt="Set up Alfred to quickly launch any website"&gt;
+    &lt;img src="/images/alfred-custom-search-launch-site.png" class="margin" alt="Set up Alfred to quickly launch any website"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;After you click &lt;em&gt;save&lt;/em&gt;, test it out by invoking Alfred and typing your keyword. Now you&amp;#8217;ll be able to quickly launch this website no matter where you are on your Mac, even if your browser is&amp;nbsp;closed.&lt;/p&gt;
@@ -326,19 +326,19 @@ You can use Alfred to search all sorts of&amp;nbsp;websites.&lt;/p&gt;
 &lt;p&gt;Instead of opening the admin site and performing a search from a search field, Alfred allows me to skip the middleman and go directly to the search&amp;nbsp;results.&lt;/p&gt;
 &lt;p&gt;To search for a dog, I simply invoke Alfred and type &lt;em&gt;dog&lt;/em&gt; followed by a tab, and the name of the dog I&amp;#8217;m looking&amp;nbsp;for.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-pack-dogs.png" alt="Alfred Pack Dog Search"&gt;
+    &lt;img src="/images/alfred-pack-dogs.png" alt="Alfred Pack Dog Search"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;To search for a user, I start typing &lt;em&gt;human&lt;/em&gt; then tab, then the name or email address of the Pack user I want to find. After hitting enter, I&amp;#8217;m taken directly to the search&amp;nbsp;results.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-pack-humans.png" alt="Alfred Pack Human Search"&gt;
+    &lt;img src="/images/alfred-pack-humans.png" alt="Alfred Pack Human Search"&gt;
 &lt;/div&gt;
 
 &lt;h4&gt;Set it&amp;nbsp;up&lt;/h4&gt;
 &lt;p&gt;Setting up a custom web search is easy. In order for this to work, though, you need the name of the query parameter used in your search results. In my case, it&amp;#8217;s &lt;code&gt;search&lt;/code&gt;. YouTube, for example, uses &lt;code&gt;search_query&lt;/code&gt;. The easiest way to find this is to perform a search using the regular search field, then look at everything that comes after the &lt;code&gt;?&lt;/code&gt; in the &lt;span class="caps"&gt;URL&lt;/span&gt; on your results page. You&amp;#8217;ll find&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Like the first example, add this in the &lt;em&gt;Web Search&lt;/em&gt; pane under the &lt;em&gt;Features&lt;/em&gt; tab in Alfred Preferences. Click Add Custom Search on the bottom right of the screen. Then add the &lt;span class="caps"&gt;URL&lt;/span&gt; for your results page in the &lt;em&gt;Search &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/em&gt; field. Use &lt;code&gt;{query}&lt;/code&gt; as the variable that is passed from the Alfred window. Finally, set your title, keyword, and&amp;nbsp;icon.&lt;/p&gt;
 &lt;div class="row text-center"&gt;
-    &lt;img src="/static/images/alfred-custom-search-setup.png" class="margin" alt="Alfred Pack Admin"&gt;
+    &lt;img src="/images/alfred-custom-search-setup.png" class="margin" alt="Alfred Pack Admin"&gt;
 &lt;/div&gt;
 
 &lt;p&gt;That&amp;#8217;s it! Adding custom web searches is a great way to save keystrokes, mouse clicks, and page loads. Plus, when your co-workers notice what you&amp;#8217;ve done, they&amp;#8217;ll think you&amp;#8217;re super&amp;nbsp;smart.&lt;/p&gt;
